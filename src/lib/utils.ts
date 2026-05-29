@@ -19,3 +19,9 @@ export function sanitizeSequence(value: string) {
     .replace(/^>.*$/gm, "")
     .replace(/[^ARNDCEQGHILKMFPSTWYV]/g, "");
 }
+
+export function withBasePath(path: string) {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+  const cleanPath = path.startsWith("/") ? path : `/${path}`;
+  return `${base}${cleanPath}`;
+}

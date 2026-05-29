@@ -1,10 +1,13 @@
 /** @type {import('next').NextConfig} */
+const repoName = "BioAlign-Pro-Protein-Structure";
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
   trailingSlash: true,
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || undefined,
+  basePath: isProd ? `/${repoName}` : "",
+  assetPrefix: isProd ? `/${repoName}/` : "",
   experimental: {
     optimizePackageImports: [
       "lucide-react",
