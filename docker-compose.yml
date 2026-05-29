@@ -1,0 +1,80 @@
+version: "3.9"
+
+services:
+  # ─── Next.js Frontend ─────────────────────────────────────────────
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: web
+    container_name: bioalign-web
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_APP_URL=http://localhost:3000
+      - NEXT_PUBLIC_API_URL=http://api:4000
+    depends_on:
+      - api
+    restart: unless-stopped
+    networks:
+      - bioalign-net
+
+  # ─── Express API ──────────────────────────────────────────────────
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: api
+    container_name: bioalign-api
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=production
+      - PORT=4000
+      - NEXT_PUBLIC_APP_URL=http://localhost:3000
+      - DATABASE_URL=${DATABASE_URL}
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - postgres
+      - redis
+    restart: unless-stopped
+    networks:
+      - bioalign-net
+
+  # ─── PostgreSQL ───────────────────────────────────────────────────
+  postgres:
+    image: postgres:16-alpine
+    container_name: bioalign-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=bioalign
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-bioalign_dev}
+      - POSTGRES_DB=bioalign
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+    networks:
+      - bioalign-net
+
+  # ─── Redis (caching layer) ────────────────────────────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: bioalign-redis
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    networks:
+      - bioalign-net
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  bioalign-net:
+    driver: bridge

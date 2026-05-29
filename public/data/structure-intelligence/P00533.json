@@ -1,0 +1,3507 @@
+{
+  "schemaVersion": "bioalign.structure-intelligence.v1",
+  "generatedAt": "2026-05-29T06:44:01.658Z",
+  "protein": {
+    "accession": "P00533",
+    "name": "Epidermal growth factor receptor",
+    "gene": "EGFR",
+    "organism": "Homo sapiens",
+    "sequence": "MRPSGTAGAALLALLAALCPASRALEEKKVCQGTSNKLTQLGTFEDHFLSLQRMFNNCEVVLGNLEITYVQRNYDLSFLKTIQEVAGYVLIALNTVERIPLENLQIIRGNMYYENSYALAVLSNYDANKTGLKELPMRNLQEILHGAVRFSNNPALCNVESIQWRDIVSSDFLSNMSMDFQNHLGSCQKCDPSCPNGSCWGAGEENCQKLTKIICAQQCSGRCRGKSPSDCCHNQCAAGCTGPRESDCLVCRKFRDEATCKDTCPPLMLYNPTTYQMDVNPEGKYSFGATCVKKCPRNYVVTDHGSCVRACGADSYEMEEDGVRKCKKCEGPCRKVCNGIGIGEFKDSLSINATNIKHFKNCTSISGDLHILPVAFRGDSFTHTPPLDPQELDILKTVKEITGFLLIQAWPENRTDLHAFENLEIIRGRTKQHGQFSLAVVSLNITSLGLRSLKEISDGDVIISGNKNLCYANTINWKKLFGTSGQKTKIISNRGENSCKATGQVCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDKCNLLEGEPREFVENSECIQCHPECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGVMGENNTLVWKYADAGHVCHLCHPNCTYGCTGPGLEGCPTNGPKIPSIATGMVGALLLLLVVALGIGLFMRRRHIVRKRTLRRLLQERELVEPLTPSGEAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSNFYRALMDEEDMDDVVDADEYLIPQQGFFSSPSTSRTPLLSSLSATSNNSTVACIDRNGLQSCPIKEDSFLQRYSSDPTGALTEDSIDDTFLPVPEYINQSVPKRPAGSVQNPVYHNQPLNPAPSRDPHYQDPHSTAVGNPEYLNTVQPTCVNSTFDSPAHWAQKGSHQISLDNPDYQQDFFPKEAKPNGIFKGSTAENAEYLRVAPQSSEFIGA",
+    "length": 1210,
+    "functionComments": [
+      "Receptor tyrosine kinase binding ligands of the EGF family and activating several signaling cascades to convert extracellular cues into appropriate cellular responses (PubMed:10805725, PubMed:27153536, PubMed:2790960, PubMed:35538033). Known ligands include EGF, TGFA/TGF-alpha, AREG, epigen/EPGN, BTC/betacellulin, epiregulin/EREG and HBEGF/heparin-binding EGF (PubMed:12297049, PubMed:15611079, PubMed:17909029, PubMed:20837704, PubMed:27153536, PubMed:2790960, PubMed:7679104, PubMed:8144591, PubMed:9419975). Ligand binding triggers receptor homo- and/or heterodimerization and autophosphorylation on key cytoplasmic residues. The phosphorylated receptor recruits adapter proteins like GRB2 which in turn activates complex downstream signaling cascades. Activates at least 4 major downstream signaling cascades including the RAS-RAF-MEK-ERK, PI3 kinase-AKT, PLCgamma-PKC and STATs modules (PubMed:27153536). May also activate the NF-kappa-B signaling cascade (PubMed:11116146). Also directly phosphorylates other proteins like RGS16, activating its GTPase activity and probably coupling the EGF receptor signaling to the G protein-coupled receptor signaling (PubMed:11602604). Also phosphorylates MUC1 and increases its interaction with SRC and CTNNB1/beta-catenin (PubMed:11483589). Positively regulates cell migration via interaction with CCDC88A/GIV which retains EGFR at the cell membrane following ligand stimulation, promoting EGFR signaling which triggers cell migration (PubMed:20462955). Plays a role in enhancing learning and memory performance (By similarity). Plays a role in mammalian pain signaling (long-lasting hypersensitivity) (By similarity)",
+      "Isoform 2 may act as an antagonist of EGF action",
+      "(Microbial infection) Acts as a receptor for hepatitis C virus (HCV) in hepatocytes and facilitates its cell entry. Mediates HCV entry by promoting the formation of the CD81-CLDN1 receptor complexes that are essential for HCV entry and by enhancing membrane fusion of cells expressing HCV envelope glycoproteins",
+      "Endocytosis and inhibition of the activated EGFR by phosphatases like PTPRJ and PTPRK constitute immediate regulatory mechanisms. Upon EGF-binding phosphorylates EPS15 that regulates EGFR endocytosis and activity. Moreover, inducible feedback inhibitors including LRIG1, SOCS4, SOCS5 and ERRFI1 constitute alternative regulatory mechanisms for the EGFR signaling. Up-regulated by NEU3-mediated desialylation of N-linked glycan at Asn-528",
+      "Binding of the ligand triggers homo- and/or heterodimerization of the receptor triggering its autophosphorylation. Heterodimer with ERBB2 (PubMed:10805725). Forms a complex with CCDC88A/GIV (via SH2-like regions) and GNAI3 which leads to enhanced EGFR signaling and triggering of cell migration; binding to CCDC88A requires autophosphorylation of the EGFR C-terminal region, and ligand stimulation is required for recruitment of GNAI3 to the complex (PubMed:20462955, PubMed:25187647). Interacts with ERRFI1; inhibits dimerization of the kinase domain and autophosphorylation (PubMed:18046415). Part of a complex with ERBB2 and either PIK3C2A or PIK3C2B (PubMed:10805725). Interacts with GRB2; an adapter protein coupling the receptor to downstream signaling pathways. Interacts with GAB2; involved in signaling downstream of EGFR. Interacts with STAT3; mediates EGFR downstream signaling in cell proliferation. Interacts with RIPK1; involved in NF-kappa-B activation. Interacts (autophosphorylated) with CBL, CBLB and CBLC; involved in EGFR ubiquitination and regulation; interaction with CBL is reduced in the presence of tensin TNS4 (PubMed:23774213). Interacts with SOCS5; regulates EGFR degradation through ELOC- and ELOB-mediated ubiquitination and proteasomal degradation. Interacts with PRMT5; methylates EGFR and enhances interaction with PTPN6. Interacts (phosphorylated) with PTPN6; inhibits EGFR-dependent activation of MAPK/ERK. Interacts with COPG1; essential for regulation of EGF-dependent nuclear transport of EGFR by retrograde trafficking from the Golgi to the ER. Interacts with TNK2; this interaction is dependent on EGF stimulation and kinase activity of EGFR. Interacts with PCNA; positively regulates PCNA (PubMed:17115032). Interacts with PELP1. Interacts with MUC1. Interacts with AP2M1. Interacts with FER. May interact with EPS8; mediates EPS8 phosphorylation. Interacts (via SH2 domains) with GRB2, NCK1 and NCK2 (PubMed:10026169). Interacts with ATXN2. Interacts with GAREM1. Interacts (ubiquitinated) with ANKRD13A/B/D; the interaction is direct and may regulate EGFR internalization after EGF stimulation. Interacts with GPER1; the interaction occurs in an estrogen-dependent manner. Interacts (via C-terminal cytoplasmic kinase domain) with ZPR1 (via zinc fingers). Interacts with RNF115 and RNF126 (PubMed:23418353). Interacts with GPRC5A (via its transmembrane domain) (PubMed:25311788). Interacts with FAM83B; positively regulates EGFR inducing its autophosphorylation in absence of stimulation by EGF (PubMed:23912460). Interacts with LAPTM4B; positively correlates with EGFR activation (PubMed:28479384). Interacts with STX19 (PubMed:16420529). Interacts with CD44 (PubMed:23589287). Interacts with PGRMC1; the interaction requires PGRMC1 homodimerization (PubMed:26988023). Interacts with PIKFYVE (PubMed:17909029). Interacts with NEU3. Interacts with TRAF4 (PubMed:30352854). Interacts with the ant venom OMEGA-myrmeciitoxin(02)-Mg1a (By similarity). Interacts with CD82; this interaction facilitates ligand-induced endocytosis of the receptor and its subsequent desensitization (PubMed:35538033). Interacts with SNX32; the interaction is required for endolysosomal EGFR trafficking (PubMed:39073202)"
+    ],
+    "features": [
+      {
+        "type": "Signal",
+        "description": "",
+        "start": 1,
+        "end": 24,
+        "source": "UniProt"
+      },
+      {
+        "type": "Chain",
+        "description": "Epidermal growth factor receptor",
+        "start": 25,
+        "end": 1210,
+        "source": "UniProt"
+      },
+      {
+        "type": "Topological domain",
+        "description": "Extracellular",
+        "start": 25,
+        "end": 645,
+        "source": "UniProt"
+      },
+      {
+        "type": "Transmembrane",
+        "description": "Helical",
+        "start": 646,
+        "end": 668,
+        "source": "UniProt"
+      },
+      {
+        "type": "Topological domain",
+        "description": "Cytoplasmic",
+        "start": 669,
+        "end": 1210,
+        "source": "UniProt"
+      },
+      {
+        "type": "Repeat",
+        "description": "Approximate",
+        "start": 75,
+        "end": 300,
+        "source": "UniProt"
+      },
+      {
+        "type": "Repeat",
+        "description": "Approximate",
+        "start": 390,
+        "end": 600,
+        "source": "UniProt"
+      },
+      {
+        "type": "Domain",
+        "description": "Protein kinase",
+        "start": 712,
+        "end": 979,
+        "source": "UniProt"
+      },
+      {
+        "type": "Region",
+        "description": "Important for dimerization, phosphorylation and activation",
+        "start": 688,
+        "end": 704,
+        "source": "UniProt"
+      },
+      {
+        "type": "Region",
+        "description": "Disordered",
+        "start": 1097,
+        "end": 1137,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Polar residues",
+        "start": 1104,
+        "end": 1115,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Polar residues",
+        "start": 1128,
+        "end": 1137,
+        "source": "UniProt"
+      },
+      {
+        "type": "Active site",
+        "description": "Proton acceptor",
+        "start": 837,
+        "end": 837,
+        "source": "UniProt"
+      },
+      {
+        "type": "Binding site",
+        "description": "",
+        "start": 718,
+        "end": 726,
+        "source": "UniProt"
+      },
+      {
+        "type": "Binding site",
+        "description": "",
+        "start": 745,
+        "end": 745,
+        "source": "UniProt"
+      },
+      {
+        "type": "Binding site",
+        "description": "",
+        "start": 790,
+        "end": 791,
+        "source": "UniProt"
+      },
+      {
+        "type": "Binding site",
+        "description": "",
+        "start": 855,
+        "end": 855,
+        "source": "UniProt"
+      },
+      {
+        "type": "Site",
+        "description": "Important for interaction with PIK3C2B",
+        "start": 1016,
+        "end": 1016,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 229,
+        "end": 229,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphothreonine; by PKC and PKD/PRKD1",
+        "start": 678,
+        "end": 678,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphothreonine; by PKD/PRKD1",
+        "start": 693,
+        "end": 693,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 695,
+        "end": 695,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "N6-(2-hydroxyisobutyryl)lysine",
+        "start": 745,
+        "end": 745,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphotyrosine",
+        "start": 869,
+        "end": 869,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 991,
+        "end": 991,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 995,
+        "end": 995,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphotyrosine; by autocatalysis",
+        "start": 998,
+        "end": 998,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphotyrosine; by autocatalysis",
+        "start": 1016,
+        "end": 1016,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 1026,
+        "end": 1026,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 1039,
+        "end": 1039,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphothreonine",
+        "start": 1041,
+        "end": 1041,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 1042,
+        "end": 1042,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 1064,
+        "end": 1064,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphotyrosine",
+        "start": 1069,
+        "end": 1069,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 1070,
+        "end": 1070,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 1071,
+        "end": 1071,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 1081,
+        "end": 1081,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphotyrosine; by autocatalysis",
+        "start": 1092,
+        "end": 1092,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphotyrosine; by autocatalysis",
+        "start": 1110,
+        "end": 1110,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 1166,
+        "end": 1166,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphotyrosine; by autocatalysis",
+        "start": 1172,
+        "end": 1172,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphotyrosine; by autocatalysis",
+        "start": 1197,
+        "end": 1197,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Omega-N-methylarginine",
+        "start": 1199,
+        "end": 1199,
+        "source": "UniProt"
+      },
+      {
+        "type": "Lipidation",
+        "description": "S-palmitoyl cysteine",
+        "start": 1049,
+        "end": 1049,
+        "source": "UniProt"
+      },
+      {
+        "type": "Lipidation",
+        "description": "S-palmitoyl cysteine",
+        "start": 1146,
+        "end": 1146,
+        "source": "UniProt"
+      },
+      {
+        "type": "Glycosylation",
+        "description": "N-linked (GlcNAc...) (complex) asparagine; atypical; partial",
+        "start": 56,
+        "end": 56,
+        "source": "UniProt"
+      },
+      {
+        "type": "Glycosylation",
+        "description": "N-linked (GlcNAc...) asparagine; atypical",
+        "start": 73,
+        "end": 73,
+        "source": "UniProt"
+      },
+      {
+        "type": "Glycosylation",
+        "description": "N-linked (GlcNAc...) asparagine",
+        "start": 128,
+        "end": 128,
+        "source": "UniProt"
+      },
+      {
+        "type": "Glycosylation",
+        "description": "N-linked (GlcNAc...) asparagine",
+        "start": 175,
+        "end": 175,
+        "source": "UniProt"
+      },
+      {
+        "type": "Glycosylation",
+        "description": "N-linked (GlcNAc...) asparagine",
+        "start": 196,
+        "end": 196,
+        "source": "UniProt"
+      },
+      {
+        "type": "Glycosylation",
+        "description": "N-linked (GlcNAc...) asparagine",
+        "start": 352,
+        "end": 352,
+        "source": "UniProt"
+      },
+      {
+        "type": "Glycosylation",
+        "description": "N-linked (GlcNAc...) asparagine",
+        "start": 361,
+        "end": 361,
+        "source": "UniProt"
+      },
+      {
+        "type": "Glycosylation",
+        "description": "N-linked (GlcNAc...) asparagine",
+        "start": 413,
+        "end": 413,
+        "source": "UniProt"
+      },
+      {
+        "type": "Glycosylation",
+        "description": "N-linked (GlcNAc...) asparagine",
+        "start": 444,
+        "end": 444,
+        "source": "UniProt"
+      },
+      {
+        "type": "Glycosylation",
+        "description": "N-linked (GlcNAc...) asparagine",
+        "start": 528,
+        "end": 528,
+        "source": "UniProt"
+      },
+      {
+        "type": "Glycosylation",
+        "description": "N-linked (GlcNAc...) asparagine; partial",
+        "start": 568,
+        "end": 568,
+        "source": "UniProt"
+      },
+      {
+        "type": "Glycosylation",
+        "description": "N-linked (GlcNAc...) asparagine; partial",
+        "start": 603,
+        "end": 603,
+        "source": "UniProt"
+      },
+      {
+        "type": "Glycosylation",
+        "description": "N-linked (GlcNAc...) (high mannose) asparagine",
+        "start": 623,
+        "end": 623,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 31,
+        "end": 58,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 157,
+        "end": 187,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 190,
+        "end": 199,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 194,
+        "end": 207,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 215,
+        "end": 223,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 219,
+        "end": 231,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 232,
+        "end": 240,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 236,
+        "end": 248,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 251,
+        "end": 260,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 264,
+        "end": 291,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 295,
+        "end": 307,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 311,
+        "end": 326,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 329,
+        "end": 333,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 337,
+        "end": 362,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 470,
+        "end": 499,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 506,
+        "end": 515,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 510,
+        "end": 523,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 526,
+        "end": 535,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 539,
+        "end": 555,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 558,
+        "end": 571,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 562,
+        "end": 579,
+        "source": "UniProt"
+      },
+      {
+        "type": "Disulfide bond",
+        "description": "",
+        "start": 582,
+        "end": 591,
+        "source": "UniProt"
+      }
+    ],
+    "crossReferences": [
+      {
+        "database": "EMBL",
+        "id": "X00588"
+      },
+      {
+        "database": "EMBL",
+        "id": "U95089"
+      },
+      {
+        "database": "EMBL",
+        "id": "U48722"
+      },
+      {
+        "database": "EMBL",
+        "id": "U48723"
+      },
+      {
+        "database": "EMBL",
+        "id": "U48724"
+      },
+      {
+        "database": "EMBL",
+        "id": "U48725"
+      },
+      {
+        "database": "EMBL",
+        "id": "U48726"
+      },
+      {
+        "database": "EMBL",
+        "id": "U48727"
+      },
+      {
+        "database": "EMBL",
+        "id": "U48728"
+      },
+      {
+        "database": "EMBL",
+        "id": "U48729"
+      },
+      {
+        "database": "EMBL",
+        "id": "AF288738"
+      },
+      {
+        "database": "EMBL",
+        "id": "AF288738"
+      },
+      {
+        "database": "EMBL",
+        "id": "AF288738"
+      },
+      {
+        "database": "EMBL",
+        "id": "AF288738"
+      },
+      {
+        "database": "EMBL",
+        "id": "AF288738"
+      },
+      {
+        "database": "EMBL",
+        "id": "AY698024"
+      },
+      {
+        "database": "EMBL",
+        "id": "AY588246"
+      },
+      {
+        "database": "EMBL",
+        "id": "AF277897"
+      },
+      {
+        "database": "EMBL",
+        "id": "AF125253"
+      },
+      {
+        "database": "EMBL",
+        "id": "AF125539"
+      },
+      {
+        "database": "EMBL",
+        "id": "AF125538"
+      },
+      {
+        "database": "EMBL",
+        "id": "X06370"
+      },
+      {
+        "database": "EMBL",
+        "id": "X00663"
+      },
+      {
+        "database": "EMBL",
+        "id": "M38425"
+      },
+      {
+        "database": "EMBL",
+        "id": "M11234"
+      },
+      {
+        "database": "CCDS",
+        "id": "CCDS47587.1"
+      },
+      {
+        "database": "CCDS",
+        "id": "CCDS5514.1"
+      },
+      {
+        "database": "CCDS",
+        "id": "CCDS5515.1"
+      },
+      {
+        "database": "CCDS",
+        "id": "CCDS5516.1"
+      },
+      {
+        "database": "PIR",
+        "id": "A00641"
+      },
+      {
+        "database": "RefSeq",
+        "id": "NP_005219.2"
+      },
+      {
+        "database": "RefSeq",
+        "id": "NP_958439.1"
+      },
+      {
+        "database": "RefSeq",
+        "id": "NP_958440.1"
+      },
+      {
+        "database": "RefSeq",
+        "id": "NP_958441.1"
+      },
+      {
+        "database": "PDB",
+        "id": "1IVO"
+      },
+      {
+        "database": "PDB",
+        "id": "1M14"
+      },
+      {
+        "database": "PDB",
+        "id": "1M17"
+      },
+      {
+        "database": "PDB",
+        "id": "1MOX"
+      },
+      {
+        "database": "PDB",
+        "id": "1NQL"
+      },
+      {
+        "database": "PDB",
+        "id": "1XKK"
+      },
+      {
+        "database": "PDB",
+        "id": "1YY9"
+      },
+      {
+        "database": "PDB",
+        "id": "1Z9I"
+      },
+      {
+        "database": "PDB",
+        "id": "2EB2"
+      },
+      {
+        "database": "PDB",
+        "id": "2EB3"
+      },
+      {
+        "database": "PDB",
+        "id": "2GS2"
+      },
+      {
+        "database": "PDB",
+        "id": "2GS6"
+      },
+      {
+        "database": "PDB",
+        "id": "2GS7"
+      },
+      {
+        "database": "PDB",
+        "id": "2ITN"
+      },
+      {
+        "database": "PDB",
+        "id": "2ITO"
+      },
+      {
+        "database": "PDB",
+        "id": "2ITP"
+      },
+      {
+        "database": "PDB",
+        "id": "2ITQ"
+      },
+      {
+        "database": "PDB",
+        "id": "2ITT"
+      },
+      {
+        "database": "PDB",
+        "id": "2ITU"
+      },
+      {
+        "database": "PDB",
+        "id": "2ITV"
+      },
+      {
+        "database": "PDB",
+        "id": "2ITW"
+      },
+      {
+        "database": "PDB",
+        "id": "2ITX"
+      },
+      {
+        "database": "PDB",
+        "id": "2ITY"
+      },
+      {
+        "database": "PDB",
+        "id": "2ITZ"
+      },
+      {
+        "database": "PDB",
+        "id": "2J5E"
+      },
+      {
+        "database": "PDB",
+        "id": "2J5F"
+      },
+      {
+        "database": "PDB",
+        "id": "2J6M"
+      },
+      {
+        "database": "PDB",
+        "id": "2JIT"
+      },
+      {
+        "database": "PDB",
+        "id": "2JIU"
+      },
+      {
+        "database": "PDB",
+        "id": "2JIV"
+      },
+      {
+        "database": "PDB",
+        "id": "2KS1"
+      },
+      {
+        "database": "PDB",
+        "id": "2M0B"
+      },
+      {
+        "database": "PDB",
+        "id": "2M20"
+      },
+      {
+        "database": "PDB",
+        "id": "2N5S"
+      },
+      {
+        "database": "PDB",
+        "id": "2RF9"
+      },
+      {
+        "database": "PDB",
+        "id": "2RFD"
+      },
+      {
+        "database": "PDB",
+        "id": "2RFE"
+      },
+      {
+        "database": "PDB",
+        "id": "2RGP"
+      },
+      {
+        "database": "PDB",
+        "id": "3B2U"
+      },
+      {
+        "database": "PDB",
+        "id": "3B2V"
+      },
+      {
+        "database": "PDB",
+        "id": "3BEL"
+      },
+      {
+        "database": "PDB",
+        "id": "3BUO"
+      },
+      {
+        "database": "PDB",
+        "id": "3C09"
+      },
+      {
+        "database": "PDB",
+        "id": "3G5V"
+      },
+      {
+        "database": "PDB",
+        "id": "3G5Y"
+      },
+      {
+        "database": "PDB",
+        "id": "3GOP"
+      },
+      {
+        "database": "PDB",
+        "id": "3GT8"
+      },
+      {
+        "database": "PDB",
+        "id": "3IKA"
+      },
+      {
+        "database": "PDB",
+        "id": "3LZB"
+      },
+      {
+        "database": "PDB",
+        "id": "3NJP"
+      },
+      {
+        "database": "PDB",
+        "id": "3OB2"
+      },
+      {
+        "database": "PDB",
+        "id": "3OP0"
+      },
+      {
+        "database": "PDB",
+        "id": "3P0Y"
+      },
+      {
+        "database": "PDB",
+        "id": "3PFV"
+      },
+      {
+        "database": "PDB",
+        "id": "3POZ"
+      },
+      {
+        "database": "PDB",
+        "id": "3QWQ"
+      },
+      {
+        "database": "PDB",
+        "id": "3UG1"
+      },
+      {
+        "database": "PDB",
+        "id": "3UG2"
+      },
+      {
+        "database": "PDB",
+        "id": "3VJN"
+      },
+      {
+        "database": "PDB",
+        "id": "3VJO"
+      },
+      {
+        "database": "PDB",
+        "id": "3VRP"
+      },
+      {
+        "database": "PDB",
+        "id": "3VRR"
+      },
+      {
+        "database": "PDB",
+        "id": "3W2O"
+      },
+      {
+        "database": "PDB",
+        "id": "3W2P"
+      },
+      {
+        "database": "PDB",
+        "id": "3W2Q"
+      },
+      {
+        "database": "PDB",
+        "id": "3W2R"
+      },
+      {
+        "database": "PDB",
+        "id": "3W2S"
+      },
+      {
+        "database": "PDB",
+        "id": "3W32"
+      },
+      {
+        "database": "PDB",
+        "id": "3W33"
+      },
+      {
+        "database": "PDB",
+        "id": "4G5J"
+      },
+      {
+        "database": "PDB",
+        "id": "4G5P"
+      },
+      {
+        "database": "PDB",
+        "id": "4HJO"
+      },
+      {
+        "database": "PDB",
+        "id": "4I1Z"
+      },
+      {
+        "database": "PDB",
+        "id": "4I20"
+      },
+      {
+        "database": "PDB",
+        "id": "4I21"
+      },
+      {
+        "database": "PDB",
+        "id": "4I22"
+      },
+      {
+        "database": "PDB",
+        "id": "4I23"
+      },
+      {
+        "database": "PDB",
+        "id": "4I24"
+      },
+      {
+        "database": "PDB",
+        "id": "4JQ7"
+      },
+      {
+        "database": "PDB",
+        "id": "4JQ8"
+      },
+      {
+        "database": "PDB",
+        "id": "4JR3"
+      },
+      {
+        "database": "PDB",
+        "id": "4JRV"
+      },
+      {
+        "database": "PDB",
+        "id": "4KRL"
+      },
+      {
+        "database": "PDB",
+        "id": "4KRM"
+      },
+      {
+        "database": "PDB",
+        "id": "4KRO"
+      },
+      {
+        "database": "PDB",
+        "id": "4KRP"
+      },
+      {
+        "database": "PDB",
+        "id": "4LI5"
+      },
+      {
+        "database": "PDB",
+        "id": "4LL0"
+      },
+      {
+        "database": "PDB",
+        "id": "4LQM"
+      },
+      {
+        "database": "PDB",
+        "id": "4LRM"
+      },
+      {
+        "database": "PDB",
+        "id": "4R3P"
+      },
+      {
+        "database": "PDB",
+        "id": "4R3R"
+      },
+      {
+        "database": "PDB",
+        "id": "4R5S"
+      },
+      {
+        "database": "PDB",
+        "id": "4RIW"
+      },
+      {
+        "database": "PDB",
+        "id": "4RIX"
+      },
+      {
+        "database": "PDB",
+        "id": "4RIY"
+      },
+      {
+        "database": "PDB",
+        "id": "4RJ4"
+      },
+      {
+        "database": "PDB",
+        "id": "4RJ5"
+      },
+      {
+        "database": "PDB",
+        "id": "4RJ6"
+      },
+      {
+        "database": "PDB",
+        "id": "4RJ7"
+      },
+      {
+        "database": "PDB",
+        "id": "4RJ8"
+      },
+      {
+        "database": "PDB",
+        "id": "4TKS"
+      },
+      {
+        "database": "PDB",
+        "id": "4UIP"
+      },
+      {
+        "database": "PDB",
+        "id": "4UV7"
+      },
+      {
+        "database": "PDB",
+        "id": "4WD5"
+      },
+      {
+        "database": "PDB",
+        "id": "4WKQ"
+      },
+      {
+        "database": "PDB",
+        "id": "4WRG"
+      },
+      {
+        "database": "PDB",
+        "id": "4ZAU"
+      },
+      {
+        "database": "PDB",
+        "id": "4ZJV"
+      },
+      {
+        "database": "PDB",
+        "id": "4ZSE"
+      },
+      {
+        "database": "PDB",
+        "id": "5C8K"
+      },
+      {
+        "database": "PDB",
+        "id": "5C8M"
+      },
+      {
+        "database": "PDB",
+        "id": "5C8N"
+      },
+      {
+        "database": "PDB",
+        "id": "5CAL"
+      },
+      {
+        "database": "PDB",
+        "id": "5CAN"
+      },
+      {
+        "database": "PDB",
+        "id": "5CAO"
+      },
+      {
+        "database": "PDB",
+        "id": "5CAP"
+      },
+      {
+        "database": "PDB",
+        "id": "5CAQ"
+      },
+      {
+        "database": "PDB",
+        "id": "5CAS"
+      },
+      {
+        "database": "PDB",
+        "id": "5CAU"
+      },
+      {
+        "database": "PDB",
+        "id": "5CAV"
+      },
+      {
+        "database": "PDB",
+        "id": "5CNN"
+      },
+      {
+        "database": "PDB",
+        "id": "5CNO"
+      },
+      {
+        "database": "PDB",
+        "id": "5CZH"
+      },
+      {
+        "database": "PDB",
+        "id": "5CZI"
+      },
+      {
+        "database": "PDB",
+        "id": "5D41"
+      }
+    ]
+  },
+  "structures": {
+    "experimental": [
+      {
+        "pdbId": "1M17",
+        "title": "Epidermal Growth Factor Receptor tyrosine kinase domain with 4-anilinoquinazoline inhibitor erlotinib",
+        "experimentalMethod": "X-RAY DIFFRACTION",
+        "resolution": 2.6,
+        "chains": [],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "Epidermal Growth Factor Receptor tyrosine kinase domain with 4-anilinoquinazoline inhibitor erlotinib",
+            "chains": [],
+            "relatedUniProtIds": [
+              "P00533"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P00533"
+        ],
+        "releaseDate": "2002-09-04T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/1M17",
+          "accessedAt": "2026-05-29T06:43:59.544Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "2GS6",
+        "title": "Crystal Structure of the active EGFR kinase domain in complex with an ATP analog-peptide conjugate",
+        "experimentalMethod": "X-RAY DIFFRACTION",
+        "resolution": 2.6,
+        "chains": [],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "Crystal Structure of the active EGFR kinase domain in complex with an ATP analog-peptide conjugate",
+            "chains": [],
+            "relatedUniProtIds": [
+              "P00533"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P00533"
+        ],
+        "releaseDate": "2006-06-20T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/2GS6",
+          "accessedAt": "2026-05-29T06:43:59.825Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "3NJP",
+        "title": "The Extracellular and Transmembrane Domain Interfaces in Epidermal Growth Factor Receptor Signaling",
+        "experimentalMethod": "X-RAY DIFFRACTION",
+        "resolution": 3.304,
+        "chains": [],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "The Extracellular and Transmembrane Domain Interfaces in Epidermal Growth Factor Receptor Signaling",
+            "chains": [],
+            "relatedUniProtIds": [
+              "P00533"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P00533"
+        ],
+        "releaseDate": "2010-10-13T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/3NJP",
+          "accessedAt": "2026-05-29T06:44:00.108Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "1IVO",
+        "title": "Crystal Structure of the Complex of Human Epidermal Growth Factor and Receptor Extracellular Domains.",
+        "experimentalMethod": "X-ray",
+        "resolution": 3.3,
+        "chains": [
+          "A",
+          "B",
+          "25",
+          "646"
+        ],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "Crystal Structure of the Complex of Human Epidermal Growth Factor and Receptor Extracellular Domains.",
+            "chains": [
+              "A",
+              "B",
+              "25",
+              "646"
+            ],
+            "relatedUniProtIds": [
+              "P00533"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P00533"
+        ],
+        "releaseDate": "2002-10-16T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/1IVO",
+          "accessedAt": "2026-05-29T06:44:00.395Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "1M14",
+        "title": "Tyrosine Kinase Domain from Epidermal Growth Factor Receptor",
+        "experimentalMethod": "X-ray",
+        "resolution": 2.6,
+        "chains": [
+          "A",
+          "695",
+          "1022"
+        ],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "Tyrosine Kinase Domain from Epidermal Growth Factor Receptor",
+            "chains": [
+              "A",
+              "695",
+              "1022"
+            ],
+            "relatedUniProtIds": [
+              "P00533"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P00533"
+        ],
+        "releaseDate": "2002-09-04T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/1M14",
+          "accessedAt": "2026-05-29T06:44:00.695Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "1MOX",
+        "title": "Crystal Structure of Human Epidermal Growth Factor Receptor (residues 1-501) in complex with TGF-alpha",
+        "experimentalMethod": "X-ray",
+        "resolution": 2.5,
+        "chains": [
+          "A",
+          "B",
+          "25",
+          "525"
+        ],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "Crystal Structure of Human Epidermal Growth Factor Receptor (residues 1-501) in complex with TGF-alpha",
+            "chains": [
+              "A",
+              "B",
+              "25",
+              "525"
+            ],
+            "relatedUniProtIds": [
+              "P00533"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P00533"
+        ],
+        "releaseDate": "2003-09-10T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/1MOX",
+          "accessedAt": "2026-05-29T06:44:01.015Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "1NQL",
+        "title": "Structure of the extracellular domain of human epidermal growth factor (EGF) receptor in an inactive (low pH) complex with EGF.",
+        "experimentalMethod": "X-ray",
+        "resolution": 2.8,
+        "chains": [
+          "A",
+          "25",
+          "642"
+        ],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "Structure of the extracellular domain of human epidermal growth factor (EGF) receptor in an inactive (low pH) complex with EGF.",
+            "chains": [
+              "A",
+              "25",
+              "642"
+            ],
+            "relatedUniProtIds": [
+              "P00533"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P00533"
+        ],
+        "releaseDate": "2003-03-11T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/1NQL",
+          "accessedAt": "2026-05-29T06:44:01.336Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "1XKK",
+        "title": "EGFR kinase domain complexed with a quinazoline inhibitor- GW572016",
+        "experimentalMethod": "X-ray",
+        "resolution": 2.4,
+        "chains": [
+          "A",
+          "695",
+          "1022"
+        ],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "EGFR kinase domain complexed with a quinazoline inhibitor- GW572016",
+            "chains": [
+              "A",
+              "695",
+              "1022"
+            ],
+            "relatedUniProtIds": [
+              "P00533"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P00533"
+        ],
+        "releaseDate": "2004-12-07T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/1XKK",
+          "accessedAt": "2026-05-29T06:44:01.624Z",
+          "sourceType": "RCSB PDB"
+        }
+      }
+    ],
+    "predicted": [
+      {
+        "provider": "AlphaFold DB",
+        "modelId": "AF-P00533-F1",
+        "modelUrl": "https://alphafold.ebi.ac.uk/files/AF-P00533-F1-model_v6.bcif",
+        "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-P00533-F1-model_v6.cif",
+        "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P00533-F1-model_v6.pdb",
+        "bcifUrl": "https://alphafold.ebi.ac.uk/files/AF-P00533-F1-model_v6.bcif",
+        "paeUrl": "https://alphafold.ebi.ac.uk/files/AF-P00533-F1-predicted_aligned_error_v6.json",
+        "plddtUrl": "https://alphafold.ebi.ac.uk/files/AF-P00533-F1-confidence_v6.json",
+        "meanPlddt": 75.94,
+        "source": {
+          "name": "AlphaFold DB API",
+          "url": "https://alphafold.ebi.ac.uk/api/prediction/P00533",
+          "accessedAt": "2026-05-29T06:44:01.658Z",
+          "sourceType": "AlphaFold DB",
+          "version": "v6"
+        }
+      }
+    ]
+  },
+  "domains": [
+    {
+      "id": "IPR000494",
+      "name": "Receptor L-domain",
+      "sourceDatabase": "Pfam",
+      "type": "domain",
+      "start": 57,
+      "end": 167,
+      "description": "Receptor L-domain",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR000494/"
+    },
+    {
+      "id": "IPR000494",
+      "name": "Receptor L-domain",
+      "sourceDatabase": "Pfam",
+      "type": "domain",
+      "start": 361,
+      "end": 480,
+      "description": "Receptor L-domain",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR000494/"
+    },
+    {
+      "id": "IPR000719",
+      "name": "Protein kinase domain",
+      "sourceDatabase": "profile",
+      "type": "domain",
+      "start": 712,
+      "end": 979,
+      "description": "Protein kinase domain",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR000719/"
+    },
+    {
+      "id": "IPR001245",
+      "name": "Serine-threonine/tyrosine-protein kinase, catalytic domain",
+      "sourceDatabase": "Pfam",
+      "type": "domain",
+      "start": 714,
+      "end": 966,
+      "description": "Serine-threonine/tyrosine-protein kinase, catalytic domain",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR001245/"
+    },
+    {
+      "id": "IPR006211",
+      "name": "Furin-like cysteine-rich domain",
+      "sourceDatabase": "Pfam",
+      "type": "domain",
+      "start": 185,
+      "end": 338,
+      "description": "Furin-like cysteine-rich domain",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR006211/"
+    },
+    {
+      "id": "IPR006212",
+      "name": "Furin-like repeat",
+      "sourceDatabase": "cdd",
+      "type": "repeat",
+      "start": 228,
+      "end": 274,
+      "description": "Furin-like repeat",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR006212/"
+    },
+    {
+      "id": "IPR006212",
+      "name": "Furin-like repeat",
+      "sourceDatabase": "cdd",
+      "type": "repeat",
+      "start": 496,
+      "end": 601,
+      "description": "Furin-like repeat",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR006212/"
+    },
+    {
+      "id": "IPR008266",
+      "name": "Tyrosine-protein kinase, active site",
+      "sourceDatabase": "prosite",
+      "type": "active_site",
+      "start": 833,
+      "end": 845,
+      "description": "Tyrosine-protein kinase, active site",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR008266/"
+    },
+    {
+      "id": "IPR009030",
+      "name": "Growth factor receptor cysteine-rich domain superfamily",
+      "sourceDatabase": "ssf",
+      "type": "homologous_superfamily",
+      "start": 186,
+      "end": 339,
+      "description": "Growth factor receptor cysteine-rich domain superfamily",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR009030/"
+    },
+    {
+      "id": "IPR009030",
+      "name": "Growth factor receptor cysteine-rich domain superfamily",
+      "sourceDatabase": "ssf",
+      "type": "homologous_superfamily",
+      "start": 505,
+      "end": 636,
+      "description": "Growth factor receptor cysteine-rich domain superfamily",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR009030/"
+    },
+    {
+      "id": "IPR011009",
+      "name": "Protein kinase-like domain superfamily",
+      "sourceDatabase": "ssf",
+      "type": "homologous_superfamily",
+      "start": 708,
+      "end": 1003,
+      "description": "Protein kinase-like domain superfamily",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR011009/"
+    },
+    {
+      "id": "IPR016245",
+      "name": "Tyrosine protein kinase, EGF/ERB/XmrK receptor",
+      "sourceDatabase": "pirsf",
+      "type": "family",
+      "start": 6,
+      "end": 1204,
+      "description": "Tyrosine protein kinase, EGF/ERB/XmrK receptor",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR016245/"
+    },
+    {
+      "id": "IPR017441",
+      "name": "Protein kinase, ATP binding site",
+      "sourceDatabase": "prosite",
+      "type": "binding_site",
+      "start": 718,
+      "end": 745,
+      "description": "Protein kinase, ATP binding site",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR017441/"
+    },
+    {
+      "id": "IPR020635",
+      "name": "Tyrosine-protein kinase, catalytic domain",
+      "sourceDatabase": "smart",
+      "type": "domain",
+      "start": 712,
+      "end": 968,
+      "description": "Tyrosine-protein kinase, catalytic domain",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR020635/"
+    },
+    {
+      "id": "IPR032778",
+      "name": "Growth factor receptor domain 4",
+      "sourceDatabase": "Pfam",
+      "type": "domain",
+      "start": 505,
+      "end": 637,
+      "description": "Growth factor receptor domain 4",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR032778/"
+    },
+    {
+      "id": "IPR036941",
+      "name": "Receptor L-domain superfamily",
+      "sourceDatabase": "cathgene3d",
+      "type": "homologous_superfamily",
+      "start": 25,
+      "end": 213,
+      "description": "Receptor L-domain superfamily",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR036941/"
+    },
+    {
+      "id": "IPR036941",
+      "name": "Receptor L-domain superfamily",
+      "sourceDatabase": "cathgene3d",
+      "type": "homologous_superfamily",
+      "start": 333,
+      "end": 530,
+      "description": "Receptor L-domain superfamily",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR036941/"
+    },
+    {
+      "id": "IPR049328",
+      "name": "Epidermal growth factor receptor-like, transmembrane-juxtamembrane segment",
+      "sourceDatabase": "Pfam",
+      "type": "domain",
+      "start": 646,
+      "end": 681,
+      "description": "Epidermal growth factor receptor-like, transmembrane-juxtamembrane segment",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR049328/"
+    },
+    {
+      "id": "IPR050122",
+      "name": "Receptor Tyrosine Kinase",
+      "sourceDatabase": "panther",
+      "type": "family",
+      "start": 58,
+      "end": 974,
+      "description": "Receptor Tyrosine Kinase",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR050122/"
+    },
+    {
+      "id": "uniprot-domain-1",
+      "name": "Extracellular ligand-binding region",
+      "sourceDatabase": "UniProt",
+      "type": "region",
+      "start": 25,
+      "end": 645,
+      "description": "Extracellular ligand-binding region",
+      "evidence": "UniProt/starter annotation",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P00533/entry"
+    },
+    {
+      "id": "uniprot-domain-2",
+      "name": "Protein kinase domain",
+      "sourceDatabase": "UniProt",
+      "type": "domain",
+      "start": 712,
+      "end": 979,
+      "description": "Protein kinase domain",
+      "evidence": "UniProt/starter annotation",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P00533/entry"
+    },
+    {
+      "id": "uniprot-motif-1",
+      "name": "Important for dimerization, phosphorylation and activation",
+      "sourceDatabase": "UniProt",
+      "type": "motif",
+      "start": 688,
+      "end": 704,
+      "description": "Important for dimerization, phosphorylation and activation",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P00533/entry"
+    },
+    {
+      "id": "uniprot-motif-2",
+      "name": "Disordered",
+      "sourceDatabase": "UniProt",
+      "type": "motif",
+      "start": 1097,
+      "end": 1137,
+      "description": "Disordered",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P00533/entry"
+    },
+    {
+      "id": "uniprot-motif-3",
+      "name": "Proton acceptor",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 837,
+      "end": 837,
+      "description": "Proton acceptor",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P00533/entry"
+    },
+    {
+      "id": "uniprot-motif-4",
+      "name": "Binding site",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 718,
+      "end": 726,
+      "description": "Binding site",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P00533/entry"
+    },
+    {
+      "id": "uniprot-motif-5",
+      "name": "Binding site",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 745,
+      "end": 745,
+      "description": "Binding site",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P00533/entry"
+    },
+    {
+      "id": "uniprot-motif-6",
+      "name": "Binding site",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 790,
+      "end": 791,
+      "description": "Binding site",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P00533/entry"
+    },
+    {
+      "id": "uniprot-motif-7",
+      "name": "Binding site",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 855,
+      "end": 855,
+      "description": "Binding site",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P00533/entry"
+    },
+    {
+      "id": "uniprot-motif-8",
+      "name": "Important for interaction with PIK3C2B",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 1016,
+      "end": 1016,
+      "description": "Important for interaction with PIK3C2B",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P00533/entry"
+    }
+  ],
+  "msa": {
+    "available": false,
+    "method": "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
+    "alignedSequences": [],
+    "consensus": "",
+    "conservationScores": [],
+    "gapFrequencies": [],
+    "sourceSequenceCount": 0,
+    "source": "Curated/UniProt homologs",
+    "unavailableReason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+  },
+  "profileEvidence": [
+    {
+      "profileId": "IPR000494",
+      "profileName": "Receptor L-domain",
+      "database": "Pfam",
+      "start": 57,
+      "end": 167,
+      "score": null,
+      "eValue": null,
+      "description": "Receptor L-domain",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR000494",
+      "profileName": "Receptor L-domain",
+      "database": "Pfam",
+      "start": 361,
+      "end": 480,
+      "score": null,
+      "eValue": null,
+      "description": "Receptor L-domain",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR001245",
+      "profileName": "Serine-threonine/tyrosine-protein kinase, catalytic domain",
+      "database": "Pfam",
+      "start": 714,
+      "end": 966,
+      "score": null,
+      "eValue": null,
+      "description": "Serine-threonine/tyrosine-protein kinase, catalytic domain",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR006211",
+      "profileName": "Furin-like cysteine-rich domain",
+      "database": "Pfam",
+      "start": 185,
+      "end": 338,
+      "score": null,
+      "eValue": null,
+      "description": "Furin-like cysteine-rich domain",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR032778",
+      "profileName": "Growth factor receptor domain 4",
+      "database": "Pfam",
+      "start": 505,
+      "end": 637,
+      "score": null,
+      "eValue": null,
+      "description": "Growth factor receptor domain 4",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR049328",
+      "profileName": "Epidermal growth factor receptor-like, transmembrane-juxtamembrane segment",
+      "database": "Pfam",
+      "start": 646,
+      "end": 681,
+      "score": null,
+      "eValue": null,
+      "description": "Epidermal growth factor receptor-like, transmembrane-juxtamembrane segment",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    }
+  ],
+  "conservedResidues": [],
+  "metrics": {
+    "rmsdComparisons": [
+      {
+        "available": false,
+        "reason": "No build-time coordinate superposition job has been configured for this protein pair.",
+        "method": "Kabsch superposition",
+        "source": "computed-build-time"
+      }
+    ],
+    "tmScoreComparisons": [
+      {
+        "available": false,
+        "reason": "TM-align or Foldseek was not available during the static build.",
+        "method": "TM-align/Foldseek/build-time",
+        "source": "computed-build-time"
+      }
+    ],
+    "plddt": {
+      "available": true,
+      "mean": 75.95,
+      "median": 89.12,
+      "bins": {
+        "veryHigh_90_100": 0.474,
+        "confident_70_90": 0.233,
+        "low_50_70": 0.065,
+        "veryLow_0_50": 0.228
+      },
+      "perResidue": [
+        39.94,
+        38.81,
+        48.25,
+        42.94,
+        41.34,
+        49.47,
+        48.5,
+        46.78,
+        49.91,
+        51.81,
+        50.09,
+        52.34,
+        51.25,
+        51.88,
+        52.34,
+        47.47,
+        48.75,
+        44.38,
+        36.91,
+        37.09,
+        33.31,
+        32.91,
+        31.64,
+        32.12,
+        45.75,
+        50.81,
+        69.94,
+        81.94,
+        86.25,
+        84.31,
+        85.44,
+        76.06,
+        83.19,
+        80.75,
+        85.12,
+        80.06,
+        88.38,
+        89.12,
+        74.75,
+        79.69,
+        67.25,
+        78.69,
+        84.19,
+        89.12,
+        88.44,
+        82.12,
+        84,
+        93.06,
+        88.38,
+        83.69,
+        89.81,
+        92.12,
+        85.94,
+        88.25,
+        94.38,
+        91.56,
+        92.38,
+        92.19,
+        96,
+        92,
+        90.94,
+        83.88,
+        84.44,
+        92.62,
+        97.81,
+        97.56,
+        97.94,
+        96.5,
+        95.62,
+        96.69,
+        95.12,
+        93.44,
+        90.62,
+        94.12,
+        95.31,
+        97.31,
+        96.25,
+        95.94,
+        98,
+        97.12,
+        97.06,
+        97.94,
+        97.25,
+        96.75,
+        97,
+        92.38,
+        91.88,
+        97.62,
+        98.56,
+        98.38,
+        98.5,
+        97.62,
+        96.62,
+        97.44,
+        96.44,
+        96.69,
+        94.75,
+        96.69,
+        98.12,
+        97.56,
+        98.12,
+        97.25,
+        97.5,
+        98.12,
+        97.44,
+        97.5,
+        98.19,
+        96.12,
+        94.44,
+        86.88,
+        84.5,
+        93.25,
+        91.81,
+        89.25,
+        87.25,
+        93.31,
+        96.5,
+        97.56,
+        98.31,
+        98.06,
+        97.81,
+        96.5,
+        95.38,
+        95.88,
+        93.25,
+        90.38,
+        89.69,
+        88.75,
+        88.25,
+        90,
+        92.81,
+        95.31,
+        93.56,
+        94.81,
+        97.06,
+        96.94,
+        97.94,
+        96.75,
+        97.56,
+        98,
+        97.06,
+        97.44,
+        97.69,
+        94.44,
+        95.25,
+        94.19,
+        96.44,
+        97.38,
+        97.06,
+        96.38,
+        94.44,
+        92.19,
+        92.69,
+        91.38,
+        92.38,
+        94.12,
+        93.25,
+        93.88,
+        94.19,
+        91.81,
+        94.19,
+        96.88,
+        96.56,
+        95.75,
+        95.56,
+        96.62,
+        97.19,
+        95.62,
+        90.81,
+        89.75,
+        89.94,
+        92.5,
+        90.38,
+        89.19,
+        89.12,
+        90.44,
+        87.81,
+        86.12,
+        84.62,
+        80.19,
+        69.19,
+        64.62,
+        59.84,
+        60.78,
+        62.22,
+        76.44,
+        87.25,
+        90.31,
+        92,
+        94.12,
+        96.19,
+        95.31,
+        96.06,
+        95.94,
+        94.12,
+        94.44,
+        94.5,
+        96.81,
+        97.31,
+        96.88,
+        93.81,
+        92.62,
+        93.12,
+        95.62,
+        95.5,
+        96.56,
+        97.56,
+        97.75,
+        96.69,
+        97.06,
+        96.62,
+        95.75,
+        95.19,
+        95.44,
+        95.56,
+        95.06,
+        91.81,
+        90.81,
+        92.94,
+        90.06,
+        92,
+        95.88,
+        97.31,
+        95.62,
+        93.69,
+        94.56,
+        94.12,
+        92.06,
+        93.19,
+        95.06,
+        96.12,
+        96.81,
+        96.19,
+        94.94,
+        95.75,
+        96.38,
+        94.06,
+        94.25,
+        95.44,
+        96.62,
+        95.81,
+        93.81,
+        94,
+        94.31,
+        93.12,
+        94.5,
+        95.62,
+        95.75,
+        94.25,
+        93.5,
+        95.44,
+        94.62,
+        92.06,
+        92.75,
+        93.38,
+        93.19,
+        89.88,
+        90.12,
+        93.94,
+        94.88,
+        92.69,
+        90.62,
+        89.88,
+        91.5,
+        91.5,
+        90.19,
+        89.81,
+        88.31,
+        91,
+        90.12,
+        91.62,
+        88.31,
+        88.62,
+        90.56,
+        89.06,
+        89.62,
+        87.25,
+        89.88,
+        89.06,
+        89.81,
+        88.38,
+        90.19,
+        90.31,
+        93.56,
+        91.75,
+        91.75,
+        87.62,
+        84.38,
+        88.56,
+        90.88,
+        93.38,
+        90.75,
+        90.88,
+        88.94,
+        85.19,
+        78.19,
+        73.62,
+        69.62,
+        80.56,
+        80.69,
+        89.5,
+        86.69,
+        80.81,
+        79.44,
+        85.88,
+        87.62,
+        87.5,
+        80.06,
+        71.44,
+        72.06,
+        80.31,
+        73.44,
+        73.94,
+        82.06,
+        82.38,
+        81.5,
+        83.31,
+        84.88,
+        81.38,
+        77.69,
+        76.88,
+        74.19,
+        78.94,
+        82.25,
+        88.88,
+        87.19,
+        87.25,
+        86.31,
+        82.25,
+        81.44,
+        78.81,
+        78.94,
+        77.19,
+        85.44,
+        87.81,
+        86.88,
+        93,
+        92.81,
+        91.81,
+        93.44,
+        83.56,
+        81.5,
+        84.25,
+        85.19,
+        91.06,
+        86.62,
+        87.31,
+        89.75,
+        90.31,
+        95.81,
+        96.5,
+        95.94,
+        96.12,
+        94.44,
+        95.75,
+        96.75,
+        94.12,
+        94.19,
+        95.25,
+        91.94,
+        90.5,
+        93.81,
+        93.56,
+        93.56,
+        96.12,
+        92.06,
+        90.56,
+        94.44,
+        97.5,
+        96.56,
+        97.31,
+        95.62,
+        95.56,
+        93.5,
+        94.81,
+        96.38,
+        94.56,
+        92.56,
+        93.38,
+        91.5,
+        90.81,
+        89,
+        93,
+        93.38,
+        96.44,
+        96.69,
+        96.69,
+        96.31,
+        94.94,
+        94.62,
+        96.38,
+        97.12,
+        96.06,
+        96.44,
+        97.62,
+        96.44,
+        94.88,
+        96.88,
+        95.94,
+        95.69,
+        96.81,
+        90.38,
+        90.88,
+        94.75,
+        97.88,
+        97.19,
+        97.81,
+        95.56,
+        95.75,
+        97.44,
+        95.88,
+        92.31,
+        92.62,
+        93.69,
+        95,
+        96,
+        97.62,
+        95.88,
+        97.19,
+        97.94,
+        96.25,
+        95.81,
+        97.69,
+        96.31,
+        96.06,
+        97,
+        89.5,
+        87.88,
+        80.5,
+        78.12,
+        82.75,
+        72.44,
+        75.06,
+        68.12,
+        82.44,
+        86.25,
+        93.69,
+        97.56,
+        96.06,
+        97.5,
+        95.06,
+        94.19,
+        96.69,
+        96.25,
+        97.25,
+        96.69,
+        97.44,
+        97.5,
+        96.06,
+        97.25,
+        94.62,
+        95.5,
+        97.25,
+        94.06,
+        96.06,
+        95.94,
+        91.38,
+        89.19,
+        82.5,
+        92.81,
+        96.44,
+        95.19,
+        96.75,
+        95.19,
+        93.38,
+        96.31,
+        94.19,
+        96.25,
+        97.12,
+        96.62,
+        96.94,
+        95.25,
+        93.56,
+        95.31,
+        96.06,
+        95.25,
+        95.44,
+        93.44,
+        93.25,
+        94.19,
+        95.69,
+        83.06,
+        77.94,
+        77,
+        81.12,
+        91.06,
+        90.44,
+        94.62,
+        91.62,
+        94.75,
+        92.56,
+        92.69,
+        94.31,
+        93.5,
+        88.25,
+        89.5,
+        91.38,
+        94.38,
+        94.81,
+        93.62,
+        93.81,
+        93.25,
+        93.12,
+        94.75,
+        95.38,
+        96.56,
+        97.06,
+        96.69,
+        97.38,
+        96.75,
+        95.5,
+        95.06,
+        94.25,
+        95.19,
+        97.12,
+        97.25,
+        96.56,
+        95.69,
+        96.25,
+        96.69,
+        95.88,
+        96.56,
+        96.31,
+        94.56,
+        94.19,
+        95.31,
+        93.94,
+        92.88,
+        95.25,
+        95.44,
+        94.31,
+        90.5,
+        89.88,
+        95.06,
+        96.75,
+        96.44,
+        94.31,
+        94.62,
+        95.25,
+        95.81,
+        94.88,
+        94,
+        91.44,
+        89.31,
+        89.19,
+        94,
+        95.94,
+        97,
+        96.44,
+        95.69,
+        93.5,
+        91.81,
+        93,
+        94.62,
+        96.38,
+        95.81,
+        96.12,
+        96.06,
+        96.31,
+        96.44,
+        96.81,
+        96.75,
+        96,
+        95.56,
+        94.69,
+        90.69,
+        88.38,
+        93.56,
+        95.44,
+        96.38,
+        96.75,
+        95.75,
+        94.31,
+        94.5,
+        92.44,
+        95.19,
+        94.56,
+        96.44,
+        96.5,
+        96.38,
+        95.31,
+        96.62,
+        95.81,
+        96.5,
+        96.81,
+        96.38,
+        94.75,
+        92.25,
+        92.69,
+        95,
+        96.75,
+        95.31,
+        96.19,
+        95.31,
+        94.56,
+        92.31,
+        90.88,
+        86.75,
+        87.19,
+        84.44,
+        85.5,
+        84.75,
+        81.38,
+        75.94,
+        83.31,
+        87.19,
+        90.88,
+        92.69,
+        94.25,
+        94.12,
+        95.31,
+        93.31,
+        92.69,
+        92.69,
+        94.56,
+        96.25,
+        95.94,
+        94.88,
+        93.25,
+        92.56,
+        90.62,
+        87.25,
+        88.5,
+        86.88,
+        84.06,
+        84.81,
+        88.12,
+        91.12,
+        90.5,
+        88.81,
+        90.06,
+        87.5,
+        85.75,
+        82.75,
+        81.06,
+        80.94,
+        68.69,
+        54.84,
+        47.25,
+        42.06,
+        38.94,
+        32.31,
+        37.66,
+        35.25,
+        36.75,
+        38.66,
+        44.69,
+        49.34,
+        44.56,
+        54.16,
+        56.09,
+        57.22,
+        57.12,
+        62.91,
+        66.31,
+        68.88,
+        72.06,
+        73.5,
+        75.62,
+        77.62,
+        77.06,
+        77.62,
+        79.88,
+        79.69,
+        78.19,
+        77.38,
+        76.5,
+        76.06,
+        74,
+        72,
+        70.19,
+        69.19,
+        65.62,
+        65.56,
+        59.41,
+        59.88,
+        59.28,
+        55.97,
+        52.38,
+        52.25,
+        52.41,
+        48.38,
+        46.44,
+        44.56,
+        47.59,
+        40.22,
+        42.16,
+        37.22,
+        36.41,
+        34.66,
+        29.34,
+        30.58,
+        36.44,
+        35.31,
+        38.53,
+        43.44,
+        42.41,
+        40.53,
+        40.19,
+        38.94,
+        42.03,
+        41.75,
+        56.72,
+        64.69,
+        75.12,
+        80.19,
+        81.31,
+        81.75,
+        81.31,
+        82.88,
+        82.94,
+        82.31,
+        85.19,
+        88,
+        85.5,
+        86.69,
+        85.94,
+        79.69,
+        73.31,
+        72.31,
+        64.19,
+        57.78,
+        62.38,
+        72.69,
+        82.56,
+        86.25,
+        89.56,
+        87,
+        88.44,
+        87.69,
+        86.31,
+        85.31,
+        78.06,
+        71.06,
+        68.69,
+        70.38,
+        68,
+        71.12,
+        77,
+        82.12,
+        86.19,
+        90.38,
+        89.44,
+        88.94,
+        86.38,
+        85.31,
+        77.5,
+        63.78,
+        57.41,
+        50.12,
+        46.34,
+        44.81,
+        47.84,
+        43.41,
+        54.5,
+        62.5,
+        61.81,
+        63.53,
+        66.56,
+        69,
+        63.91,
+        67.44,
+        74.69,
+        73.12,
+        71.44,
+        76.81,
+        79.12,
+        74.56,
+        78.75,
+        81.44,
+        88.38,
+        90.88,
+        94.44,
+        91.12,
+        88.5,
+        85.75,
+        85.5,
+        85.5,
+        84.44,
+        85.31,
+        83.62,
+        78.31,
+        73.31,
+        69.5,
+        73.25,
+        80,
+        85.06,
+        85.56,
+        87.69,
+        88.38,
+        86,
+        85.44,
+        86.75,
+        77.44,
+        84.5,
+        85.12,
+        89.56,
+        94.44,
+        93.5,
+        89.44,
+        91.75,
+        93.06,
+        91.69,
+        88.62,
+        87.62,
+        87.94,
+        84.62,
+        84.69,
+        87.81,
+        88.5,
+        91.88,
+        90.69,
+        92.44,
+        94.88,
+        95.31,
+        95.12,
+        97.25,
+        97.81,
+        97.81,
+        97.56,
+        98,
+        98.06,
+        97.81,
+        95.38,
+        96.88,
+        96.94,
+        94.38,
+        90.75,
+        91.56,
+        89.62,
+        82.38,
+        84.5,
+        83.25,
+        87.38,
+        89.12,
+        87.62,
+        88.12,
+        94.38,
+        93.88,
+        94.69,
+        91.25,
+        91.88,
+        94.62,
+        92.62,
+        91.56,
+        86.19,
+        86.81,
+        86.06,
+        87.44,
+        89.81,
+        95.06,
+        94.25,
+        93.69,
+        87.88,
+        76.75,
+        65.38,
+        51.94,
+        51.22,
+        50.81,
+        53.34,
+        43.41,
+        40.22,
+        36.69,
+        39.84,
+        41,
+        46.16,
+        50.31,
+        45.66,
+        40.28,
+        50.81,
+        50.16,
+        43.59,
+        40.78,
+        47.78,
+        57.78,
+        71.81,
+        85.31,
+        88.44,
+        92.56,
+        94.31,
+        93.06,
+        94.88,
+        94.06,
+        92.75,
+        91.56,
+        90,
+        88.12,
+        86.75,
+        84.06,
+        84.88,
+        86.69,
+        91.94,
+        93.44,
+        96.12,
+        94.62,
+        95.81,
+        98.12,
+        97.75,
+        97.06,
+        98.19,
+        97.94,
+        97.88,
+        97.62,
+        98,
+        97.88,
+        97.38,
+        96.5,
+        95.38,
+        94.81,
+        93.69,
+        91.81,
+        93.38,
+        89.81,
+        93,
+        92.19,
+        88.06,
+        84.38,
+        86.56,
+        80.94,
+        77.88,
+        82.5,
+        88.25,
+        89.62,
+        89.38,
+        89.62,
+        91.56,
+        93.31,
+        90.81,
+        90.88,
+        89.56,
+        91.56,
+        94.19,
+        95.88,
+        94.94,
+        96.38,
+        95.44,
+        91.56,
+        93.31,
+        94,
+        94.69,
+        93.25,
+        94.19,
+        95.31,
+        97.19,
+        96.19,
+        96.5,
+        97.25,
+        96.5,
+        97.06,
+        97.88,
+        97.25,
+        95.56,
+        91.75,
+        92.56,
+        92.94,
+        92.12,
+        95.44,
+        97.38,
+        97.19,
+        96.38,
+        97.88,
+        96.62,
+        97.38,
+        97.94,
+        97.69,
+        96.81,
+        96.19,
+        96.56,
+        95.62,
+        94.94,
+        95.06,
+        91.44,
+        91.31,
+        91.38,
+        90.31,
+        87.81,
+        91.5,
+        94,
+        92.81,
+        90.31,
+        86.62,
+        75.88,
+        74.25,
+        79.06,
+        64.44,
+        59.88,
+        63.22,
+        57.53,
+        57.69,
+        45.69,
+        38.66,
+        44.09,
+        41.03,
+        37.09,
+        40.44,
+        39.81,
+        40.44,
+        44.5,
+        42.91,
+        45.03,
+        43.97,
+        43.03,
+        44.62,
+        47.16,
+        46.91,
+        46.66,
+        50.16,
+        48.31,
+        56,
+        56.75,
+        60.75,
+        65.31,
+        62.44,
+        62.59,
+        62.78,
+        59.19,
+        58.22,
+        50.03,
+        33.62,
+        33.88,
+        33.88,
+        31.3,
+        29.11,
+        28.83,
+        27.42,
+        28.67,
+        27.05,
+        29.48,
+        32.19,
+        26.06,
+        32.16,
+        29.72,
+        29.48,
+        32.34,
+        30.72,
+        32.66,
+        32.41,
+        30.55,
+        28.98,
+        34.38,
+        30.02,
+        32.47,
+        32.12,
+        32.53,
+        31.23,
+        28.28,
+        31.73,
+        28.84,
+        25.92,
+        30.06,
+        34.06,
+        28.23,
+        30.55,
+        27.64,
+        29.69,
+        26.11,
+        23.81,
+        24.5,
+        25.98,
+        26.58,
+        25.14,
+        23.86,
+        24.47,
+        26.12,
+        28.64,
+        27.47,
+        30.78,
+        35.94,
+        28.78,
+        33.25,
+        26.88,
+        31.84,
+        29.45,
+        33.53,
+        27.36,
+        26.08,
+        27.31,
+        26.27,
+        25.97,
+        26.53,
+        26.45,
+        27.28,
+        26.45,
+        27.81,
+        26.36,
+        26.03,
+        26.56,
+        28.02,
+        29.02,
+        29.39,
+        26.55,
+        31.11,
+        28.25,
+        33.56,
+        26.69,
+        34.25,
+        31.22,
+        38.16,
+        30.77,
+        28.67,
+        36.16,
+        26.83,
+        30.48,
+        25.72,
+        29.39,
+        28.38,
+        33.69,
+        35.66,
+        31.11,
+        33.34,
+        32.56,
+        33.19,
+        29.94,
+        39.97,
+        31.77,
+        30.75,
+        36.44,
+        31.47,
+        39.16,
+        28.12,
+        33.91,
+        34.53,
+        38.75,
+        37.84,
+        35.41,
+        35.44,
+        35.91,
+        36.56,
+        38.59,
+        31.53,
+        34.41,
+        33.56,
+        32.53,
+        32.28,
+        33.03,
+        36.53,
+        29.39,
+        27.72,
+        28.48,
+        27.64,
+        26.42,
+        31.11,
+        27.09,
+        34.44,
+        30.11,
+        25.44,
+        30.31,
+        26.09,
+        30.42,
+        26.5,
+        31.14,
+        30.28,
+        27.7,
+        32.94,
+        27.05,
+        26.81,
+        26.02,
+        26.19,
+        26.16,
+        26.78,
+        27.98,
+        27.89,
+        27.08,
+        29.09,
+        30.81,
+        31.78,
+        30.61,
+        32,
+        34.84,
+        29.72,
+        33.09,
+        36.75,
+        28,
+        28.41,
+        27.62,
+        27.14,
+        25.33,
+        29.16,
+        27.33,
+        29.92,
+        29,
+        29.98,
+        34.22,
+        33.97,
+        30.72,
+        30.7,
+        26.97,
+        27.31,
+        25.34,
+        25.56,
+        25.44,
+        28.92,
+        28.17,
+        31.03,
+        27.72,
+        32.41,
+        29.11,
+        26.81,
+        29.89,
+        29.61,
+        29.62,
+        32.12,
+        29.22,
+        32.69,
+        36.16,
+        35.03,
+        34.03,
+        45.81,
+        35.66,
+        34.84
+      ],
+      "lowConfidenceRegions": [
+        {
+          "start": 1,
+          "end": 27,
+          "mean": 45.43,
+          "label": "Low pLDDT"
+        },
+        {
+          "start": 181,
+          "end": 185,
+          "mean": 63.33,
+          "label": "Low pLDDT"
+        },
+        {
+          "start": 637,
+          "end": 656,
+          "mean": 49.68,
+          "label": "Low pLDDT"
+        },
+        {
+          "start": 672,
+          "end": 704,
+          "mean": 46.98,
+          "label": "Low pLDDT"
+        },
+        {
+          "start": 748,
+          "end": 762,
+          "mean": 57.53,
+          "label": "Low pLDDT"
+        },
+        {
+          "start": 856,
+          "end": 875,
+          "mean": 47.36,
+          "label": "Low pLDDT"
+        },
+        {
+          "start": 985,
+          "end": 1210,
+          "mean": 33.37,
+          "label": "Low pLDDT"
+        }
+      ],
+      "highConfidenceRegions": [
+        {
+          "start": 55,
+          "end": 61,
+          "mean": 92.78,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 64,
+          "end": 109,
+          "mean": 96.48,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 116,
+          "end": 126,
+          "mean": 95.72,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 130,
+          "end": 169,
+          "mean": 95.09,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 188,
+          "end": 256,
+          "mean": 94.72,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 258,
+          "end": 262,
+          "mean": 92.45,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 282,
+          "end": 286,
+          "mean": 91.51,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 349,
+          "end": 381,
+          "mean": 94.3,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 383,
+          "end": 426,
+          "mean": 95.76,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 437,
+          "end": 457,
+          "mean": 95.9,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 460,
+          "end": 481,
+          "mean": 95.21,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 486,
+          "end": 494,
+          "mean": 92.84,
+          "label": "Very high pLDDT"
+        }
+      ],
+      "source": "AlphaFold DB"
+    },
+    "pae": {
+      "available": false,
+      "reason": "PAE matrix exists but was not embedded because it is too large for the starter static pack.",
+      "method": "AlphaFold PAE JSON parsing",
+      "source": "AlphaFold DB"
+    },
+    "domainCoverage": {
+      "available": true,
+      "coveredResidues": 1199,
+      "sequenceLength": 1210,
+      "percent": 99.1,
+      "source": "InterPro/UniProt"
+    },
+    "conservationSummary": {
+      "available": false,
+      "meanConservation": 0,
+      "highlyConservedPositions": [],
+      "method": "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
+      "reason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+    }
+  },
+  "structureFunction": {
+    "summary": "Receptor tyrosine kinase binding ligands of the EGF family and activating several signaling cascades to convert extracellular cues into appropriate cellular responses (PubMed:10805725, PubMed:27153536, PubMed:2790960, PubMed:35538033). Known ligands include EGF, TGFA/TGF-alpha, AREG, epigen/EPGN, BTC/betacellulin, epiregulin/EREG and HBEGF/heparin-binding EGF (PubMed:12297049, PubMed:15611079, PubMed:17909029, PubMed:20837704, PubMed:27153536, PubMed:2790960, PubMed:7679104, PubMed:8144591, PubMed:9419975). Ligand binding triggers receptor homo- and/or heterodimerization and autophosphorylation on key cytoplasmic residues. The phosphorylated receptor recruits adapter proteins like GRB2 which in turn activates complex downstream signaling cascades. Activates at least 4 major downstream signaling cascades including the RAS-RAF-MEK-ERK, PI3 kinase-AKT, PLCgamma-PKC and STATs modules (PubMed:27153536). May also activate the NF-kappa-B signaling cascade (PubMed:11116146). Also directly phosphorylates other proteins like RGS16, activating its GTPase activity and probably coupling the EGF receptor signaling to the G protein-coupled receptor signaling (PubMed:11602604). Also phosphorylates MUC1 and increases its interaction with SRC and CTNNB1/beta-catenin (PubMed:11483589). Positively regulates cell migration via interaction with CCDC88A/GIV which retains EGFR at the cell membrane following ligand stimulation, promoting EGFR signaling which triggers cell migration (PubMed:20462955). Plays a role in enhancing learning and memory performance (By similarity). Plays a role in mammalian pain signaling (long-lasting hypersensitivity) (By similarity)",
+    "evidenceCards": [
+      {
+        "title": "UniProt function annotation",
+        "claim": "Receptor tyrosine kinase binding ligands of the EGF family and activating several signaling cascades to convert extracellular cues into appropriate cellular responses (PubMed:10805725, PubMed:27153536, PubMed:2790960, PubMed:35538033). Known ligands include EGF, TGFA/TGF-alpha, AREG, epigen/EPGN, BTC/betacellulin, epiregulin/EREG and HBEGF/heparin-binding EGF (PubMed:12297049, PubMed:15611079, PubMed:17909029, PubMed:20837704, PubMed:27153536, PubMed:2790960, PubMed:7679104, PubMed:8144591, PubMed:9419975). Ligand binding triggers receptor homo- and/or heterodimerization and autophosphorylation on key cytoplasmic residues. The phosphorylated receptor recruits adapter proteins like GRB2 which in turn activates complex downstream signaling cascades. Activates at least 4 major downstream signaling cascades including the RAS-RAF-MEK-ERK, PI3 kinase-AKT, PLCgamma-PKC and STATs modules (PubMed:27153536). May also activate the NF-kappa-B signaling cascade (PubMed:11116146). Also directly phosphorylates other proteins like RGS16, activating its GTPase activity and probably coupling the EGF receptor signaling to the G protein-coupled receptor signaling (PubMed:11602604). Also phosphorylates MUC1 and increases its interaction with SRC and CTNNB1/beta-catenin (PubMed:11483589). Positively regulates cell migration via interaction with CCDC88A/GIV which retains EGFR at the cell membrane following ligand stimulation, promoting EGFR signaling which triggers cell migration (PubMed:20462955). Plays a role in enhancing learning and memory performance (By similarity). Plays a role in mammalian pain signaling (long-lasting hypersensitivity) (By similarity)",
+        "evidence": [
+          "UniProt function comment"
+        ],
+        "confidence": "high",
+        "source": "UniProt"
+      },
+      {
+        "title": "Domain-function evidence",
+        "claim": "Annotated domains provide source-backed clues for biological role and fold context.",
+        "evidence": [
+          "Protein kinase domain",
+          "Serine-threonine/tyrosine-protein kinase, catalytic domain",
+          "Tyrosine-protein kinase, active site",
+          "Protein kinase-like domain superfamily"
+        ],
+        "confidence": "medium",
+        "source": "InterPro/Pfam/UniProt"
+      },
+      {
+        "title": "Flexible or uncertain model regions",
+        "claim": "AlphaFold reports low confidence in one or more regions, which may reflect disorder or uncertain placement.",
+        "evidence": [
+          "1-27",
+          "181-185",
+          "637-656",
+          "672-704"
+        ],
+        "confidence": "medium",
+        "source": "AlphaFold DB"
+      }
+    ],
+    "warnings": [
+      "pLDDT and PAE describe model confidence, not direct experimental proof."
+    ]
+  },
+  "intelligence": {
+    "structureFunctionSummary": "Receptor tyrosine kinase binding ligands of the EGF family and activating several signaling cascades to convert extracellular cues into appropriate cellular responses (PubMed:10805725, PubMed:27153536, PubMed:2790960, PubMed:35538033). Known ligands include EGF, TGFA/TGF-alpha, AREG, epigen/EPGN, BTC/betacellulin, epiregulin/EREG and HBEGF/heparin-binding EGF (PubMed:12297049, PubMed:15611079, PubMed:17909029, PubMed:20837704, PubMed:27153536, PubMed:2790960, PubMed:7679104, PubMed:8144591, PubMed:9419975). Ligand binding triggers receptor homo- and/or heterodimerization and autophosphorylation on key cytoplasmic residues. The phosphorylated receptor recruits adapter proteins like GRB2 which in turn activates complex downstream signaling cascades. Activates at least 4 major downstream signaling cascades including the RAS-RAF-MEK-ERK, PI3 kinase-AKT, PLCgamma-PKC and STATs modules (PubMed:27153536). May also activate the NF-kappa-B signaling cascade (PubMed:11116146). Also directly phosphorylates other proteins like RGS16, activating its GTPase activity and probably coupling the EGF receptor signaling to the G protein-coupled receptor signaling (PubMed:11602604). Also phosphorylates MUC1 and increases its interaction with SRC and CTNNB1/beta-catenin (PubMed:11483589). Positively regulates cell migration via interaction with CCDC88A/GIV which retains EGFR at the cell membrane following ligand stimulation, promoting EGFR signaling which triggers cell migration (PubMed:20462955). Plays a role in enhancing learning and memory performance (By similarity). Plays a role in mammalian pain signaling (long-lasting hypersensitivity) (By similarity)",
+    "sequenceStructureFunctionPipeline": [
+      {
+        "step": "Input Detection",
+        "status": "complete",
+        "dataUsed": [
+          "P00533",
+          "EGFR"
+        ],
+        "output": "Resolved through static alias/search index.",
+        "source": "Static Pack"
+      },
+      {
+        "step": "Sequence Retrieval",
+        "status": "complete",
+        "dataUsed": [
+          "UniProt canonical sequence"
+        ],
+        "output": "1210 residues loaded.",
+        "source": "UniProt"
+      },
+      {
+        "step": "Annotation Retrieval",
+        "status": "complete",
+        "dataUsed": [
+          "UniProt features",
+          "InterPro/Pfam matches"
+        ],
+        "output": "29 domain or feature annotations.",
+        "source": "UniProt/InterPro"
+      },
+      {
+        "step": "Structure Discovery",
+        "status": "complete",
+        "dataUsed": [
+          "RCSB PDB",
+          "AlphaFold DB"
+        ],
+        "output": "8 experimental, 1 predicted.",
+        "source": "RCSB PDB/AlphaFold DB"
+      },
+      {
+        "step": "Template/Fold Comparison",
+        "status": "missing",
+        "dataUsed": [
+          "Coordinates"
+        ],
+        "output": "RMSD/TM-score unavailable until build-time coordinate superposition tools are configured.",
+        "source": "Build-time Computed"
+      },
+      {
+        "step": "Confidence Analysis",
+        "status": "complete",
+        "dataUsed": [
+          "pLDDT",
+          "PAE"
+        ],
+        "output": "AlphaFold confidence parsed when available.",
+        "source": "AlphaFold DB"
+      },
+      {
+        "step": "Evolutionary Analysis",
+        "status": "partial",
+        "dataUsed": [
+          "curated/UniProt homologs",
+          "MAFFT/Clustal Omega/MUSCLE",
+          "profile/domain evidence"
+        ],
+        "output": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable.",
+        "source": "Build-time MSA/InterPro"
+      },
+      {
+        "step": "Structure-Function Interpretation",
+        "status": "complete",
+        "dataUsed": [
+          "domains",
+          "features",
+          "confidence",
+          "conservation"
+        ],
+        "output": "Rule-based evidence summary generated from loaded sources.",
+        "source": "Build-time Computed"
+      }
+    ],
+    "warnings": [
+      "BioAlign Pro Fold Explorer does not perform AlphaFold-level structure prediction.",
+      "pLDDT and PAE describe model confidence, not direct experimental proof.",
+      "RMSD and TM-score depend on correct residue/structure alignment.",
+      "pLDDT and PAE describe model confidence, not direct experimental proof."
+    ],
+    "confidenceNotes": [
+      "Experimental structures come from PDB/RCSB.",
+      "Predicted structures come from AlphaFold DB when available.",
+      "Browser live API refresh may fail due to CORS, rate limits, or network issues."
+    ],
+    "sourceBadges": [
+      "Static Pack",
+      "UniProt",
+      "RCSB PDB",
+      "AlphaFold DB",
+      "InterPro",
+      "Pfam",
+      "Build-time Computed"
+    ]
+  },
+  "sources": [
+    {
+      "name": "UniProt REST API",
+      "url": "https://rest.uniprot.org/uniprotkb/P00533.json",
+      "accessedAt": "2026-05-29T06:44:01.659Z",
+      "sourceType": "UniProt"
+    },
+    {
+      "name": "InterPro API",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/interpro/protein/uniprot/P00533/",
+      "accessedAt": "2026-05-29T06:44:01.659Z",
+      "sourceType": "InterPro"
+    },
+    {
+      "name": "AlphaFold DB API",
+      "url": "https://alphafold.ebi.ac.uk/api/prediction/P00533",
+      "accessedAt": "2026-05-29T06:44:01.658Z",
+      "sourceType": "AlphaFold DB",
+      "version": "v6"
+    },
+    {
+      "name": "RCSB PDB Data API",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/1M17",
+      "accessedAt": "2026-05-29T06:43:59.544Z",
+      "sourceType": "RCSB PDB"
+    },
+    {
+      "name": "RCSB PDB Data API",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/2GS6",
+      "accessedAt": "2026-05-29T06:43:59.825Z",
+      "sourceType": "RCSB PDB"
+    },
+    {
+      "name": "RCSB PDB Data API",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/3NJP",
+      "accessedAt": "2026-05-29T06:44:00.108Z",
+      "sourceType": "RCSB PDB"
+    },
+    {
+      "name": "RCSB PDB Data API",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/1IVO",
+      "accessedAt": "2026-05-29T06:44:00.395Z",
+      "sourceType": "RCSB PDB"
+    }
+  ]
+}

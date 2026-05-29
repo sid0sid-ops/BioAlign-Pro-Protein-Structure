@@ -1,0 +1,3732 @@
+{
+  "schemaVersion": "bioalign.structure-intelligence.v1",
+  "generatedAt": "2026-05-29T06:44:42.573Z",
+  "protein": {
+    "accession": "P02452",
+    "name": "Collagen alpha-1(I) chain",
+    "gene": "COL1A1",
+    "organism": "Homo sapiens",
+    "sequence": "MFSFVDLRLLLLLAATALLTHGQEEGQVEGQDEDIPPITCVQNGLRYHDRDVWKPEPCRICVCDNGKVLCDDVICDETKNCPGAEVPEGECCPVCPDGSESPTDQETTGVEGPKGDTGPRGPRGPAGPPGRDGIPGQPGLPGPPGPPGPPGPPGLGGNFAPQLSYGYDEKSTGGISVPGPMGPSGPRGLPGPPGAPGPQGFQGPPGEPGEPGASGPMGPRGPPGPPGKNGDDGEAGKPGRPGERGPPGPQGARGLPGTAGLPGMKGHRGFSGLDGAKGDAGPAGPKGEPGSPGENGAPGQMGPRGLPGERGRPGAPGPAGARGNDGATGAAGPPGPTGPAGPPGFPGAVGAKGEAGPQGPRGSEGPQGVRGEPGPPGPAGAAGPAGNPGADGQPGAKGANGAPGIAGAPGFPGARGPSGPQGPGGPPGPKGNSGEPGAPGSKGDTGAKGEPGPVGVQGPPGPAGEEGKRGARGEPGPTGLPGPPGERGGPGSRGFPGADGVAGPKGPAGERGSPGPAGPKGSPGEAGRPGEAGLPGAKGLTGSPGSPGPDGKTGPPGPAGQDGRPGPPGPPGARGQAGVMGFPGPKGAAGEPGKAGERGVPGPPGAVGPAGKDGEAGAQGPPGPAGPAGERGEQGPAGSPGFQGLPGPAGPPGEAGKPGEQGVPGDLGAPGPSGARGERGFPGERGVQGPPGPAGPRGANGAPGNDGAKGDAGAPGAPGSQGAPGLQGMPGERGAAGLPGPKGDRGDAGPKGADGSPGKDGVRGLTGPIGPPGPAGAPGDKGESGPSGPAGPTGARGAPGDRGEPGPPGPAGFAGPPGADGQPGAKGEPGDAGAKGDAGPPGPAGPAGPPGPIGNVGAPGAKGARGSAGPPGATGFPGAAGRVGPPGPSGNAGPPGPPGPAGKEGGKGPRGETGPAGRPGEVGPPGPPGPAGEKGSPGADGPAGAPGTPGPQGIAGQRGVVGLPGQRGERGFPGLPGPSGEPGKQGPSGASGERGPPGPMGPPGLAGPPGESGREGAPGAEGSPGRDGSPGAKGDRGETGPAGPPGAPGAPGAPGPVGPAGKSGDRGETGPAGPAGPVGPVGARGPAGPQGPRGDKGETGEQGDRGIKGHRGFSGLQGPPGPPGSPGEQGPSGASGPAGPRGPPGSAGAPGKDGLNGLPGPIGPPGPRGRTGDAGPVGPPGPPGPPGPPGPPSAGFDFSFLPQPPQEKAHDGGRYYRADDANVVRDRDLEVDTTLKSLSQQIENIRSPEGSRKNPARTCRDLKMCHSDWKSGEYWIDPNQGCNLDAIKVFCNMETGETCVYPTQPSVAQKNWYISKNPKDKRHVWFGESMTDGFQFEYGGQGSDPADVAIQLTFLRLMSTEASQNITYHCKNSVAYMDQQTGNLKKALLLQGSNEIEIRAEGNSRFTYSVTVDGCTSHTGAWGKTVIEYKTTKTSRLPIIDVAPLDVGAPDQEFGFDVGPVCFL",
+    "length": 1464,
+    "functionComments": [
+      "Type I collagen is a member of group I collagen (fibrillar forming collagen)",
+      "Trimers of one alpha 2(I) and two alpha 1(I) chains. Interacts with MRC2 (By similarity). Interacts with TRAM2 (PubMed:14749390). Interacts with MFAP4 in a Ca (2+)-dependent manner (By similarity)"
+    ],
+    "features": [
+      {
+        "type": "Signal",
+        "description": "",
+        "start": 1,
+        "end": 22,
+        "source": "UniProt"
+      },
+      {
+        "type": "Propeptide",
+        "description": "N-terminal propeptide",
+        "start": 23,
+        "end": 161,
+        "source": "UniProt"
+      },
+      {
+        "type": "Chain",
+        "description": "Collagen alpha-1(I) chain",
+        "start": 162,
+        "end": 1218,
+        "source": "UniProt"
+      },
+      {
+        "type": "Propeptide",
+        "description": "C-terminal propeptide",
+        "start": 1219,
+        "end": 1464,
+        "source": "UniProt"
+      },
+      {
+        "type": "Domain",
+        "description": "VWFC",
+        "start": 38,
+        "end": 96,
+        "source": "UniProt"
+      },
+      {
+        "type": "Domain",
+        "description": "Fibrillar collagen NC1",
+        "start": 1229,
+        "end": 1464,
+        "source": "UniProt"
+      },
+      {
+        "type": "Region",
+        "description": "Disordered",
+        "start": 98,
+        "end": 1214,
+        "source": "UniProt"
+      },
+      {
+        "type": "Region",
+        "description": "Nonhelical region (N-terminal)",
+        "start": 162,
+        "end": 178,
+        "source": "UniProt"
+      },
+      {
+        "type": "Region",
+        "description": "Triple-helical region",
+        "start": 179,
+        "end": 1192,
+        "source": "UniProt"
+      },
+      {
+        "type": "Region",
+        "description": "Nonhelical region (C-terminal)",
+        "start": 1193,
+        "end": 1218,
+        "source": "UniProt"
+      },
+      {
+        "type": "Motif",
+        "description": "Cell attachment site",
+        "start": 745,
+        "end": 747,
+        "source": "UniProt"
+      },
+      {
+        "type": "Motif",
+        "description": "Cell attachment site",
+        "start": 1093,
+        "end": 1095,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Pro residues",
+        "start": 138,
+        "end": 153,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 198,
+        "end": 217,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Basic and acidic residues",
+        "start": 229,
+        "end": 243,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 279,
+        "end": 295,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 318,
+        "end": 331,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Pro residues",
+        "start": 333,
+        "end": 345,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 379,
+        "end": 418,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 448,
+        "end": 457,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Gly residues",
+        "start": 485,
+        "end": 494,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 538,
+        "end": 564,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 573,
+        "end": 592,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 634,
+        "end": 661,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 696,
+        "end": 724,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 784,
+        "end": 798,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 811,
+        "end": 838,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Pro residues",
+        "start": 840,
+        "end": 852,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 853,
+        "end": 883,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 912,
+        "end": 921,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 931,
+        "end": 955,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Pro residues",
+        "start": 996,
+        "end": 1006,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Pro residues",
+        "start": 1042,
+        "end": 1057,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 1078,
+        "end": 1092,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Basic and acidic residues",
+        "start": 1093,
+        "end": 1107,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Low complexity",
+        "start": 1126,
+        "end": 1159,
+        "source": "UniProt"
+      },
+      {
+        "type": "Compositional bias",
+        "description": "Pro residues",
+        "start": 1177,
+        "end": 1192,
+        "source": "UniProt"
+      },
+      {
+        "type": "Binding site",
+        "description": "",
+        "start": 1277,
+        "end": 1277,
+        "source": "UniProt"
+      },
+      {
+        "type": "Binding site",
+        "description": "",
+        "start": 1279,
+        "end": 1279,
+        "source": "UniProt"
+      },
+      {
+        "type": "Binding site",
+        "description": "",
+        "start": 1280,
+        "end": 1280,
+        "source": "UniProt"
+      },
+      {
+        "type": "Binding site",
+        "description": "",
+        "start": 1282,
+        "end": 1282,
+        "source": "UniProt"
+      },
+      {
+        "type": "Binding site",
+        "description": "",
+        "start": 1285,
+        "end": 1285,
+        "source": "UniProt"
+      },
+      {
+        "type": "Site",
+        "description": "Cleavage; by procollagen N-endopeptidase",
+        "start": 161,
+        "end": 162,
+        "source": "UniProt"
+      },
+      {
+        "type": "Site",
+        "description": "Cleavage; by collagenase",
+        "start": 953,
+        "end": 954,
+        "source": "UniProt"
+      },
+      {
+        "type": "Site",
+        "description": "Cleavage; by procollagen C-endopeptidase",
+        "start": 1218,
+        "end": 1219,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Pyrrolidone carboxylic acid",
+        "start": 162,
+        "end": 162,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Allysine",
+        "start": 170,
+        "end": 170,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 171,
+        "end": 171,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 190,
+        "end": 190,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 193,
+        "end": 193,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 196,
+        "end": 196,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 205,
+        "end": 205,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 208,
+        "end": 208,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 211,
+        "end": 211,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 226,
+        "end": 226,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 241,
+        "end": 241,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 247,
+        "end": 247,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 256,
+        "end": 256,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 262,
+        "end": 262,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "5-hydroxylysine; alternate",
+        "start": 265,
+        "end": 265,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "Phosphoserine",
+        "start": 271,
+        "end": 271,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 289,
+        "end": 289,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 292,
+        "end": 292,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 298,
+        "end": 298,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 307,
+        "end": 307,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 313,
+        "end": 313,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 334,
+        "end": 334,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 343,
+        "end": 343,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 346,
+        "end": 346,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 373,
+        "end": 373,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 376,
+        "end": 376,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 388,
+        "end": 388,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 394,
+        "end": 394,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 403,
+        "end": 403,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 409,
+        "end": 409,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 412,
+        "end": 412,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 427,
+        "end": 427,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "5-hydroxylysine",
+        "start": 430,
+        "end": 430,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 436,
+        "end": 436,
+        "source": "UniProt"
+      },
+      {
+        "type": "Modified residue",
+        "description": "4-hydroxyproline",
+        "start": 439,
+        "end": 439,
+        "source": "UniProt"
+      }
+    ],
+    "crossReferences": [
+      {
+        "database": "EMBL",
+        "id": "Z74615"
+      },
+      {
+        "database": "EMBL",
+        "id": "AF017178"
+      },
+      {
+        "database": "EMBL",
+        "id": "AB209597"
+      },
+      {
+        "database": "EMBL",
+        "id": "BC036531"
+      },
+      {
+        "database": "EMBL",
+        "id": "M20789"
+      },
+      {
+        "database": "EMBL",
+        "id": "M36546"
+      },
+      {
+        "database": "EMBL",
+        "id": "X07884"
+      },
+      {
+        "database": "EMBL",
+        "id": "X00820"
+      },
+      {
+        "database": "EMBL",
+        "id": "J02829"
+      },
+      {
+        "database": "EMBL",
+        "id": "M10627"
+      },
+      {
+        "database": "EMBL",
+        "id": "J03559"
+      },
+      {
+        "database": "EMBL",
+        "id": "K01228"
+      },
+      {
+        "database": "EMBL",
+        "id": "J00110"
+      },
+      {
+        "database": "EMBL",
+        "id": "J00111"
+      },
+      {
+        "database": "EMBL",
+        "id": "J00112"
+      },
+      {
+        "database": "EMBL",
+        "id": "J00113"
+      },
+      {
+        "database": "EMBL",
+        "id": "K03179"
+      },
+      {
+        "database": "EMBL",
+        "id": "M11162"
+      },
+      {
+        "database": "EMBL",
+        "id": "L47667"
+      },
+      {
+        "database": "EMBL",
+        "id": "S64596"
+      },
+      {
+        "database": "EMBL",
+        "id": "M23213"
+      },
+      {
+        "database": "EMBL",
+        "id": "X06269"
+      },
+      {
+        "database": "EMBL",
+        "id": "M32798"
+      },
+      {
+        "database": "EMBL",
+        "id": "M55998"
+      },
+      {
+        "database": "CCDS",
+        "id": "CCDS11561.1"
+      },
+      {
+        "database": "PIR",
+        "id": "I60114"
+      },
+      {
+        "database": "RefSeq",
+        "id": "NP_000079.2"
+      },
+      {
+        "database": "PDB",
+        "id": "1Q7D"
+      },
+      {
+        "database": "PDB",
+        "id": "2LLP"
+      },
+      {
+        "database": "PDB",
+        "id": "3EJH"
+      },
+      {
+        "database": "PDB",
+        "id": "3GXE"
+      },
+      {
+        "database": "PDB",
+        "id": "5CTD"
+      },
+      {
+        "database": "PDB",
+        "id": "5CTI"
+      },
+      {
+        "database": "PDB",
+        "id": "5CVA"
+      },
+      {
+        "database": "PDB",
+        "id": "5CVB"
+      },
+      {
+        "database": "PDB",
+        "id": "5K31"
+      },
+      {
+        "database": "PDB",
+        "id": "5OU8"
+      },
+      {
+        "database": "PDB",
+        "id": "5OU9"
+      },
+      {
+        "database": "PDB",
+        "id": "7E7B"
+      },
+      {
+        "database": "PDB",
+        "id": "7E7D"
+      },
+      {
+        "database": "PDB",
+        "id": "8YV3"
+      },
+      {
+        "database": "PDBsum",
+        "id": "1Q7D"
+      },
+      {
+        "database": "PDBsum",
+        "id": "2LLP"
+      },
+      {
+        "database": "PDBsum",
+        "id": "3EJH"
+      },
+      {
+        "database": "PDBsum",
+        "id": "3GXE"
+      },
+      {
+        "database": "PDBsum",
+        "id": "5CTD"
+      },
+      {
+        "database": "PDBsum",
+        "id": "5CTI"
+      },
+      {
+        "database": "PDBsum",
+        "id": "5CVA"
+      },
+      {
+        "database": "PDBsum",
+        "id": "5CVB"
+      },
+      {
+        "database": "PDBsum",
+        "id": "5K31"
+      },
+      {
+        "database": "PDBsum",
+        "id": "5OU8"
+      },
+      {
+        "database": "PDBsum",
+        "id": "5OU9"
+      },
+      {
+        "database": "PDBsum",
+        "id": "7E7B"
+      },
+      {
+        "database": "PDBsum",
+        "id": "7E7D"
+      },
+      {
+        "database": "PDBsum",
+        "id": "8YV3"
+      },
+      {
+        "database": "AlphaFoldDB",
+        "id": "P02452"
+      },
+      {
+        "database": "EMDB",
+        "id": "EMD-30998"
+      },
+      {
+        "database": "EMDB",
+        "id": "EMD-30999"
+      },
+      {
+        "database": "SMR",
+        "id": "P02452"
+      },
+      {
+        "database": "BioGRID",
+        "id": "107674"
+      },
+      {
+        "database": "ComplexPortal",
+        "id": "CPX-1650"
+      },
+      {
+        "database": "ComplexPortal",
+        "id": "CPX-4108"
+      },
+      {
+        "database": "CORUM",
+        "id": "P02452"
+      },
+      {
+        "database": "DIP",
+        "id": "DIP-36077N"
+      },
+      {
+        "database": "FunCoup",
+        "id": "P02452"
+      },
+      {
+        "database": "IntAct",
+        "id": "P02452"
+      },
+      {
+        "database": "MINT",
+        "id": "P02452"
+      },
+      {
+        "database": "STRING",
+        "id": "9606.ENSP00000225964"
+      },
+      {
+        "database": "BindingDB",
+        "id": "P02452"
+      },
+      {
+        "database": "ChEMBL",
+        "id": "CHEMBL3030"
+      },
+      {
+        "database": "DrugBank",
+        "id": "DB11338"
+      },
+      {
+        "database": "DrugBank",
+        "id": "DB00048"
+      },
+      {
+        "database": "DrugBank",
+        "id": "DB04866"
+      },
+      {
+        "database": "DrugBank",
+        "id": "DB06037"
+      },
+      {
+        "database": "DrugBank",
+        "id": "DB13133"
+      },
+      {
+        "database": "DrugBank",
+        "id": "DB12872"
+      },
+      {
+        "database": "GlyConnect",
+        "id": "1125"
+      },
+      {
+        "database": "GlyCosmos",
+        "id": "P02452"
+      },
+      {
+        "database": "GlyGen",
+        "id": "P02452"
+      },
+      {
+        "database": "iPTMnet",
+        "id": "P02452"
+      },
+      {
+        "database": "MetOSite",
+        "id": "P02452"
+      },
+      {
+        "database": "PhosphoSitePlus",
+        "id": "P02452"
+      },
+      {
+        "database": "BioMuta",
+        "id": "COL1A1"
+      },
+      {
+        "database": "DMDM",
+        "id": "296439504"
+      },
+      {
+        "database": "jPOST",
+        "id": "P02452"
+      },
+      {
+        "database": "MassIVE",
+        "id": "P02452"
+      },
+      {
+        "database": "PaxDb",
+        "id": "9606-ENSP00000225964"
+      },
+      {
+        "database": "PeptideAtlas",
+        "id": "P02452"
+      },
+      {
+        "database": "PRIDE",
+        "id": "P02452"
+      },
+      {
+        "database": "ProteomicsDB",
+        "id": "51518"
+      },
+      {
+        "database": "Pumba",
+        "id": "P02452"
+      },
+      {
+        "database": "ABCD",
+        "id": "P02452"
+      },
+      {
+        "database": "Antibodypedia",
+        "id": "1980"
+      },
+      {
+        "database": "DNASU",
+        "id": "1277"
+      },
+      {
+        "database": "Ensembl",
+        "id": "ENST00000225964.10"
+      },
+      {
+        "database": "GeneID",
+        "id": "1277"
+      },
+      {
+        "database": "KEGG",
+        "id": "hsa:1277"
+      },
+      {
+        "database": "MANE-Select",
+        "id": "ENST00000225964.10"
+      },
+      {
+        "database": "UCSC",
+        "id": "uc002iqm.4"
+      },
+      {
+        "database": "AGR",
+        "id": "HGNC:2197"
+      },
+      {
+        "database": "ClinPGx",
+        "id": "PA35041"
+      },
+      {
+        "database": "CTD",
+        "id": "1277"
+      },
+      {
+        "database": "DisGeNET",
+        "id": "1277"
+      },
+      {
+        "database": "GeneCards",
+        "id": "COL1A1"
+      },
+      {
+        "database": "GeneReviews",
+        "id": "COL1A1"
+      },
+      {
+        "database": "HGNC",
+        "id": "HGNC:2197"
+      },
+      {
+        "database": "HPA",
+        "id": "ENSG00000108821"
+      },
+      {
+        "database": "MalaCards",
+        "id": "COL1A1"
+      },
+      {
+        "database": "MIM",
+        "id": "114000"
+      },
+      {
+        "database": "MIM",
+        "id": "120150"
+      },
+      {
+        "database": "MIM",
+        "id": "130000"
+      },
+      {
+        "database": "MIM",
+        "id": "130060"
+      },
+      {
+        "database": "MIM",
+        "id": "166200"
+      },
+      {
+        "database": "MIM",
+        "id": "166210"
+      },
+      {
+        "database": "MIM",
+        "id": "166220"
+      },
+      {
+        "database": "MIM",
+        "id": "166710"
+      },
+      {
+        "database": "MIM",
+        "id": "259420"
+      },
+      {
+        "database": "MIM",
+        "id": "607907"
+      },
+      {
+        "database": "MIM",
+        "id": "619115"
+      },
+      {
+        "database": "OpenTargets",
+        "id": "ENSG00000108821"
+      },
+      {
+        "database": "Orphanet",
+        "id": "1899"
+      },
+      {
+        "database": "Orphanet",
+        "id": "1310"
+      },
+      {
+        "database": "Orphanet",
+        "id": "287"
+      },
+      {
+        "database": "Orphanet",
+        "id": "31112"
+      },
+      {
+        "database": "Orphanet",
+        "id": "230857"
+      },
+      {
+        "database": "Orphanet",
+        "id": "314029"
+      },
+      {
+        "database": "Orphanet",
+        "id": "216796"
+      },
+      {
+        "database": "Orphanet",
+        "id": "216804"
+      },
+      {
+        "database": "Orphanet",
+        "id": "216812"
+      },
+      {
+        "database": "Orphanet",
+        "id": "216820"
+      },
+      {
+        "database": "VEuPathDB",
+        "id": "HostDB:ENSG00000108821"
+      },
+      {
+        "database": "eggNOG",
+        "id": "KOG3544"
+      },
+      {
+        "database": "GeneTree",
+        "id": "ENSGT00940000156584"
+      },
+      {
+        "database": "HOGENOM",
+        "id": "CLU_001074_2_3_1"
+      },
+      {
+        "database": "InParanoid",
+        "id": "P02452"
+      },
+      {
+        "database": "OMA",
+        "id": "YYDRDVW"
+      },
+      {
+        "database": "OrthoDB",
+        "id": "8939548at2759"
+      },
+      {
+        "database": "PAN-GO",
+        "id": "P02452"
+      },
+      {
+        "database": "PhylomeDB",
+        "id": "P02452"
+      },
+      {
+        "database": "PathwayCommons",
+        "id": "P02452"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-114604"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-1442490"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-1566977"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-1650814"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-198933"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-2022090"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-202733"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-216083"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-2214320"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-2243919"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-3000170"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-3000171"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-3000178"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-3000480"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-430116"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-75892"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-76009"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-8874081"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-8940973"
+      },
+      {
+        "database": "Reactome",
+        "id": "R-HSA-8948216"
+      }
+    ]
+  },
+  "structures": {
+    "experimental": [
+      {
+        "pdbId": "1CAG",
+        "title": "CRYSTAL AND MOLECULAR STRUCTURE OF A COLLAGEN-LIKE PEPTIDE AT 1.9 ANGSTROM RESOLUTION",
+        "experimentalMethod": "X-RAY DIFFRACTION",
+        "resolution": 1.85,
+        "chains": [],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "CRYSTAL AND MOLECULAR STRUCTURE OF A COLLAGEN-LIKE PEPTIDE AT 1.9 ANGSTROM RESOLUTION",
+            "chains": [],
+            "relatedUniProtIds": [
+              "P02452"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P02452"
+        ],
+        "releaseDate": "1994-11-01T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/1CAG",
+          "accessedAt": "2026-05-29T06:44:40.375Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "3HQV",
+        "title": "Low resolution, molecular envelope structure of type I collagen in situ determined by fiber diffraction. Single type I collagen molecule, rigid body refinement",
+        "experimentalMethod": "FIBER DIFFRACTION",
+        "resolution": 5.16,
+        "chains": [],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "Low resolution, molecular envelope structure of type I collagen in situ determined by fiber diffraction. Single type I collagen molecule, rigid body refinement",
+            "chains": [],
+            "relatedUniProtIds": [
+              "P02452"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P02452"
+        ],
+        "releaseDate": "2009-07-14T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/3HQV",
+          "accessedAt": "2026-05-29T06:44:40.694Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "5CTI",
+        "title": "Crystal structure of the type IX collagen NC2 hetero-trimerization domain with a guest fragment a2a1a1 of type I collagen (native form)",
+        "experimentalMethod": "X-RAY DIFFRACTION",
+        "resolution": 1.8994,
+        "chains": [],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "Crystal structure of the type IX collagen NC2 hetero-trimerization domain with a guest fragment a2a1a1 of type I collagen (native form)",
+            "chains": [],
+            "relatedUniProtIds": [
+              "P02452"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P02452"
+        ],
+        "releaseDate": "2016-08-03T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/5CTI",
+          "accessedAt": "2026-05-29T06:44:41.019Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "1Q7D",
+        "title": "Structure of the integrin alpha2beta1 binding collagen peptide",
+        "experimentalMethod": "X-ray",
+        "resolution": 1.8,
+        "chains": [
+          "A",
+          "B",
+          "C",
+          "680",
+          "685"
+        ],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "Structure of the integrin alpha2beta1 binding collagen peptide",
+            "chains": [
+              "A",
+              "B",
+              "C",
+              "680",
+              "685"
+            ],
+            "relatedUniProtIds": [
+              "P02452"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P02452"
+        ],
+        "releaseDate": "2004-01-13T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/1Q7D",
+          "accessedAt": "2026-05-29T06:44:41.336Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "2LLP",
+        "title": "Solution structure of a THP type 1 alpha 1 collagen fragment (772-786)",
+        "experimentalMethod": "NMR",
+        "resolution": null,
+        "chains": [
+          "A",
+          "B",
+          "C",
+          "949",
+          "965"
+        ],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "Solution structure of a THP type 1 alpha 1 collagen fragment (772-786)",
+            "chains": [
+              "A",
+              "B",
+              "C",
+              "949",
+              "965"
+            ],
+            "relatedUniProtIds": [
+              "P02452"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P02452"
+        ],
+        "releaseDate": "2012-05-30T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/2LLP",
+          "accessedAt": "2026-05-29T06:44:41.654Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "3EJH",
+        "title": "Crystal Structure of the Fibronectin 8-9FnI Domain Pair in Complex with a Type-I Collagen Peptide",
+        "experimentalMethod": "X-ray",
+        "resolution": 2.1,
+        "chains": [
+          "E",
+          "F",
+          "956",
+          "977"
+        ],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "Crystal Structure of the Fibronectin 8-9FnI Domain Pair in Complex with a Type-I Collagen Peptide",
+            "chains": [
+              "E",
+              "F",
+              "956",
+              "977"
+            ],
+            "relatedUniProtIds": [
+              "P02452"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P02452"
+        ],
+        "releaseDate": "2009-02-03T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/3EJH",
+          "accessedAt": "2026-05-29T06:44:41.954Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "3GXE",
+        "title": "Complex of a Low Affinity Collagen Site with the Fibronectin 8-9FnI Domain Pair",
+        "experimentalMethod": "X-ray",
+        "resolution": 2.6,
+        "chains": [
+          "E",
+          "F",
+          "254",
+          "275"
+        ],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "Complex of a Low Affinity Collagen Site with the Fibronectin 8-9FnI Domain Pair",
+            "chains": [
+              "E",
+              "F",
+              "254",
+              "275"
+            ],
+            "relatedUniProtIds": [
+              "P02452"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P02452"
+        ],
+        "releaseDate": "2010-04-07T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/3GXE",
+          "accessedAt": "2026-05-29T06:44:42.252Z",
+          "sourceType": "RCSB PDB"
+        }
+      },
+      {
+        "pdbId": "5CTD",
+        "title": "Crystal structure of the type IX collagen NC2 hetero-trimerization domain with a guest fragment a2a1a1 of type I collagen",
+        "experimentalMethod": "X-ray",
+        "resolution": 1.6,
+        "chains": [
+          "A",
+          "572",
+          "583",
+          "C",
+          "554",
+          "583"
+        ],
+        "polymerEntities": [
+          {
+            "entityId": "from-uniprot-cross-reference",
+            "description": "Crystal structure of the type IX collagen NC2 hetero-trimerization domain with a guest fragment a2a1a1 of type I collagen",
+            "chains": [
+              "A",
+              "572",
+              "583",
+              "C",
+              "554",
+              "583"
+            ],
+            "relatedUniProtIds": [
+              "P02452"
+            ]
+          }
+        ],
+        "ligands": [],
+        "relatedUniProtIds": [
+          "P02452"
+        ],
+        "releaseDate": "2016-08-03T00:00:00.000+00:00",
+        "source": {
+          "name": "RCSB PDB Data API",
+          "url": "https://data.rcsb.org/rest/v1/core/entry/5CTD",
+          "accessedAt": "2026-05-29T06:44:42.539Z",
+          "sourceType": "RCSB PDB"
+        }
+      }
+    ],
+    "predicted": [
+      {
+        "provider": "AlphaFold DB",
+        "modelId": "AF-P02452-F1",
+        "modelUrl": "https://alphafold.ebi.ac.uk/files/AF-P02452-F1-model_v6.bcif",
+        "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-P02452-F1-model_v6.cif",
+        "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P02452-F1-model_v6.pdb",
+        "bcifUrl": "https://alphafold.ebi.ac.uk/files/AF-P02452-F1-model_v6.bcif",
+        "paeUrl": "https://alphafold.ebi.ac.uk/files/AF-P02452-F1-predicted_aligned_error_v6.json",
+        "plddtUrl": "https://alphafold.ebi.ac.uk/files/AF-P02452-F1-confidence_v6.json",
+        "meanPlddt": 52.72,
+        "source": {
+          "name": "AlphaFold DB API",
+          "url": "https://alphafold.ebi.ac.uk/api/prediction/P02452",
+          "accessedAt": "2026-05-29T06:44:42.573Z",
+          "sourceType": "AlphaFold DB",
+          "version": "v6"
+        }
+      }
+    ]
+  },
+  "domains": [
+    {
+      "id": "IPR000885",
+      "name": "Fibrillar collagen, C-terminal",
+      "sourceDatabase": "profile",
+      "type": "domain",
+      "start": 1228,
+      "end": 1464,
+      "description": "Fibrillar collagen, C-terminal",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR000885/"
+    },
+    {
+      "id": "IPR001007",
+      "name": "VWFC domain",
+      "sourceDatabase": "prosite",
+      "type": "domain",
+      "start": 38,
+      "end": 96,
+      "description": "VWFC domain",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR001007/"
+    },
+    {
+      "id": "IPR008160",
+      "name": "Collagen triple helix repeat",
+      "sourceDatabase": "Pfam",
+      "type": "repeat",
+      "start": 109,
+      "end": 158,
+      "description": "Collagen triple helix repeat",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR008160/"
+    },
+    {
+      "id": "IPR008160",
+      "name": "Collagen triple helix repeat",
+      "sourceDatabase": "Pfam",
+      "type": "repeat",
+      "start": 236,
+      "end": 295,
+      "description": "Collagen triple helix repeat",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR008160/"
+    },
+    {
+      "id": "IPR008160",
+      "name": "Collagen triple helix repeat",
+      "sourceDatabase": "Pfam",
+      "type": "repeat",
+      "start": 296,
+      "end": 354,
+      "description": "Collagen triple helix repeat",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR008160/"
+    },
+    {
+      "id": "IPR008160",
+      "name": "Collagen triple helix repeat",
+      "sourceDatabase": "Pfam",
+      "type": "repeat",
+      "start": 356,
+      "end": 414,
+      "description": "Collagen triple helix repeat",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR008160/"
+    },
+    {
+      "id": "IPR008160",
+      "name": "Collagen triple helix repeat",
+      "sourceDatabase": "Pfam",
+      "type": "repeat",
+      "start": 416,
+      "end": 475,
+      "description": "Collagen triple helix repeat",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR008160/"
+    },
+    {
+      "id": "IPR008160",
+      "name": "Collagen triple helix repeat",
+      "sourceDatabase": "Pfam",
+      "type": "repeat",
+      "start": 476,
+      "end": 533,
+      "description": "Collagen triple helix repeat",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR008160/"
+    },
+    {
+      "id": "IPR008160",
+      "name": "Collagen triple helix repeat",
+      "sourceDatabase": "Pfam",
+      "type": "repeat",
+      "start": 716,
+      "end": 774,
+      "description": "Collagen triple helix repeat",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR008160/"
+    },
+    {
+      "id": "IPR008160",
+      "name": "Collagen triple helix repeat",
+      "sourceDatabase": "Pfam",
+      "type": "repeat",
+      "start": 779,
+      "end": 837,
+      "description": "Collagen triple helix repeat",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR008160/"
+    },
+    {
+      "id": "IPR008160",
+      "name": "Collagen triple helix repeat",
+      "sourceDatabase": "Pfam",
+      "type": "repeat",
+      "start": 839,
+      "end": 897,
+      "description": "Collagen triple helix repeat",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR008160/"
+    },
+    {
+      "id": "IPR008160",
+      "name": "Collagen triple helix repeat",
+      "sourceDatabase": "Pfam",
+      "type": "repeat",
+      "start": 1079,
+      "end": 1137,
+      "description": "Collagen triple helix repeat",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR008160/"
+    },
+    {
+      "id": "IPR050149",
+      "name": "Collagen superfamily",
+      "sourceDatabase": "panther",
+      "type": "family",
+      "start": 434,
+      "end": 752,
+      "description": "Collagen superfamily",
+      "evidence": "InterPro protein match",
+      "confidence": "source annotation",
+      "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR050149/"
+    },
+    {
+      "id": "uniprot-domain-1",
+      "name": "Collagen triple helix",
+      "sourceDatabase": "UniProt",
+      "type": "repeat",
+      "start": 162,
+      "end": 1218,
+      "description": "Collagen triple helix",
+      "evidence": "UniProt/starter annotation",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-1",
+      "name": "Disordered",
+      "sourceDatabase": "UniProt",
+      "type": "motif",
+      "start": 98,
+      "end": 1214,
+      "description": "Disordered",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-2",
+      "name": "Nonhelical region (N-terminal)",
+      "sourceDatabase": "UniProt",
+      "type": "motif",
+      "start": 162,
+      "end": 178,
+      "description": "Nonhelical region (N-terminal)",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-3",
+      "name": "Triple-helical region",
+      "sourceDatabase": "UniProt",
+      "type": "motif",
+      "start": 179,
+      "end": 1192,
+      "description": "Triple-helical region",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-4",
+      "name": "Nonhelical region (C-terminal)",
+      "sourceDatabase": "UniProt",
+      "type": "motif",
+      "start": 1193,
+      "end": 1218,
+      "description": "Nonhelical region (C-terminal)",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-5",
+      "name": "Cell attachment site",
+      "sourceDatabase": "UniProt",
+      "type": "motif",
+      "start": 745,
+      "end": 747,
+      "description": "Cell attachment site",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-6",
+      "name": "Cell attachment site",
+      "sourceDatabase": "UniProt",
+      "type": "motif",
+      "start": 1093,
+      "end": 1095,
+      "description": "Cell attachment site",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-7",
+      "name": "Binding site",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 1277,
+      "end": 1277,
+      "description": "Binding site",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-8",
+      "name": "Binding site",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 1279,
+      "end": 1279,
+      "description": "Binding site",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-9",
+      "name": "Binding site",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 1280,
+      "end": 1280,
+      "description": "Binding site",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-10",
+      "name": "Binding site",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 1282,
+      "end": 1282,
+      "description": "Binding site",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-11",
+      "name": "Binding site",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 1285,
+      "end": 1285,
+      "description": "Binding site",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-12",
+      "name": "Cleavage; by procollagen N-endopeptidase",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 161,
+      "end": 162,
+      "description": "Cleavage; by procollagen N-endopeptidase",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-13",
+      "name": "Cleavage; by collagenase",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 953,
+      "end": 954,
+      "description": "Cleavage; by collagenase",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    },
+    {
+      "id": "uniprot-motif-14",
+      "name": "Cleavage; by procollagen C-endopeptidase",
+      "sourceDatabase": "UniProt",
+      "type": "site",
+      "start": 1218,
+      "end": 1219,
+      "description": "Cleavage; by procollagen C-endopeptidase",
+      "evidence": "UniProt feature",
+      "sourceUrl": "https://www.uniprot.org/uniprotkb/P02452/entry"
+    }
+  ],
+  "msa": {
+    "available": false,
+    "method": "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
+    "alignedSequences": [],
+    "consensus": "",
+    "conservationScores": [],
+    "gapFrequencies": [],
+    "sourceSequenceCount": 0,
+    "source": "Curated/UniProt homologs",
+    "unavailableReason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+  },
+  "profileEvidence": [
+    {
+      "profileId": "IPR008160",
+      "profileName": "Collagen triple helix repeat",
+      "database": "Pfam",
+      "start": 109,
+      "end": 158,
+      "score": null,
+      "eValue": null,
+      "description": "Collagen triple helix repeat",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR008160",
+      "profileName": "Collagen triple helix repeat",
+      "database": "Pfam",
+      "start": 236,
+      "end": 295,
+      "score": null,
+      "eValue": null,
+      "description": "Collagen triple helix repeat",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR008160",
+      "profileName": "Collagen triple helix repeat",
+      "database": "Pfam",
+      "start": 296,
+      "end": 354,
+      "score": null,
+      "eValue": null,
+      "description": "Collagen triple helix repeat",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR008160",
+      "profileName": "Collagen triple helix repeat",
+      "database": "Pfam",
+      "start": 356,
+      "end": 414,
+      "score": null,
+      "eValue": null,
+      "description": "Collagen triple helix repeat",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR008160",
+      "profileName": "Collagen triple helix repeat",
+      "database": "Pfam",
+      "start": 416,
+      "end": 475,
+      "score": null,
+      "eValue": null,
+      "description": "Collagen triple helix repeat",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR008160",
+      "profileName": "Collagen triple helix repeat",
+      "database": "Pfam",
+      "start": 476,
+      "end": 533,
+      "score": null,
+      "eValue": null,
+      "description": "Collagen triple helix repeat",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR008160",
+      "profileName": "Collagen triple helix repeat",
+      "database": "Pfam",
+      "start": 716,
+      "end": 774,
+      "score": null,
+      "eValue": null,
+      "description": "Collagen triple helix repeat",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR008160",
+      "profileName": "Collagen triple helix repeat",
+      "database": "Pfam",
+      "start": 779,
+      "end": 837,
+      "score": null,
+      "eValue": null,
+      "description": "Collagen triple helix repeat",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR008160",
+      "profileName": "Collagen triple helix repeat",
+      "database": "Pfam",
+      "start": 839,
+      "end": 897,
+      "score": null,
+      "eValue": null,
+      "description": "Collagen triple helix repeat",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    },
+    {
+      "profileId": "IPR008160",
+      "profileName": "Collagen triple helix repeat",
+      "database": "Pfam",
+      "start": 1079,
+      "end": 1137,
+      "score": null,
+      "eValue": null,
+      "description": "Collagen triple helix repeat",
+      "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+    }
+  ],
+  "conservedResidues": [],
+  "metrics": {
+    "rmsdComparisons": [
+      {
+        "available": false,
+        "reason": "No build-time coordinate superposition job has been configured for this protein pair.",
+        "method": "Kabsch superposition",
+        "source": "computed-build-time"
+      }
+    ],
+    "tmScoreComparisons": [
+      {
+        "available": false,
+        "reason": "TM-align or Foldseek was not available during the static build.",
+        "method": "TM-align/Foldseek/build-time",
+        "source": "computed-build-time"
+      }
+    ],
+    "plddt": {
+      "available": true,
+      "mean": 52.73,
+      "median": 44.22,
+      "bins": {
+        "veryHigh_90_100": 0.15,
+        "confident_70_90": 0.045,
+        "low_50_70": 0.131,
+        "veryLow_0_50": 0.673
+      },
+      "perResidue": [
+        40.22,
+        32.91,
+        36,
+        40.19,
+        46.72,
+        51.81,
+        54.56,
+        61.28,
+        65.62,
+        62.19,
+        69.06,
+        67.88,
+        69.06,
+        63.44,
+        61.72,
+        62.94,
+        51.44,
+        49.31,
+        49.78,
+        48.59,
+        43.31,
+        32.19,
+        36.88,
+        31.47,
+        38.19,
+        34.88,
+        31.86,
+        34.97,
+        33.06,
+        31.83,
+        32.09,
+        34.06,
+        36.88,
+        43.69,
+        41.78,
+        47.22,
+        58.88,
+        64.75,
+        76.5,
+        84.81,
+        85.81,
+        80.75,
+        78.5,
+        79.62,
+        79.44,
+        88.06,
+        84.44,
+        86.31,
+        84.56,
+        84.94,
+        84.81,
+        89.56,
+        90.38,
+        86.38,
+        82.88,
+        83.56,
+        81.5,
+        85.5,
+        86.75,
+        90.44,
+        91.88,
+        93.25,
+        90.19,
+        89.88,
+        85.12,
+        81.75,
+        84.12,
+        89.25,
+        90.56,
+        89.62,
+        89.38,
+        85.19,
+        79.19,
+        76.44,
+        74.25,
+        69.31,
+        60.56,
+        64.38,
+        56.09,
+        53.44,
+        62.06,
+        58.34,
+        63.06,
+        68,
+        71,
+        76.56,
+        71.38,
+        74.12,
+        73.56,
+        80.62,
+        82.12,
+        82.06,
+        76.19,
+        76.06,
+        71.31,
+        64.5,
+        49.47,
+        44.97,
+        35.09,
+        33.5,
+        31.14,
+        31.23,
+        33.16,
+        32.06,
+        33.03,
+        34.31,
+        39.31,
+        40.09,
+        32.53,
+        35.22,
+        32.88,
+        37.66,
+        38.72,
+        37.41,
+        42.5,
+        43.56,
+        50.06,
+        51.81,
+        49.72,
+        49.38,
+        51.69,
+        51.25,
+        53.06,
+        51.28,
+        47.88,
+        55.19,
+        47.62,
+        43.72,
+        51.53,
+        48.12,
+        40.69,
+        44.12,
+        44.28,
+        45.16,
+        40.34,
+        41.09,
+        39.06,
+        42.69,
+        43.12,
+        42.09,
+        46.94,
+        48.28,
+        42.09,
+        48.81,
+        42.56,
+        41.44,
+        48.25,
+        39.22,
+        42.91,
+        43.12,
+        33.62,
+        41.66,
+        39.09,
+        33.03,
+        33.22,
+        30.56,
+        32.25,
+        29.14,
+        33.31,
+        33.44,
+        41.91,
+        34.97,
+        36.06,
+        33.19,
+        34.81,
+        31.88,
+        34.19,
+        37.59,
+        34.12,
+        31.72,
+        31.58,
+        32.22,
+        30.64,
+        34.75,
+        35.78,
+        35.19,
+        36.03,
+        39.81,
+        41.12,
+        49.16,
+        37.91,
+        41.19,
+        49.28,
+        42.06,
+        47.44,
+        46,
+        47.47,
+        45.66,
+        50.28,
+        57.72,
+        56.81,
+        58.91,
+        63,
+        53.53,
+        52.53,
+        58.47,
+        55.88,
+        56.72,
+        45.34,
+        40.66,
+        42.62,
+        40.59,
+        53.88,
+        54.84,
+        53.66,
+        41,
+        47.84,
+        50.59,
+        38.03,
+        45.56,
+        47.59,
+        36.78,
+        43.34,
+        48.44,
+        53.66,
+        51.22,
+        46,
+        59.06,
+        51.09,
+        46.97,
+        62.5,
+        53.66,
+        54.62,
+        59.31,
+        57.41,
+        55.66,
+        44.78,
+        50.38,
+        46.31,
+        43.66,
+        47.72,
+        50,
+        45.06,
+        48.78,
+        44.91,
+        43.47,
+        47.16,
+        49.22,
+        42.91,
+        47.97,
+        50.22,
+        42.53,
+        45.31,
+        47.47,
+        57.81,
+        54.44,
+        62.12,
+        46.56,
+        55.5,
+        51.38,
+        45.34,
+        36.84,
+        42.81,
+        42.47,
+        42.88,
+        43.16,
+        41.22,
+        40.31,
+        48.16,
+        38.91,
+        44.47,
+        51.81,
+        37.19,
+        36.47,
+        42.75,
+        42.25,
+        39.59,
+        38.62,
+        35.88,
+        33.94,
+        41.59,
+        35.16,
+        37.97,
+        40.72,
+        40.5,
+        47.66,
+        41.31,
+        39.81,
+        42.75,
+        46.5,
+        44.91,
+        51.47,
+        49.78,
+        51.69,
+        50.53,
+        44.62,
+        47.91,
+        41.28,
+        47.47,
+        44.78,
+        43.06,
+        42.78,
+        47.69,
+        42.25,
+        33.62,
+        42.88,
+        41.28,
+        44.31,
+        43.72,
+        40.75,
+        35.12,
+        39.28,
+        41.34,
+        42.19,
+        41.12,
+        36.34,
+        44.06,
+        40.59,
+        36.5,
+        35.78,
+        39.47,
+        36.84,
+        41.66,
+        33.41,
+        36.41,
+        44.75,
+        37,
+        46.62,
+        38.97,
+        36.16,
+        37.31,
+        36.66,
+        40.19,
+        33.25,
+        37.25,
+        41.06,
+        36.91,
+        45.75,
+        37.19,
+        37,
+        48.16,
+        46.97,
+        53.59,
+        59.22,
+        48.62,
+        50.12,
+        56.53,
+        54.31,
+        51.91,
+        50.94,
+        50.25,
+        53.31,
+        56.53,
+        42.84,
+        36.03,
+        55.75,
+        42.28,
+        34.66,
+        40.44,
+        41.25,
+        36.28,
+        43.78,
+        41.59,
+        43.31,
+        41.03,
+        42.34,
+        48.66,
+        41.31,
+        42.84,
+        49.44,
+        39.28,
+        41.69,
+        40.06,
+        39.84,
+        42.53,
+        43.66,
+        44.72,
+        50,
+        45.88,
+        56.56,
+        53,
+        48.72,
+        46.03,
+        43.41,
+        48.16,
+        41.44,
+        34.22,
+        30.92,
+        37.5,
+        35.16,
+        38.03,
+        39.97,
+        48.22,
+        45.59,
+        49.91,
+        44.06,
+        38.88,
+        44.5,
+        39.97,
+        44.38,
+        38.69,
+        39.78,
+        37.56,
+        53.31,
+        43.41,
+        39.56,
+        38.97,
+        41.16,
+        36.28,
+        43.28,
+        40.25,
+        35.91,
+        47,
+        38.28,
+        36.06,
+        43.69,
+        36.91,
+        38.66,
+        50.66,
+        44.59,
+        37.72,
+        56.31,
+        42.31,
+        33.91,
+        51.56,
+        41.88,
+        36.56,
+        43.03,
+        42.28,
+        50.16,
+        35.75,
+        42.41,
+        42.53,
+        35.44,
+        37,
+        46.19,
+        44.66,
+        44.5,
+        45.88,
+        43.47,
+        45.53,
+        41.34,
+        44.34,
+        45.44,
+        38.19,
+        50.81,
+        44.78,
+        38.44,
+        51.84,
+        43.22,
+        42.47,
+        46,
+        46.69,
+        39.84,
+        42.53,
+        39.81,
+        37.44,
+        34.5,
+        41.22,
+        35,
+        45.16,
+        46.44,
+        39.41,
+        41.22,
+        40.72,
+        37.09,
+        34.16,
+        42.16,
+        41.88,
+        46.78,
+        33.16,
+        37.03,
+        34.44,
+        36,
+        30.45,
+        31.2,
+        37.94,
+        27.84,
+        29.06,
+        30.64,
+        30.38,
+        33.88,
+        34.62,
+        30.72,
+        41.97,
+        36.84,
+        42.12,
+        34.31,
+        34.38,
+        40.19,
+        39.22,
+        42.94,
+        48.62,
+        48.38,
+        42.06,
+        36.25,
+        37.06,
+        36.34,
+        45.62,
+        49.19,
+        40,
+        33.75,
+        37.22,
+        37.72,
+        31.09,
+        45.34,
+        35.72,
+        32.19,
+        32.66,
+        34.75,
+        38.47,
+        39,
+        48.34,
+        46.28,
+        37.94,
+        42.34,
+        44.91,
+        37.88,
+        37.72,
+        36.66,
+        35.41,
+        38.09,
+        34.56,
+        44.91,
+        38,
+        41.97,
+        36.44,
+        47.16,
+        43.75,
+        37.03,
+        36.5,
+        46.12,
+        46.97,
+        40.28,
+        34.28,
+        37.59,
+        39.97,
+        43.78,
+        46.47,
+        40,
+        39.62,
+        38.84,
+        38.16,
+        36.44,
+        49.88,
+        40.38,
+        41.5,
+        40.31,
+        40.12,
+        39.22,
+        45.66,
+        42.69,
+        44.34,
+        54.66,
+        45.25,
+        41.5,
+        59.75,
+        52.44,
+        47.91,
+        51.97,
+        51.25,
+        36.66,
+        58.75,
+        46.53,
+        47.88,
+        49.75,
+        37.53,
+        46.81,
+        38.06,
+        46.88,
+        36.81,
+        41.84,
+        43.41,
+        43.16,
+        53.12,
+        47.34,
+        53.56,
+        53.22,
+        47.84,
+        41.5,
+        44.47,
+        37.66,
+        34.66,
+        36.31,
+        42.03,
+        35.31,
+        36.38,
+        37.34,
+        31.38,
+        32.34,
+        35.25,
+        47.62,
+        46.69,
+        40.88,
+        48.03,
+        38.88,
+        39.41,
+        39.09,
+        40.31,
+        33.59,
+        39.66,
+        48.34,
+        33.81,
+        34.56,
+        43.38,
+        35.88,
+        34.34,
+        36.19,
+        40.19,
+        37.06,
+        41.88,
+        36.22,
+        43.88,
+        43.47,
+        34.44,
+        33.12,
+        36.38,
+        35.69,
+        44.81,
+        46.19,
+        37.94,
+        32.62,
+        35.69,
+        40.88,
+        32.09,
+        36.06,
+        36.16,
+        43.56,
+        41.72,
+        42.44,
+        50.69,
+        55.91,
+        46.44,
+        49.78,
+        43.03,
+        51.5,
+        56.03,
+        44.25,
+        48.38,
+        32.38,
+        39.84,
+        38.75,
+        38.12,
+        40.75,
+        41.78,
+        40.25,
+        43.75,
+        41.5,
+        36.69,
+        44.97,
+        40.41,
+        36.06,
+        42.94,
+        41.06,
+        36.56,
+        46.97,
+        44.22,
+        51.91,
+        53.19,
+        51.88,
+        58.62,
+        56.53,
+        48.94,
+        42.84,
+        45.59,
+        43.12,
+        43.34,
+        46.72,
+        38.91,
+        37.56,
+        42.38,
+        42.34,
+        41.12,
+        48.31,
+        47.53,
+        35.19,
+        41.12,
+        40.06,
+        42.28,
+        49.88,
+        50.91,
+        52.88,
+        39.56,
+        35,
+        36.78,
+        39.31,
+        42.34,
+        31.16,
+        32.09,
+        33.38,
+        32.34,
+        46.22,
+        34,
+        35.34,
+        36.91,
+        36.41,
+        29.89,
+        33.34,
+        39.94,
+        37.19,
+        37.97,
+        48.53,
+        41.41,
+        36.28,
+        43.34,
+        42.94,
+        36.41,
+        42.62,
+        32.31,
+        36.19,
+        39.53,
+        40.19,
+        46.28,
+        41.22,
+        36.31,
+        36.97,
+        40.41,
+        30.06,
+        34.28,
+        42.28,
+        28.48,
+        32.09,
+        38.22,
+        35.66,
+        39.44,
+        38.81,
+        41.25,
+        40.88,
+        36.06,
+        36.94,
+        33.16,
+        37.03,
+        38.75,
+        47.56,
+        41.78,
+        34.91,
+        36.81,
+        38.19,
+        31.33,
+        45.53,
+        35.97,
+        31.83,
+        30.5,
+        40.59,
+        29.25,
+        33.09,
+        31.98,
+        29.89,
+        41.75,
+        47.47,
+        43.25,
+        42.16,
+        41.09,
+        38.94,
+        38.62,
+        38.94,
+        31.95,
+        36.97,
+        42.28,
+        39,
+        37.09,
+        41.62,
+        33.31,
+        32.5,
+        35.12,
+        44.81,
+        48,
+        41.28,
+        35.28,
+        39.84,
+        43.19,
+        39.34,
+        40.28,
+        38.78,
+        34.25,
+        36.56,
+        41.56,
+        38.16,
+        40.22,
+        44.91,
+        43.84,
+        43.66,
+        46.16,
+        44.81,
+        38.47,
+        44.19,
+        42,
+        44.94,
+        43.81,
+        33.31,
+        41.47,
+        42.12,
+        34.69,
+        43.19,
+        44.59,
+        37.66,
+        40.06,
+        43.31,
+        39.47,
+        37.75,
+        39.12,
+        38.59,
+        38.19,
+        37.69,
+        35.31,
+        37.66,
+        36.28,
+        34.56,
+        51.59,
+        40.59,
+        34.59,
+        40.44,
+        37.69,
+        35.94,
+        41.31,
+        36.59,
+        43.22,
+        40.78,
+        46.47,
+        35,
+        42.31,
+        43.44,
+        32.06,
+        45.16,
+        45.59,
+        38.59,
+        45.09,
+        46.84,
+        33.62,
+        37.44,
+        46.44,
+        37.22,
+        41.31,
+        43.16,
+        35.28,
+        36.47,
+        43.59,
+        36.31,
+        41.53,
+        51.38,
+        33.22,
+        41.88,
+        40.81,
+        36.56,
+        41.25,
+        44.12,
+        36.84,
+        40.62,
+        43.66,
+        40.91,
+        52.72,
+        41.53,
+        39.97,
+        39.75,
+        43.69,
+        37.72,
+        42.84,
+        45.31,
+        45.09,
+        48.06,
+        48.22,
+        43.22,
+        41.38,
+        40.62,
+        38.19,
+        36.09,
+        39.84,
+        40.25,
+        49.59,
+        38.28,
+        35.69,
+        40.59,
+        40.5,
+        36.03,
+        41.34,
+        40.25,
+        40.44,
+        41.97,
+        46.94,
+        44.94,
+        55.59,
+        35.53,
+        32.66,
+        37.91,
+        33.06,
+        32.41,
+        47.97,
+        36.38,
+        33.38,
+        37.28,
+        42.75,
+        34.47,
+        43.81,
+        47.44,
+        40.78,
+        52.31,
+        45.34,
+        41.47,
+        47.38,
+        45.94,
+        35.22,
+        43.06,
+        46.69,
+        42.47,
+        50.38,
+        50.75,
+        41.09,
+        50.81,
+        53.31,
+        39.38,
+        45.38,
+        47.78,
+        32.97,
+        37.59,
+        43.66,
+        44.28,
+        41.72,
+        44.97,
+        44.22,
+        39.12,
+        39.81,
+        39.38,
+        37.81,
+        46,
+        44.38,
+        40.66,
+        37.16,
+        43.09,
+        44.22,
+        37.38,
+        41.25,
+        40.94,
+        39.88,
+        47.81,
+        53.06,
+        47.41,
+        52.59,
+        51.28,
+        46.25,
+        54.44,
+        50.44,
+        44.38,
+        45.81,
+        40.06,
+        40.69,
+        41.62,
+        48.19,
+        42.84,
+        41.09,
+        47.53,
+        49.84,
+        45.56,
+        47.62,
+        48.44,
+        43.66,
+        45.59,
+        43.94,
+        38.22,
+        42.59,
+        37.72,
+        35.44,
+        38,
+        35.62,
+        32.94,
+        33.88,
+        39.19,
+        31.97,
+        38.31,
+        39.25,
+        36.09,
+        38.44,
+        40.47,
+        32.12,
+        41.88,
+        38.38,
+        34.81,
+        41.94,
+        45.09,
+        45.09,
+        37.31,
+        39.44,
+        30.97,
+        38.28,
+        32.03,
+        31.19,
+        42.66,
+        53,
+        36.31,
+        41.38,
+        46.53,
+        37.78,
+        47.81,
+        36.28,
+        30.92,
+        37.28,
+        44.62,
+        38.09,
+        37.53,
+        38.47,
+        37.78,
+        39.12,
+        38.22,
+        40.28,
+        36.88,
+        46.62,
+        43.59,
+        52.62,
+        45.28,
+        42.41,
+        48.09,
+        49.97,
+        47.97,
+        49.12,
+        46.94,
+        39.28,
+        40.31,
+        49.09,
+        47.69,
+        44.34,
+        42.5,
+        36.75,
+        39.16,
+        39.06,
+        38.53,
+        39.75,
+        40.34,
+        34.94,
+        49.16,
+        44.47,
+        32.66,
+        37.31,
+        41.94,
+        33,
+        47.16,
+        46.5,
+        34.5,
+        34.03,
+        38.41,
+        36.19,
+        46.25,
+        35.78,
+        35.16,
+        40.28,
+        43.53,
+        37.03,
+        38.25,
+        43.91,
+        37.84,
+        36.91,
+        41.53,
+        48.69,
+        43.53,
+        46.47,
+        47.09,
+        61.44,
+        48.91,
+        44.19,
+        57.16,
+        50.88,
+        45.75,
+        57.47,
+        50.34,
+        45.44,
+        52.19,
+        50.06,
+        45,
+        41.72,
+        52.06,
+        47.12,
+        43.19,
+        46,
+        40,
+        39.22,
+        42.59,
+        38.75,
+        42.5,
+        46,
+        41.88,
+        42.25,
+        45.88,
+        45.91,
+        35.66,
+        44.72,
+        48.41,
+        35.25,
+        46.41,
+        43.75,
+        45.81,
+        48.06,
+        39.88,
+        44.59,
+        47.12,
+        38.62,
+        41.44,
+        50.72,
+        41.97,
+        46.91,
+        49.19,
+        42.59,
+        45.56,
+        47.66,
+        43.97,
+        43.94,
+        46.97,
+        38,
+        37.16,
+        46.72,
+        39.44,
+        52.09,
+        50.81,
+        41.38,
+        53.88,
+        48,
+        48.66,
+        46.62,
+        46.94,
+        47.19,
+        47.38,
+        46.12,
+        44.88,
+        42.44,
+        44.97,
+        42.34,
+        42.47,
+        45.47,
+        43.84,
+        49.12,
+        55.56,
+        53.53,
+        55.84,
+        55.16,
+        53.81,
+        58.34,
+        55.19,
+        48.94,
+        58.75,
+        51.81,
+        37.19,
+        47.59,
+        51.47,
+        52.06,
+        43.28,
+        41.56,
+        36.22,
+        39.75,
+        42.34,
+        46.59,
+        51.22,
+        43.25,
+        44.22,
+        42.75,
+        43.12,
+        49.03,
+        49.94,
+        42.56,
+        48.78,
+        38.59,
+        42.69,
+        50.91,
+        50.72,
+        49.88,
+        43.88,
+        42.97,
+        46.53,
+        45.97,
+        36.12,
+        43.28,
+        52.47,
+        55.62,
+        52.88,
+        50.91,
+        59.44,
+        65.12,
+        57.81,
+        61.12,
+        64.5,
+        55.59,
+        52.34,
+        57.47,
+        50.41,
+        43.03,
+        55.31,
+        48.22,
+        48.31,
+        60,
+        55.59,
+        65.06,
+        61.66,
+        66.62,
+        66.19,
+        61.53,
+        69.25,
+        69.81,
+        61.28,
+        68.31,
+        67.31,
+        61.91,
+        63.78,
+        55.59,
+        54.03,
+        57,
+        43.31,
+        36.22,
+        36.66,
+        31.72,
+        33.38,
+        32.28,
+        31.75,
+        30.78,
+        29.53,
+        31.53,
+        40.12,
+        34.19,
+        38.06,
+        39.56,
+        40.25,
+        36.53,
+        36.62,
+        34,
+        39.44,
+        37.78,
+        33.84,
+        36.75,
+        45.38,
+        44,
+        48.5,
+        52.75,
+        55.56,
+        57.28,
+        58.41,
+        59.75,
+        61.28,
+        60.41,
+        60.72,
+        61.69,
+        68.81,
+        75.5,
+        83.81,
+        87.75,
+        88.69,
+        92,
+        91.81,
+        92.88,
+        93.94,
+        93.88,
+        94.44,
+        94.62,
+        94.06,
+        94.5,
+        90.38,
+        90.62,
+        92.25,
+        87.88,
+        86.81,
+        86.56,
+        87.19,
+        87.81,
+        85.88,
+        90.44,
+        93.25,
+        93.88,
+        92.81,
+        92,
+        93,
+        95.44,
+        95.12,
+        94.88,
+        96.12,
+        96.62,
+        95,
+        92.75,
+        94,
+        93.56,
+        88.75,
+        87.75,
+        89.81,
+        90.19,
+        92.31,
+        93.12,
+        95.5,
+        97,
+        96.19,
+        96.19,
+        96.06,
+        95.81,
+        96,
+        96.44,
+        96.69,
+        95.94,
+        93.56,
+        93.06,
+        92.38,
+        92.31,
+        91.69,
+        94.12,
+        94.56,
+        95.44,
+        95.75,
+        96.69,
+        97.31,
+        97.69,
+        96.69,
+        95.5,
+        94.62,
+        94.44,
+        94.56,
+        97,
+        98.12,
+        97.75,
+        97.31,
+        96.06,
+        95.81,
+        94.31,
+        93.62,
+        94.5,
+        96.12,
+        96.56,
+        96.69,
+        96.75,
+        96.38,
+        96.25,
+        95.62,
+        94.19,
+        92.88,
+        90.12,
+        88.44,
+        84.88,
+        76.19,
+        77.81,
+        78.06,
+        84.88,
+        92.62,
+        95.62,
+        95.69,
+        97.06,
+        97.44,
+        94.62,
+        93.94,
+        93.56,
+        94.31,
+        91.94,
+        94,
+        93.12,
+        95.81,
+        95.12,
+        95.12,
+        95.31,
+        95.81,
+        87.62,
+        83.81,
+        77.5,
+        81.75,
+        85.12,
+        92,
+        90.94,
+        92.19,
+        94.25,
+        94.81,
+        94.38,
+        95.94,
+        96.44,
+        96.31,
+        96.38,
+        97.31,
+        96.94,
+        96.31,
+        95.88,
+        95.38,
+        96.62,
+        95.75,
+        96.75,
+        97.44,
+        97.44,
+        97.69,
+        96.31,
+        97.5,
+        98.12,
+        98.31,
+        98.38,
+        97.69,
+        98,
+        96.25,
+        96.94,
+        96.94,
+        97.06,
+        97.25,
+        96.62,
+        96.5,
+        95.06,
+        93.38,
+        94.12,
+        94.06,
+        94.56,
+        95.94,
+        94.25,
+        95.25,
+        97.25,
+        97.56,
+        97.81,
+        97.94,
+        97.44,
+        95.5,
+        93.5,
+        91.06,
+        91.56,
+        91.5,
+        95.81,
+        96.88,
+        97.12,
+        96.06,
+        94.75,
+        93.75,
+        92.81,
+        92.31,
+        92.19,
+        95.38,
+        96.56,
+        97.19,
+        96.56,
+        97.12,
+        95.25,
+        95.75,
+        96.69,
+        96.38,
+        97.19,
+        97,
+        96.06,
+        96.19,
+        94.81,
+        94.12,
+        96.25,
+        97.5,
+        97.38,
+        97.75,
+        98.25,
+        98.06,
+        98.06,
+        97.5,
+        97.44,
+        96.81,
+        96.62,
+        95.94,
+        96,
+        95.69,
+        95.44,
+        95.81,
+        97.31,
+        97.25,
+        97.56,
+        96.81,
+        97.62,
+        97.81,
+        97.56,
+        96.88,
+        95.69,
+        94.81,
+        94.62,
+        92.44,
+        92.81,
+        92.19,
+        94.44,
+        95.62,
+        97.38,
+        97.94,
+        97.62,
+        97.38,
+        97.69,
+        97.25,
+        96.12,
+        97.31,
+        97.75,
+        98.06,
+        98.12,
+        95.31
+      ],
+      "lowConfidenceRegions": [
+        {
+          "start": 1,
+          "end": 38,
+          "mean": 47.18,
+          "label": "Low pLDDT"
+        },
+        {
+          "start": 76,
+          "end": 84,
+          "mean": 61.69,
+          "label": "Low pLDDT"
+        },
+        {
+          "start": 96,
+          "end": 1226,
+          "mean": 42.81,
+          "label": "Low pLDDT"
+        }
+      ],
+      "highConfidenceRegions": [
+        {
+          "start": 1231,
+          "end": 1242,
+          "mean": 92.95,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 1249,
+          "end": 1263,
+          "mean": 93.92,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 1267,
+          "end": 1315,
+          "mean": 95.18,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 1322,
+          "end": 1338,
+          "mean": 94.77,
+          "label": "Very high pLDDT"
+        },
+        {
+          "start": 1344,
+          "end": 1464,
+          "mean": 96.04,
+          "label": "Very high pLDDT"
+        }
+      ],
+      "source": "AlphaFold DB"
+    },
+    "pae": {
+      "available": false,
+      "reason": "PAE matrix exists but was not embedded because it is too large for the starter static pack.",
+      "method": "AlphaFold PAE JSON parsing",
+      "source": "AlphaFold DB"
+    },
+    "domainCoverage": {
+      "available": true,
+      "coveredResidues": 1418,
+      "sequenceLength": 1464,
+      "percent": 96.9,
+      "source": "InterPro/UniProt"
+    },
+    "conservationSummary": {
+      "available": false,
+      "meanConservation": 0,
+      "highlyConservedPositions": [],
+      "method": "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
+      "reason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+    }
+  },
+  "structureFunction": {
+    "summary": "Type I collagen is a member of group I collagen (fibrillar forming collagen)",
+    "evidenceCards": [
+      {
+        "title": "UniProt function annotation",
+        "claim": "Type I collagen is a member of group I collagen (fibrillar forming collagen)",
+        "evidence": [
+          "UniProt function comment"
+        ],
+        "confidence": "high",
+        "source": "UniProt"
+      },
+      {
+        "title": "Domain-function evidence",
+        "claim": "Annotated domains provide source-backed clues for biological role and fold context.",
+        "evidence": [
+          "Fibrillar collagen, C-terminal",
+          "Collagen triple helix repeat",
+          "Collagen triple helix repeat",
+          "Collagen triple helix repeat"
+        ],
+        "confidence": "medium",
+        "source": "InterPro/Pfam/UniProt"
+      },
+      {
+        "title": "Flexible or uncertain model regions",
+        "claim": "AlphaFold reports low confidence in one or more regions, which may reflect disorder or uncertain placement.",
+        "evidence": [
+          "1-38",
+          "76-84",
+          "96-1226"
+        ],
+        "confidence": "medium",
+        "source": "AlphaFold DB"
+      }
+    ],
+    "warnings": [
+      "pLDDT and PAE describe model confidence, not direct experimental proof."
+    ]
+  },
+  "intelligence": {
+    "structureFunctionSummary": "Type I collagen is a member of group I collagen (fibrillar forming collagen)",
+    "sequenceStructureFunctionPipeline": [
+      {
+        "step": "Input Detection",
+        "status": "complete",
+        "dataUsed": [
+          "P02452",
+          "COL1A1"
+        ],
+        "output": "Resolved through static alias/search index.",
+        "source": "Static Pack"
+      },
+      {
+        "step": "Sequence Retrieval",
+        "status": "complete",
+        "dataUsed": [
+          "UniProt canonical sequence"
+        ],
+        "output": "1464 residues loaded.",
+        "source": "UniProt"
+      },
+      {
+        "step": "Annotation Retrieval",
+        "status": "complete",
+        "dataUsed": [
+          "UniProt features",
+          "InterPro/Pfam matches"
+        ],
+        "output": "28 domain or feature annotations.",
+        "source": "UniProt/InterPro"
+      },
+      {
+        "step": "Structure Discovery",
+        "status": "complete",
+        "dataUsed": [
+          "RCSB PDB",
+          "AlphaFold DB"
+        ],
+        "output": "8 experimental, 1 predicted.",
+        "source": "RCSB PDB/AlphaFold DB"
+      },
+      {
+        "step": "Template/Fold Comparison",
+        "status": "missing",
+        "dataUsed": [
+          "Coordinates"
+        ],
+        "output": "RMSD/TM-score unavailable until build-time coordinate superposition tools are configured.",
+        "source": "Build-time Computed"
+      },
+      {
+        "step": "Confidence Analysis",
+        "status": "complete",
+        "dataUsed": [
+          "pLDDT",
+          "PAE"
+        ],
+        "output": "AlphaFold confidence parsed when available.",
+        "source": "AlphaFold DB"
+      },
+      {
+        "step": "Evolutionary Analysis",
+        "status": "partial",
+        "dataUsed": [
+          "curated/UniProt homologs",
+          "MAFFT/Clustal Omega/MUSCLE",
+          "profile/domain evidence"
+        ],
+        "output": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable.",
+        "source": "Build-time MSA/InterPro"
+      },
+      {
+        "step": "Structure-Function Interpretation",
+        "status": "complete",
+        "dataUsed": [
+          "domains",
+          "features",
+          "confidence",
+          "conservation"
+        ],
+        "output": "Rule-based evidence summary generated from loaded sources.",
+        "source": "Build-time Computed"
+      }
+    ],
+    "warnings": [
+      "BioAlign Pro Fold Explorer does not perform AlphaFold-level structure prediction.",
+      "pLDDT and PAE describe model confidence, not direct experimental proof.",
+      "RMSD and TM-score depend on correct residue/structure alignment.",
+      "pLDDT and PAE describe model confidence, not direct experimental proof."
+    ],
+    "confidenceNotes": [
+      "Experimental structures come from PDB/RCSB.",
+      "Predicted structures come from AlphaFold DB when available.",
+      "Browser live API refresh may fail due to CORS, rate limits, or network issues."
+    ],
+    "sourceBadges": [
+      "Static Pack",
+      "UniProt",
+      "RCSB PDB",
+      "AlphaFold DB",
+      "InterPro",
+      "Pfam",
+      "Build-time Computed"
+    ]
+  },
+  "sources": [
+    {
+      "name": "UniProt REST API",
+      "url": "https://rest.uniprot.org/uniprotkb/P02452.json",
+      "accessedAt": "2026-05-29T06:44:42.573Z",
+      "sourceType": "UniProt"
+    },
+    {
+      "name": "InterPro API",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/interpro/protein/uniprot/P02452/",
+      "accessedAt": "2026-05-29T06:44:42.573Z",
+      "sourceType": "InterPro"
+    },
+    {
+      "name": "AlphaFold DB API",
+      "url": "https://alphafold.ebi.ac.uk/api/prediction/P02452",
+      "accessedAt": "2026-05-29T06:44:42.573Z",
+      "sourceType": "AlphaFold DB",
+      "version": "v6"
+    },
+    {
+      "name": "RCSB PDB Data API",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/1CAG",
+      "accessedAt": "2026-05-29T06:44:40.375Z",
+      "sourceType": "RCSB PDB"
+    },
+    {
+      "name": "RCSB PDB Data API",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/3HQV",
+      "accessedAt": "2026-05-29T06:44:40.694Z",
+      "sourceType": "RCSB PDB"
+    },
+    {
+      "name": "RCSB PDB Data API",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/5CTI",
+      "accessedAt": "2026-05-29T06:44:41.019Z",
+      "sourceType": "RCSB PDB"
+    },
+    {
+      "name": "RCSB PDB Data API",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/1Q7D",
+      "accessedAt": "2026-05-29T06:44:41.336Z",
+      "sourceType": "RCSB PDB"
+    }
+  ]
+}

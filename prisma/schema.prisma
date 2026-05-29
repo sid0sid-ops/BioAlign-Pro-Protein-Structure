@@ -1,0 +1,170 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum PredictionMethod {
+  HOMOLOGY
+  THREADING
+  AB_INITIO
+  ALPHAFOLD
+  ESMFOLD
+  COLABFOLD
+  ROSETTAFOLD
+}
+
+enum JobStatus {
+  QUEUED
+  RUNNING
+  COMPLETED
+  FAILED
+  CANCELLED
+}
+
+model User {
+  id           String       @id @default(cuid())
+  email        String       @unique
+  name         String?
+  passwordHash String?
+  imageUrl     String?
+  workspaces   Workspace[]
+  bookmarks    Bookmark[]
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+}
+
+model Workspace {
+  id          String          @id @default(cuid())
+  name        String
+  description String?
+  ownerId     String
+  owner       User            @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  sequences   ProteinSequence[]
+  jobs        PredictionJob[]
+  bookmarks   Bookmark[]
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+}
+
+model ProteinSequence {
+  id              String          @id @default(cuid())
+  workspaceId     String
+  workspace       Workspace       @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  accession       String?
+  name            String
+  organism        String?
+  sequence        String          @db.Text
+  sequenceLength  Int
+  molecularWeight Float?
+  isoelectricPoint Float?
+  jobs            PredictionJob[]
+  analysisResults AnalysisResult[]
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+
+  @@index([accession])
+  @@index([workspaceId])
+}
+
+model PredictionJob {
+  id              String            @id @default(cuid())
+  workspaceId     String
+  workspace       Workspace         @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  sequenceId      String
+  sequence        ProteinSequence   @relation(fields: [sequenceId], references: [id], onDelete: Cascade)
+  method          PredictionMethod
+  status          JobStatus         @default(QUEUED)
+  progress        Int               @default(0)
+  confidence      Float?
+  parameters      Json?
+  errorMessage    String?
+  templateHits    TemplateHit[]
+  structures      StructureModel[]
+  analysisResults AnalysisResult[]
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+  completedAt     DateTime?
+
+  @@index([workspaceId, status])
+  @@index([method])
+}
+
+model TemplateHit {
+  id              String        @id @default(cuid())
+  jobId           String
+  job             PredictionJob @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  pdbId           String
+  chainId         String?
+  title           String
+  organism        String?
+  resolution      Float?
+  sequenceIdentity Float
+  coverage        Float
+  eValue          Float?
+  foldseekScore   Float?
+  reliabilityBand String
+  metadata        Json?
+  createdAt       DateTime      @default(now())
+
+  @@index([pdbId])
+  @@index([sequenceIdentity])
+}
+
+model StructureModel {
+  id             String        @id @default(cuid())
+  jobId          String
+  job            PredictionJob @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  name           String
+  format         String        @default("pdb")
+  storageUrl     String?
+  pdbText        String?       @db.Text
+  chains         Json?
+  ligands        Json?
+  confidenceMap  Json?
+  paeMatrix      Json?
+  rmsdReference  Float?
+  createdAt      DateTime      @default(now())
+}
+
+model AnalysisResult {
+  id              String          @id @default(cuid())
+  sequenceId      String?
+  sequence        ProteinSequence? @relation(fields: [sequenceId], references: [id], onDelete: SetNull)
+  jobId           String?
+  job             PredictionJob?  @relation(fields: [jobId], references: [id], onDelete: SetNull)
+  type            String
+  title           String
+  payload         Json
+  createdAt       DateTime        @default(now())
+
+  @@index([type])
+}
+
+model Bookmark {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  workspaceId String
+  workspace   Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  label       String
+  targetType  String
+  targetId    String
+  createdAt   DateTime  @default(now())
+}
+
+model IntegrationCache {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  provider  String
+  payload   Json
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([provider])
+  @@index([expiresAt])
+}

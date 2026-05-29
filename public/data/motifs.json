@@ -1,0 +1,20 @@
+{
+  "version": "2026.05.29",
+  "motifs": [
+    {
+      "id": "n_glycosylation",
+      "name": "N-glycosylation sequon",
+      "pattern": "N-{P}-[S/T]-{P}"
+    },
+    {
+      "id": "p_loop_ntp",
+      "name": "P-loop NTP-binding region",
+      "pattern": "[A/G]xxxxGKT"
+    },
+    {
+      "id": "zinc_finger_c2h2",
+      "name": "C2H2 zinc-finger-like pattern",
+      "pattern": "C-x(2,4)-C-x(8,14)-H-x(3,6)-H"
+    }
+  ]
+}
