@@ -1,6 +1,6 @@
 {
   "schemaVersion": "bioalign.static-protein-pack.v1",
-  "generatedAt": "2026-05-29T06:44:14.021Z",
+  "generatedAt": "2026-05-29T07:43:05.705Z",
   "accession": "P05067",
   "geneName": "APP",
   "proteinName": "Amyloid-beta precursor protein",
@@ -565,7 +565,7 @@
   ],
   "structureIntelligence": {
     "schemaVersion": "bioalign.structure-intelligence.v1",
-    "generatedAt": "2026-05-29T06:44:16.669Z",
+    "generatedAt": "2026-05-29T07:43:08.658Z",
     "protein": {
       "accession": "P05067",
       "name": "Amyloid-beta precursor protein",
@@ -1812,7 +1812,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1AAP",
-            "accessedAt": "2026-05-29T06:44:14.309Z",
+            "accessedAt": "2026-05-29T07:43:05.993Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1840,7 +1840,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/2LP1",
-            "accessedAt": "2026-05-29T06:44:14.615Z",
+            "accessedAt": "2026-05-29T07:43:06.516Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1868,7 +1868,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/3UMH",
-            "accessedAt": "2026-05-29T06:44:14.935Z",
+            "accessedAt": "2026-05-29T07:43:06.925Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1904,7 +1904,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1AMB",
-            "accessedAt": "2026-05-29T06:44:15.255Z",
+            "accessedAt": "2026-05-29T07:43:07.234Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1940,7 +1940,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1AMC",
-            "accessedAt": "2026-05-29T06:44:15.550Z",
+            "accessedAt": "2026-05-29T07:43:07.525Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1976,7 +1976,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1AML",
-            "accessedAt": "2026-05-29T06:44:15.894Z",
+            "accessedAt": "2026-05-29T07:43:07.876Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -2012,7 +2012,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1BA4",
-            "accessedAt": "2026-05-29T06:44:16.221Z",
+            "accessedAt": "2026-05-29T07:43:08.174Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -2048,7 +2048,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1BA6",
-            "accessedAt": "2026-05-29T06:44:16.535Z",
+            "accessedAt": "2026-05-29T07:43:08.510Z",
             "sourceType": "RCSB PDB"
           }
         }
@@ -2067,7 +2067,7 @@
           "source": {
             "name": "AlphaFold DB API",
             "url": "https://alphafold.ebi.ac.uk/api/prediction/P05067",
-            "accessedAt": "2026-05-29T06:44:16.669Z",
+            "accessedAt": "2026-05-29T07:43:08.658Z",
             "sourceType": "AlphaFold DB",
             "version": "v6"
           }
@@ -9758,44 +9758,44 @@
       {
         "name": "UniProt REST API",
         "url": "https://rest.uniprot.org/uniprotkb/P05067.json",
-        "accessedAt": "2026-05-29T06:44:16.669Z",
+        "accessedAt": "2026-05-29T07:43:08.658Z",
         "sourceType": "UniProt"
       },
       {
         "name": "InterPro API",
         "url": "https://www.ebi.ac.uk/interpro/api/entry/interpro/protein/uniprot/P05067/",
-        "accessedAt": "2026-05-29T06:44:16.669Z",
+        "accessedAt": "2026-05-29T07:43:08.658Z",
         "sourceType": "InterPro"
       },
       {
         "name": "AlphaFold DB API",
         "url": "https://alphafold.ebi.ac.uk/api/prediction/P05067",
-        "accessedAt": "2026-05-29T06:44:16.669Z",
+        "accessedAt": "2026-05-29T07:43:08.658Z",
         "sourceType": "AlphaFold DB",
         "version": "v6"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/1AAP",
-        "accessedAt": "2026-05-29T06:44:14.309Z",
+        "accessedAt": "2026-05-29T07:43:05.993Z",
         "sourceType": "RCSB PDB"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/2LP1",
-        "accessedAt": "2026-05-29T06:44:14.615Z",
+        "accessedAt": "2026-05-29T07:43:06.516Z",
         "sourceType": "RCSB PDB"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/3UMH",
-        "accessedAt": "2026-05-29T06:44:14.935Z",
+        "accessedAt": "2026-05-29T07:43:06.925Z",
         "sourceType": "RCSB PDB"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/1AMB",
-        "accessedAt": "2026-05-29T06:44:15.255Z",
+        "accessedAt": "2026-05-29T07:43:07.234Z",
         "sourceType": "RCSB PDB"
       }
     ]
