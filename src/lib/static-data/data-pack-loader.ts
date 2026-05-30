@@ -1,4 +1,5 @@
 import { getIndexedDbCache, setIndexedDbCache } from "./indexed-db-cache";
+import { withBasePath } from "@/lib/utils";
 
 export interface DataPackManifest {
   version: string;
@@ -12,8 +13,7 @@ export interface DataPackManifest {
 }
 
 export function publicAssetPath(path: string) {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-  return `${basePath}${path.startsWith("/") ? path : `/${path}`}`;
+  return withBasePath(path);
 }
 
 export async function loadStaticJson<T>(path: string, cacheTtlMs = 7 * 24 * 60 * 60 * 1000): Promise<T> {

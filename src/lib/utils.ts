@@ -20,8 +20,12 @@ export function sanitizeSequence(value: string) {
     .replace(/[^ARNDCEQGHILKMFPSTWYV]/g, "");
 }
 
+export function getBasePath() {
+  return process.env.NEXT_PUBLIC_BASE_PATH || "";
+}
+
 export function withBasePath(path: string) {
-  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+  const base = getBasePath();
   const cleanPath = path.startsWith("/") ? path : `/${path}`;
   return `${base}${cleanPath}`;
 }

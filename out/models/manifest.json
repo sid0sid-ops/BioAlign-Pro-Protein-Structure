@@ -1,5 +1,0 @@
-{
-  "generatedAt": "2026-05-29T06:44:45.979Z",
-  "models": [],
-  "note": "Place quantized ONNX models under public/models/<model-id>/model.onnx. Conversion is a build-time step only."
-}
