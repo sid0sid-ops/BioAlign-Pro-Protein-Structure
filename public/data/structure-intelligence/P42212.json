@@ -1,6 +1,6 @@
 {
   "schemaVersion": "bioalign.structure-intelligence.v1",
-  "generatedAt": "2026-05-29T06:44:45.899Z",
+  "generatedAt": "2026-06-02T18:05:53.170Z",
   "protein": {
     "accession": "P42212",
     "name": "Green fluorescent protein",
@@ -1243,7 +1243,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/1EMA",
-          "accessedAt": "2026-05-29T06:44:43.095Z",
+          "accessedAt": "2026-06-02T18:05:50.408Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1271,7 +1271,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/1GFL",
-          "accessedAt": "2026-05-29T06:44:43.382Z",
+          "accessedAt": "2026-06-02T18:05:50.728Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1299,7 +1299,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/2B3P",
-          "accessedAt": "2026-05-29T06:44:44.280Z",
+          "accessedAt": "2026-06-02T18:05:51.048Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1341,7 +1341,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/1B9C",
-          "accessedAt": "2026-05-29T06:44:44.557Z",
+          "accessedAt": "2026-06-02T18:05:51.368Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1377,7 +1377,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/1BFP",
-          "accessedAt": "2026-05-29T06:44:44.855Z",
+          "accessedAt": "2026-06-02T18:05:51.687Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1413,7 +1413,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/1C4F",
-          "accessedAt": "2026-05-29T06:44:45.178Z",
+          "accessedAt": "2026-06-02T18:05:52.046Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1449,7 +1449,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/1CV7",
-          "accessedAt": "2026-05-29T06:44:45.494Z",
+          "accessedAt": "2026-06-02T18:05:52.488Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1485,7 +1485,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/1EMB",
-          "accessedAt": "2026-05-29T06:44:45.813Z",
+          "accessedAt": "2026-06-02T18:05:52.802Z",
           "sourceType": "RCSB PDB"
         }
       }
@@ -1500,11 +1500,11 @@
         "bcifUrl": "https://alphafold.ebi.ac.uk/files/AF-P42212-F1-model_v6.bcif",
         "paeUrl": "https://alphafold.ebi.ac.uk/files/AF-P42212-F1-predicted_aligned_error_v6.json",
         "plddtUrl": "https://alphafold.ebi.ac.uk/files/AF-P42212-F1-confidence_v6.json",
-        "meanPlddt": 96.62,
+        "meanPlddt": 96.64,
         "source": {
           "name": "AlphaFold DB API",
           "url": "https://alphafold.ebi.ac.uk/api/prediction/P42212",
-          "accessedAt": "2026-05-29T06:44:45.899Z",
+          "accessedAt": "2026-06-02T18:05:53.170Z",
           "sourceType": "AlphaFold DB",
           "version": "v6"
         }
@@ -1687,9 +1687,9 @@
     "consensus": "",
     "conservationScores": [],
     "gapFrequencies": [],
-    "sourceSequenceCount": 0,
+    "sourceSequenceCount": 1,
     "source": "Curated/UniProt homologs",
-    "unavailableReason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+    "unavailableReason": "No curated homolog FASTA or UniProt/ortholog sequence set was available for build-time MSA."
   },
   "profileEvidence": [
     {
@@ -1708,18 +1708,31 @@
   "metrics": {
     "rmsdComparisons": [
       {
-        "available": false,
-        "reason": "No build-time coordinate superposition job has been configured for this protein pair.",
-        "method": "Kabsch superposition",
-        "source": "computed-build-time"
+        "available": true,
+        "method": "US-align",
+        "source": "computed-build-time",
+        "queryStructure": "AF-P42212-F1",
+        "templateStructure": "1EMA",
+        "chainA": "model",
+        "chainB": "PDB",
+        "atomType": "CA",
+        "alignedResidues": 221,
+        "rmsd": 0.34,
+        "interpretation": "Low deviation"
       }
     ],
     "tmScoreComparisons": [
       {
-        "available": false,
-        "reason": "TM-align or Foldseek was not available during the static build.",
-        "method": "TM-align/Foldseek/build-time",
-        "source": "computed-build-time"
+        "available": true,
+        "method": "US-align",
+        "source": "computed-build-time",
+        "queryStructure": "AF-P42212-F1",
+        "templateStructure": "1EMA",
+        "tmScore": 0.9964,
+        "alignedLength": 221,
+        "rmsd": 0.34,
+        "sequenceIdentityAligned": 0.995,
+        "interpretation": "same fold"
       }
     ],
     "plddt": {
@@ -8572,7 +8585,7 @@
       "meanConservation": 0,
       "highlyConservedPositions": [],
       "method": "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
-      "reason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+      "reason": "No curated homolog FASTA or UniProt/ortholog sequence set was available for build-time MSA."
     }
   },
   "structureFunction": {
@@ -8634,11 +8647,11 @@
       },
       {
         "step": "Template/Fold Comparison",
-        "status": "missing",
+        "status": "complete",
         "dataUsed": [
           "Coordinates"
         ],
-        "output": "RMSD/TM-score unavailable until build-time coordinate superposition tools are configured.",
+        "output": "TM-score 0.9964 and RMSD 0.34 computed by US-align.",
         "source": "Build-time Computed"
       },
       {
@@ -8653,13 +8666,13 @@
       },
       {
         "step": "Evolutionary Analysis",
-        "status": "partial",
+        "status": "complete",
         "dataUsed": [
-          "curated/UniProt homologs",
-          "MAFFT/Clustal Omega/MUSCLE",
-          "profile/domain evidence"
+          "homolog protein sequences",
+          "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
+          "conservation scoring"
         ],
-        "output": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable.",
+        "output": "1 homolog sequences aligned for conservation analysis.",
         "source": "Build-time MSA/InterPro"
       },
       {
@@ -8676,7 +8689,7 @@
       }
     ],
     "warnings": [
-      "BioAlign Pro Fold Explorer does not perform AlphaFold-level structure prediction.",
+      "BioAlign-Pro-Protein-Structure does not perform AlphaFold-level structure prediction.",
       "pLDDT and PAE describe model confidence, not direct experimental proof.",
       "RMSD and TM-score depend on correct residue/structure alignment."
     ],
@@ -8699,44 +8712,44 @@
     {
       "name": "UniProt REST API",
       "url": "https://rest.uniprot.org/uniprotkb/P42212.json",
-      "accessedAt": "2026-05-29T06:44:45.899Z",
+      "accessedAt": "2026-06-02T18:05:53.170Z",
       "sourceType": "UniProt"
     },
     {
       "name": "InterPro API",
       "url": "https://www.ebi.ac.uk/interpro/api/entry/interpro/protein/uniprot/P42212/",
-      "accessedAt": "2026-05-29T06:44:45.899Z",
+      "accessedAt": "2026-06-02T18:05:53.170Z",
       "sourceType": "InterPro"
     },
     {
       "name": "AlphaFold DB API",
       "url": "https://alphafold.ebi.ac.uk/api/prediction/P42212",
-      "accessedAt": "2026-05-29T06:44:45.899Z",
+      "accessedAt": "2026-06-02T18:05:53.170Z",
       "sourceType": "AlphaFold DB",
       "version": "v6"
     },
     {
       "name": "RCSB PDB Data API",
       "url": "https://data.rcsb.org/rest/v1/core/entry/1EMA",
-      "accessedAt": "2026-05-29T06:44:43.095Z",
+      "accessedAt": "2026-06-02T18:05:50.408Z",
       "sourceType": "RCSB PDB"
     },
     {
       "name": "RCSB PDB Data API",
       "url": "https://data.rcsb.org/rest/v1/core/entry/1GFL",
-      "accessedAt": "2026-05-29T06:44:43.382Z",
+      "accessedAt": "2026-06-02T18:05:50.728Z",
       "sourceType": "RCSB PDB"
     },
     {
       "name": "RCSB PDB Data API",
       "url": "https://data.rcsb.org/rest/v1/core/entry/2B3P",
-      "accessedAt": "2026-05-29T06:44:44.280Z",
+      "accessedAt": "2026-06-02T18:05:51.048Z",
       "sourceType": "RCSB PDB"
     },
     {
       "name": "RCSB PDB Data API",
       "url": "https://data.rcsb.org/rest/v1/core/entry/1B9C",
-      "accessedAt": "2026-05-29T06:44:44.557Z",
+      "accessedAt": "2026-06-02T18:05:51.368Z",
       "sourceType": "RCSB PDB"
     }
   ]

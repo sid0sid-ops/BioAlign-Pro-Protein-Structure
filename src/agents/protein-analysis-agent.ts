@@ -1,7 +1,7 @@
 /**
  * Client-only analysis agent.
  *
- * This agent intentionally avoids API calls so BioAlign Pro can run from
+ * This agent intentionally avoids API calls so BioAlign-Pro-Protein-Structure can run from
  * GitHub Pages after the build machine is shut down.
  */
 

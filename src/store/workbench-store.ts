@@ -66,7 +66,7 @@ export const useWorkbenchStore = create<ExtendedWorkbenchState & WorkbenchAction
   provider: "AlphaFold",
 
   // New fields
-  rawInput: "",
+  rawInput: "P04637",
   inputDetection: null,
   isAnalyzing: false,
   activePanel: "sequence",

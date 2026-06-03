@@ -1,6 +1,6 @@
 {
   "schemaVersion": "bioalign.static-protein-pack.v1",
-  "generatedAt": "2026-05-29T07:43:11.888Z",
+  "generatedAt": "2026-06-02T18:05:14.889Z",
   "accession": "P01116",
   "geneName": "KRAS",
   "proteinName": "GTPase KRas",
@@ -352,7 +352,7 @@
     "modelId": "AF-P01116-F1",
     "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P01116-F1-model_v6.pdb",
     "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-P01116-F1-model_v6.cif",
-    "confidenceAvg": 91.5,
+    "confidenceAvg": 91.52,
     "paeUrl": "https://alphafold.ebi.ac.uk/files/AF-P01116-F1-predicted_aligned_error_v6.json",
     "plddtUrl": "https://alphafold.ebi.ac.uk/files/AF-P01116-F1-confidence_v6.json"
   },
@@ -460,7 +460,7 @@
   ],
   "structureIntelligence": {
     "schemaVersion": "bioalign.structure-intelligence.v1",
-    "generatedAt": "2026-05-29T07:43:14.502Z",
+    "generatedAt": "2026-06-02T18:05:18.367Z",
     "protein": {
       "accession": "P01116",
       "name": "GTPase KRas",
@@ -1705,7 +1705,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/4OBE",
-            "accessedAt": "2026-05-29T07:43:12.176Z",
+            "accessedAt": "2026-06-02T18:05:15.229Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1733,7 +1733,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/5P21",
-            "accessedAt": "2026-05-29T07:43:12.461Z",
+            "accessedAt": "2026-06-02T18:05:15.543Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1761,7 +1761,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/6OIM",
-            "accessedAt": "2026-05-29T07:43:12.771Z",
+            "accessedAt": "2026-06-02T18:05:15.896Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1797,7 +1797,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1D8D",
-            "accessedAt": "2026-05-29T07:43:13.145Z",
+            "accessedAt": "2026-06-02T18:05:16.209Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1833,7 +1833,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1D8E",
-            "accessedAt": "2026-05-29T07:43:13.470Z",
+            "accessedAt": "2026-06-02T18:05:16.528Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1869,7 +1869,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1KZO",
-            "accessedAt": "2026-05-29T07:43:13.787Z",
+            "accessedAt": "2026-06-02T18:05:16.970Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1905,7 +1905,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1KZP",
-            "accessedAt": "2026-05-29T07:43:14.118Z",
+            "accessedAt": "2026-06-02T18:05:17.283Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1943,7 +1943,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1N4P",
-            "accessedAt": "2026-05-29T07:43:14.429Z",
+            "accessedAt": "2026-06-02T18:05:17.607Z",
             "sourceType": "RCSB PDB"
           }
         }
@@ -1958,11 +1958,11 @@
           "bcifUrl": "https://alphafold.ebi.ac.uk/files/AF-P01116-F1-model_v6.bcif",
           "paeUrl": "https://alphafold.ebi.ac.uk/files/AF-P01116-F1-predicted_aligned_error_v6.json",
           "plddtUrl": "https://alphafold.ebi.ac.uk/files/AF-P01116-F1-confidence_v6.json",
-          "meanPlddt": 91.5,
+          "meanPlddt": 91.52,
           "source": {
             "name": "AlphaFold DB API",
             "url": "https://alphafold.ebi.ac.uk/api/prediction/P01116",
-            "accessedAt": "2026-05-29T07:43:14.502Z",
+            "accessedAt": "2026-06-02T18:05:18.367Z",
             "sourceType": "AlphaFold DB",
             "version": "v6"
           }
@@ -2097,33 +2097,718 @@
       }
     ],
     "msa": {
-      "available": false,
-      "method": "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
-      "alignedSequences": [],
-      "consensus": "",
-      "conservationScores": [],
-      "gapFrequencies": [],
-      "sourceSequenceCount": 0,
-      "source": "Curated/UniProt homologs",
-      "unavailableReason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+      "available": true,
+      "method": "RAS-family small GTPase MSA (center-star global alignment fallback)",
+      "alignedSequences": [
+        {
+          "id": "P01116",
+          "label": "P01116 KRAS GTPase KRas",
+          "sequence": "MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRL-KK-ISKEEKTPGCVKIKKCIIM",
+          "source": "Starter protein homolog group"
+        },
+        {
+          "id": "P01112",
+          "label": "P01112 HRAS GTPase HRas",
+          "sequence": "MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQHKLRKL-NPPDESGPGC-MSCKCVLS",
+          "source": "Starter protein homolog group"
+        },
+        {
+          "id": "P01111",
+          "label": "P01111 NRAS GTPase NRas",
+          "sequence": "MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNSKSFADINLYREQIKRVKDSDDVPMVLVGNKCDLPTRTVDTKQAHELAKSYGIPFIETSAKTRQGVEDAFYTLVREIRQYRM-KKLNSSDDGTQGC-MGLPCVVM",
+          "source": "Starter protein homolog group"
+        }
+      ],
+      "consensus": "MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSDDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQGVEDAFYTLVREIRQYRLKKNSKDEKTPGCVMIKKCVIM",
+      "conservationScores": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.667,
+        1,
+        1,
+        1,
+        0.667,
+        1,
+        1,
+        0.667,
+        0.333,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.667,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.667,
+        0.333,
+        1,
+        1,
+        1,
+        0.667,
+        0.667,
+        0.667,
+        1,
+        1,
+        0.667,
+        0.667,
+        1,
+        1,
+        0.667,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.667,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.667,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.667,
+        0.667,
+        0.667,
+        1,
+        0.667,
+        0.667,
+        0.667,
+        0.333,
+        0.667,
+        0.667,
+        0.333,
+        0.667,
+        0.667,
+        1,
+        1,
+        1,
+        0.667,
+        0.333,
+        0.333,
+        0.667,
+        1,
+        0.667,
+        0.333,
+        0.667
+      ],
+      "gapFrequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.667,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceSequenceCount": 3,
+      "source": "Starter protein homolog sequences"
     },
     "profileEvidence": [],
-    "conservedResidues": [],
+    "conservedResidues": [
+      {
+        "position": 1,
+        "residue": "M",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 2,
+        "residue": "T",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 3,
+        "residue": "E",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 4,
+        "residue": "Y",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 5,
+        "residue": "K",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 6,
+        "residue": "L",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 7,
+        "residue": "V",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 8,
+        "residue": "V",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 9,
+        "residue": "V",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 10,
+        "residue": "G",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "binding",
+        "notes": "Conserved position overlaps ."
+      },
+      {
+        "position": 11,
+        "residue": "A",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "binding",
+        "notes": "Conserved position overlaps ."
+      },
+      {
+        "position": 12,
+        "residue": "G",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "binding",
+        "notes": "Conserved position overlaps ."
+      },
+      {
+        "position": 13,
+        "residue": "G",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "binding",
+        "notes": "Conserved position overlaps ."
+      },
+      {
+        "position": 14,
+        "residue": "V",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "binding",
+        "notes": "Conserved position overlaps ."
+      },
+      {
+        "position": 15,
+        "residue": "G",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "binding",
+        "notes": "Conserved position overlaps ."
+      },
+      {
+        "position": 16,
+        "residue": "K",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "binding",
+        "notes": "Conserved position overlaps ."
+      },
+      {
+        "position": 17,
+        "residue": "S",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "binding",
+        "notes": "Conserved position overlaps ."
+      },
+      {
+        "position": 18,
+        "residue": "A",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "binding",
+        "notes": "Conserved position overlaps ."
+      },
+      {
+        "position": 19,
+        "residue": "L",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 20,
+        "residue": "T",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 21,
+        "residue": "I",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 22,
+        "residue": "Q",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 23,
+        "residue": "L",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 24,
+        "residue": "I",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Small GTPase",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      }
+    ],
     "metrics": {
       "rmsdComparisons": [
         {
-          "available": false,
-          "reason": "No build-time coordinate superposition job has been configured for this protein pair.",
-          "method": "Kabsch superposition",
-          "source": "computed-build-time"
+          "available": true,
+          "method": "US-align",
+          "source": "computed-build-time",
+          "queryStructure": "AF-P01116-F1",
+          "templateStructure": "4OBE",
+          "chainA": "model",
+          "chainB": "PDB",
+          "atomType": "CA",
+          "alignedResidues": 168,
+          "rmsd": 1.3,
+          "interpretation": "Low deviation"
         }
       ],
       "tmScoreComparisons": [
         {
-          "available": false,
-          "reason": "TM-align or Foldseek was not available during the static build.",
-          "method": "TM-align/Foldseek/build-time",
-          "source": "computed-build-time"
+          "available": true,
+          "method": "US-align",
+          "source": "computed-build-time",
+          "queryStructure": "AF-P01116-F1",
+          "templateStructure": "4OBE",
+          "tmScore": 0.9522,
+          "alignedLength": 168,
+          "rmsd": 1.3,
+          "sequenceIdentityAligned": 0.94,
+          "interpretation": "same fold"
         }
       ],
       "plddt": {
@@ -6471,11 +7156,35 @@
         "source": "InterPro/UniProt"
       },
       "conservationSummary": {
-        "available": false,
-        "meanConservation": 0,
-        "highlyConservedPositions": [],
-        "method": "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
-        "reason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+        "available": true,
+        "meanConservation": 0.928,
+        "highlyConservedPositions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "method": "RAS-family small GTPase MSA (center-star global alignment fallback)"
       }
     },
     "structureFunction": {
@@ -6560,11 +7269,11 @@
         },
         {
           "step": "Template/Fold Comparison",
-          "status": "missing",
+          "status": "complete",
           "dataUsed": [
             "Coordinates"
           ],
-          "output": "RMSD/TM-score unavailable until build-time coordinate superposition tools are configured.",
+          "output": "TM-score 0.9522 and RMSD 1.3 computed by US-align.",
           "source": "Build-time Computed"
         },
         {
@@ -6579,13 +7288,13 @@
         },
         {
           "step": "Evolutionary Analysis",
-          "status": "partial",
+          "status": "complete",
           "dataUsed": [
-            "curated/UniProt homologs",
-            "MAFFT/Clustal Omega/MUSCLE",
-            "profile/domain evidence"
+            "homolog protein sequences",
+            "RAS-family small GTPase MSA (center-star global alignment fallback)",
+            "conservation scoring"
           ],
-          "output": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable.",
+          "output": "3 homolog sequences aligned for conservation analysis.",
           "source": "Build-time MSA/InterPro"
         },
         {
@@ -6602,7 +7311,7 @@
         }
       ],
       "warnings": [
-        "BioAlign Pro Fold Explorer does not perform AlphaFold-level structure prediction.",
+        "BioAlign-Pro-Protein-Structure does not perform AlphaFold-level structure prediction.",
         "pLDDT and PAE describe model confidence, not direct experimental proof.",
         "RMSD and TM-score depend on correct residue/structure alignment.",
         "pLDDT and PAE describe model confidence, not direct experimental proof."
@@ -6626,45 +7335,63 @@
       {
         "name": "UniProt REST API",
         "url": "https://rest.uniprot.org/uniprotkb/P01116.json",
-        "accessedAt": "2026-05-29T07:43:14.503Z",
+        "accessedAt": "2026-06-02T18:05:18.368Z",
         "sourceType": "UniProt"
       },
       {
         "name": "InterPro API",
         "url": "https://www.ebi.ac.uk/interpro/api/entry/interpro/protein/uniprot/P01116/",
-        "accessedAt": "2026-05-29T07:43:14.503Z",
+        "accessedAt": "2026-06-02T18:05:18.368Z",
         "sourceType": "InterPro"
       },
       {
         "name": "AlphaFold DB API",
         "url": "https://alphafold.ebi.ac.uk/api/prediction/P01116",
-        "accessedAt": "2026-05-29T07:43:14.502Z",
+        "accessedAt": "2026-06-02T18:05:18.367Z",
         "sourceType": "AlphaFold DB",
         "version": "v6"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/4OBE",
-        "accessedAt": "2026-05-29T07:43:12.176Z",
+        "accessedAt": "2026-06-02T18:05:15.229Z",
         "sourceType": "RCSB PDB"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/5P21",
-        "accessedAt": "2026-05-29T07:43:12.461Z",
+        "accessedAt": "2026-06-02T18:05:15.543Z",
         "sourceType": "RCSB PDB"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/6OIM",
-        "accessedAt": "2026-05-29T07:43:12.771Z",
+        "accessedAt": "2026-06-02T18:05:15.896Z",
         "sourceType": "RCSB PDB"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/1D8D",
-        "accessedAt": "2026-05-29T07:43:13.145Z",
+        "accessedAt": "2026-06-02T18:05:16.209Z",
         "sourceType": "RCSB PDB"
+      },
+      {
+        "name": "RAS-family small GTPase MSA (center-star global alignment fallback)",
+        "accessedAt": "2026-06-02T18:07:09.493Z",
+        "sourceType": "Build-time Computed",
+        "version": "ras-small-gtpase-family"
+      },
+      {
+        "name": "RAS-family small GTPase MSA (center-star global alignment fallback)",
+        "accessedAt": "2026-06-03T10:31:57.473Z",
+        "sourceType": "Build-time Computed",
+        "version": "ras-small-gtpase-family"
+      },
+      {
+        "name": "RAS-family small GTPase MSA (center-star global alignment fallback)",
+        "accessedAt": "2026-06-03T10:39:24.728Z",
+        "sourceType": "Build-time Computed",
+        "version": "ras-small-gtpase-family"
       }
     ]
   }

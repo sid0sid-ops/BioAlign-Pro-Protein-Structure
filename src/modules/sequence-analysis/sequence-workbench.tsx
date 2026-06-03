@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Copy, Download, FileUp, RotateCcw, Sparkles, Edit2, Check } from "lucide-react";
-import { useMemo, useState } from "react";
+import { Copy, Download, RotateCcw, Sparkles } from "lucide-react";
+import { useMemo } from "react";
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -10,20 +10,18 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { ClientOnlyChart } from "@/components/ui/client-only-chart";
 import { Input } from "@/components/ui/input";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Textarea } from "@/components/ui/textarea";
 import { AMINO_ACIDS, SAMPLE_SEQUENCE } from "@/constants/amino-acids";
 import { useClientIntelligence } from "@/hooks/use-client-intelligence";
-import { cn, sanitizeSequence } from "@/lib/utils";
 import { useWorkbenchStore } from "@/store/workbench-store";
 import { calculateSequenceMetrics } from "@/utils/sequence";
 import { SequenceViewer } from "@/components/ui/sequence-viewer";
 
 export function SequenceWorkbench() {
   const { sequence, sequenceName, setSequence, setSequenceName, selectedResidue, setSelectedResidue } = useWorkbenchStore();
-  const [dragActive, setDragActive] = useState(false);
-  const [isEditing, setIsEditing] = useState(false);
   const analysis = useClientIntelligence(sequence);
   const metrics = analysis.data?.metrics ?? calculateSequenceMetrics(sequence);
+  const selectedCode = selectedResidue ? sequence[selectedResidue - 1] : "";
+  const selectedResidueInfo = selectedCode ? AMINO_ACIDS[selectedCode] : null;
 
   const chartData = useMemo(
     () =>
@@ -38,30 +36,16 @@ export function SequenceWorkbench() {
     [metrics.composition]
   );
 
-  const handleDrop = async (event: React.DragEvent<HTMLLabelElement>) => {
-    event.preventDefault();
-    setDragActive(false);
-    const file = event.dataTransfer.files?.[0];
-    if (!file) return;
-    const text = await file.text();
-    setSequence(sanitizeSequence(text));
-    setSequenceName(file.name.replace(/\.(fasta|fa|txt)$/i, ""));
-  };
-
   return (
     <Card className="animated-border">
       <CardHeader className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
         <div>
           <CardTitle>Sequence Workbench</CardTitle>
           <CardDescription>
-            FASTA input, validation, residue composition, descriptors, suggestions, and export.
+            Active target validation, residue composition, descriptors, suggestions, and export.
           </CardDescription>
         </div>
         <div className="flex flex-wrap gap-2">
-          <Button variant="outline" size="sm" onClick={() => setIsEditing(!isEditing)}>
-            {isEditing ? <Check className="h-4 w-4" /> : <Edit2 className="h-4 w-4" />}
-            {isEditing ? "Done" : "Edit Sequence"}
-          </Button>
           <Button variant="outline" size="sm" onClick={() => navigator.clipboard?.writeText(sequence)}>
             <Copy className="h-4 w-4" />
             Copy
@@ -72,7 +56,6 @@ export function SequenceWorkbench() {
           </Button>
           <Button variant="secondary" size="sm" onClick={() => {
             setSequence(SAMPLE_SEQUENCE);
-            setIsEditing(false);
           }}>
             <RotateCcw className="h-4 w-4" />
             Demo
@@ -86,53 +69,35 @@ export function SequenceWorkbench() {
             onChange={(event) => setSequenceName(event.target.value)}
             aria-label="Sequence name"
           />
-          {isEditing ? (
-            <label
-              onDragOver={(event) => {
-                event.preventDefault();
-                setDragActive(true);
-              }}
-              onDragLeave={() => setDragActive(false)}
-              onDrop={handleDrop}
-              className={cn(
-                "block rounded-lg border border-dashed border-border bg-background/50 p-3 transition",
-                dragActive && "border-primary bg-primary/8"
-              )}
-            >
-              <div className="mb-2 flex items-center justify-between text-xs text-muted-foreground">
-                <span className="flex items-center gap-2">
-                  <FileUp className="h-4 w-4" />
-                  Drop FASTA or paste a target sequence
-                </span>
-                <Badge variant={analysis.data?.metrics.invalidResidues.length ? "warning" : "success"}>
-                  {analysis.data?.input.type.replace(/_/g, " ") ?? "Checking"}
-                </Badge>
+          <div className="rounded-lg border border-border bg-background/50 p-3">
+            <div className="mb-3 grid gap-3 lg:grid-cols-[1fr_260px] lg:items-stretch">
+              <div className="rounded-md border border-border bg-background/70 p-3">
+                <p className="text-xs font-semibold uppercase tracking-[0.05em] text-muted-foreground">Residue View</p>
+                <p className="mt-1 text-sm text-foreground">Hover for index, click a residue to inspect its position and amino-acid identity.</p>
               </div>
-              <Textarea
-                value={sequence}
-                spellCheck={false}
-                onChange={(event) => setSequence(sanitizeSequence(event.target.value))}
-                className="min-h-52 border-0 bg-transparent font-mono text-xs leading-6 focus-visible:ring-0"
-                aria-label="Protein sequence input"
-              />
-            </label>
-          ) : (
-            <div className="rounded-lg border border-border bg-background/50 p-3">
-              <div className="mb-2 flex items-center justify-between text-xs text-muted-foreground">
-                <span>Residue View (hover for index, click to inspect)</span>
-                {selectedResidue && (
-                  <Badge variant="outline">
-                    Selected: {sequence[selectedResidue - 1]}{selectedResidue}
-                  </Badge>
+              <div className="rounded-md border border-border bg-background/80 p-3 shadow-sm">
+                <p className="text-xs font-semibold uppercase tracking-[0.05em] text-muted-foreground">Selected Residue</p>
+                {selectedResidue && selectedCode ? (
+                  <div className="mt-2 grid grid-cols-[auto_1fr] items-center gap-3">
+                    <span className="grid h-12 w-12 place-items-center rounded-md border border-primary/35 bg-primary/10 font-mono text-xl font-semibold text-primary">
+                      {selectedCode}{selectedResidue}
+                    </span>
+                    <div className="min-w-0">
+                      <p className="truncate text-sm font-semibold text-foreground">{selectedResidueInfo?.name ?? "Residue"}</p>
+                      <p className="mt-1 font-mono text-xs text-muted-foreground">Index {selectedResidue} / {sequence.length}</p>
+                    </div>
+                  </div>
+                ) : (
+                  <p className="mt-2 text-sm text-muted-foreground">No residue selected.</p>
                 )}
               </div>
-              <SequenceViewer
-                sequence={sequence}
-                selectedResidue={selectedResidue}
-                onResidueClick={(idx) => setSelectedResidue(idx)}
-              />
             </div>
-          )}
+            <SequenceViewer
+              sequence={sequence}
+              selectedResidue={selectedResidue}
+              onResidueClick={(idx) => setSelectedResidue(idx)}
+            />
+          </div>
           <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
             {analysis.isLoading
               ? Array.from({ length: 4 }).map((_, index) => <Skeleton key={index} className="h-20" />)
@@ -187,7 +152,7 @@ export function SequenceWorkbench() {
               {(analysis.data?.explanations.slice(0, 3) ?? []).map((card) => (
                 <p key={card.id}>{card.body}</p>
               ))}
-              {!analysis.data && <p>Worker analysis will populate local explanation cards without contacting a backend.</p>}
+              {!analysis.data && <p>Sequence analysis will populate explanation cards after a target is selected.</p>}
             </div>
           </div>
         </div>

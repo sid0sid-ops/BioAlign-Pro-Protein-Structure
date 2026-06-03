@@ -1,9 +1,9 @@
-# PowerShell script to run the local development server for BioAlign Pro Fold Explorer
+# PowerShell script to run the local development server for BioAlign-Pro-Protein-Structure
 # Ensure we run from the project root directory
 Set-Location "$PSScriptRoot\.."
 
 Write-Host "=============================================" -ForegroundColor Cyan
-Write-Host "  Starting BioAlign Pro Fold Explorer (Dev)  " -ForegroundColor Cyan
+Write-Host "  Starting BioAlign-Pro-Protein-Structure (Dev)  " -ForegroundColor Cyan
 Write-Host "=============================================" -ForegroundColor Cyan
 
 # 1. Check for Node.js and npm

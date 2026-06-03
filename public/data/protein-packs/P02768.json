@@ -1,6 +1,6 @@
 {
   "schemaVersion": "bioalign.static-protein-pack.v1",
-  "generatedAt": "2026-05-29T07:43:02.739Z",
+  "generatedAt": "2026-06-02T18:04:47.852Z",
   "accession": "P02768",
   "geneName": "ALB",
   "proteinName": "Albumin",
@@ -463,7 +463,7 @@
     "modelId": "AF-P02768-F1",
     "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P02768-F1-model_v6.pdb",
     "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-P02768-F1-model_v6.cif",
-    "confidenceAvg": 92.69,
+    "confidenceAvg": 92.68,
     "paeUrl": "https://alphafold.ebi.ac.uk/files/AF-P02768-F1-predicted_aligned_error_v6.json",
     "plddtUrl": "https://alphafold.ebi.ac.uk/files/AF-P02768-F1-confidence_v6.json"
   },
@@ -571,7 +571,7 @@
   ],
   "structureIntelligence": {
     "schemaVersion": "bioalign.structure-intelligence.v1",
-    "generatedAt": "2026-05-29T07:43:05.426Z",
+    "generatedAt": "2026-06-02T18:04:51.456Z",
     "protein": {
       "accession": "P02768",
       "name": "Albumin",
@@ -1814,7 +1814,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1AO6",
-            "accessedAt": "2026-05-29T07:43:03.028Z",
+            "accessedAt": "2026-06-02T18:04:48.196Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1842,7 +1842,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1BM0",
-            "accessedAt": "2026-05-29T07:43:03.387Z",
+            "accessedAt": "2026-06-02T18:04:48.510Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1870,7 +1870,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/4K2C",
-            "accessedAt": "2026-05-29T07:43:03.706Z",
+            "accessedAt": "2026-06-02T18:04:48.820Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1906,7 +1906,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1BJ5",
-            "accessedAt": "2026-05-29T07:43:04.034Z",
+            "accessedAt": "2026-06-02T18:04:49.126Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1942,7 +1942,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1BKE",
-            "accessedAt": "2026-05-29T07:43:04.321Z",
+            "accessedAt": "2026-06-02T18:04:49.462Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1980,7 +1980,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1E78",
-            "accessedAt": "2026-05-29T07:43:04.655Z",
+            "accessedAt": "2026-06-02T18:04:49.769Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -2018,7 +2018,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1E7A",
-            "accessedAt": "2026-05-29T07:43:04.990Z",
+            "accessedAt": "2026-06-02T18:04:50.078Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -2056,7 +2056,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1E7B",
-            "accessedAt": "2026-05-29T07:43:05.275Z",
+            "accessedAt": "2026-06-02T18:04:50.413Z",
             "sourceType": "RCSB PDB"
           }
         }
@@ -2071,11 +2071,11 @@
           "bcifUrl": "https://alphafold.ebi.ac.uk/files/AF-P02768-F1-model_v6.bcif",
           "paeUrl": "https://alphafold.ebi.ac.uk/files/AF-P02768-F1-predicted_aligned_error_v6.json",
           "plddtUrl": "https://alphafold.ebi.ac.uk/files/AF-P02768-F1-confidence_v6.json",
-          "meanPlddt": 92.69,
+          "meanPlddt": 92.68,
           "source": {
             "name": "AlphaFold DB API",
             "url": "https://alphafold.ebi.ac.uk/api/prediction/P02768",
-            "accessedAt": "2026-05-29T07:43:05.426Z",
+            "accessedAt": "2026-06-02T18:04:51.456Z",
             "sourceType": "AlphaFold DB",
             "version": "v6"
           }
@@ -2464,27 +2464,40 @@
       "consensus": "",
       "conservationScores": [],
       "gapFrequencies": [],
-      "sourceSequenceCount": 0,
+      "sourceSequenceCount": 13,
       "source": "Curated/UniProt homologs",
-      "unavailableReason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+      "unavailableReason": "MAFFT failed during the static build: Command failed: mafft --auto /tmp/bioalign-msa-RjBwhY/homologs.fasta\n/usr/bin/mafft: line 1291: /dev/stderr: No such device or address\n/usr/bin/mafft: line 1295: [: too many arguments\n/usr/bin/mafft: line 1300: [: too many arguments\n/usr/bin/mafft: line 1305: [: too many arguments\n/usr/bin/mafft: line 1310: [: -lt: unary operator expected\n/usr/bin/mafft: line 1315: [: -lt: unary operator expected\n/usr/bin/mafft: line 1322: [: -lt: unary operator expected\n/usr/bin/mafft: line 1329: [: -lt: unary operator expected\n/usr/bin/mafft: line 2655: /dev/stderr: No such device or address\n"
     },
     "profileEvidence": [],
     "conservedResidues": [],
     "metrics": {
       "rmsdComparisons": [
         {
-          "available": false,
-          "reason": "No build-time coordinate superposition job has been configured for this protein pair.",
-          "method": "Kabsch superposition",
-          "source": "computed-build-time"
+          "available": true,
+          "method": "US-align",
+          "source": "computed-build-time",
+          "queryStructure": "AF-P02768-F1",
+          "templateStructure": "1AO6",
+          "chainA": "model",
+          "chainB": "PDB",
+          "atomType": "CA",
+          "alignedResidues": 578,
+          "rmsd": 1.28,
+          "interpretation": "Low deviation"
         }
       ],
       "tmScoreComparisons": [
         {
-          "available": false,
-          "reason": "TM-align or Foldseek was not available during the static build.",
-          "method": "TM-align/Foldseek/build-time",
-          "source": "computed-build-time"
+          "available": true,
+          "method": "US-align",
+          "source": "computed-build-time",
+          "queryStructure": "AF-P02768-F1",
+          "templateStructure": "1AO6",
+          "tmScore": 0.9791,
+          "alignedLength": 578,
+          "rmsd": 1.28,
+          "sequenceIdentityAligned": 1,
+          "interpretation": "same fold"
         }
       ],
       "plddt": {
@@ -9268,7 +9281,7 @@
         "meanConservation": 0,
         "highlyConservedPositions": [],
         "method": "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
-        "reason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+        "reason": "MAFFT failed during the static build: Command failed: mafft --auto /tmp/bioalign-msa-RjBwhY/homologs.fasta\n/usr/bin/mafft: line 1291: /dev/stderr: No such device or address\n/usr/bin/mafft: line 1295: [: too many arguments\n/usr/bin/mafft: line 1300: [: too many arguments\n/usr/bin/mafft: line 1305: [: too many arguments\n/usr/bin/mafft: line 1310: [: -lt: unary operator expected\n/usr/bin/mafft: line 1315: [: -lt: unary operator expected\n/usr/bin/mafft: line 1322: [: -lt: unary operator expected\n/usr/bin/mafft: line 1329: [: -lt: unary operator expected\n/usr/bin/mafft: line 2655: /dev/stderr: No such device or address\n"
       }
     },
     "structureFunction": {
@@ -9353,11 +9366,11 @@
         },
         {
           "step": "Template/Fold Comparison",
-          "status": "missing",
+          "status": "complete",
           "dataUsed": [
             "Coordinates"
           ],
-          "output": "RMSD/TM-score unavailable until build-time coordinate superposition tools are configured.",
+          "output": "TM-score 0.9791 and RMSD 1.28 computed by US-align.",
           "source": "Build-time Computed"
         },
         {
@@ -9372,13 +9385,13 @@
         },
         {
           "step": "Evolutionary Analysis",
-          "status": "partial",
+          "status": "complete",
           "dataUsed": [
-            "curated/UniProt homologs",
-            "MAFFT/Clustal Omega/MUSCLE",
-            "profile/domain evidence"
+            "homolog protein sequences",
+            "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
+            "conservation scoring"
           ],
-          "output": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable.",
+          "output": "13 homolog sequences aligned for conservation analysis.",
           "source": "Build-time MSA/InterPro"
         },
         {
@@ -9395,7 +9408,7 @@
         }
       ],
       "warnings": [
-        "BioAlign Pro Fold Explorer does not perform AlphaFold-level structure prediction.",
+        "BioAlign-Pro-Protein-Structure does not perform AlphaFold-level structure prediction.",
         "pLDDT and PAE describe model confidence, not direct experimental proof.",
         "RMSD and TM-score depend on correct residue/structure alignment.",
         "pLDDT and PAE describe model confidence, not direct experimental proof."
@@ -9419,44 +9432,44 @@
       {
         "name": "UniProt REST API",
         "url": "https://rest.uniprot.org/uniprotkb/P02768.json",
-        "accessedAt": "2026-05-29T07:43:05.426Z",
+        "accessedAt": "2026-06-02T18:04:51.456Z",
         "sourceType": "UniProt"
       },
       {
         "name": "InterPro API",
         "url": "https://www.ebi.ac.uk/interpro/api/entry/interpro/protein/uniprot/P02768/",
-        "accessedAt": "2026-05-29T07:43:05.426Z",
+        "accessedAt": "2026-06-02T18:04:51.456Z",
         "sourceType": "InterPro"
       },
       {
         "name": "AlphaFold DB API",
         "url": "https://alphafold.ebi.ac.uk/api/prediction/P02768",
-        "accessedAt": "2026-05-29T07:43:05.426Z",
+        "accessedAt": "2026-06-02T18:04:51.456Z",
         "sourceType": "AlphaFold DB",
         "version": "v6"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/1AO6",
-        "accessedAt": "2026-05-29T07:43:03.028Z",
+        "accessedAt": "2026-06-02T18:04:48.196Z",
         "sourceType": "RCSB PDB"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/1BM0",
-        "accessedAt": "2026-05-29T07:43:03.387Z",
+        "accessedAt": "2026-06-02T18:04:48.510Z",
         "sourceType": "RCSB PDB"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/4K2C",
-        "accessedAt": "2026-05-29T07:43:03.706Z",
+        "accessedAt": "2026-06-02T18:04:48.820Z",
         "sourceType": "RCSB PDB"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/1BJ5",
-        "accessedAt": "2026-05-29T07:43:04.034Z",
+        "accessedAt": "2026-06-02T18:04:49.126Z",
         "sourceType": "RCSB PDB"
       }
     ]

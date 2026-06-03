@@ -1,0 +1,10 @@
+{
+  "name": "BioAlign-Pro-Protein-Structure",
+  "short_name": "Protein Structure",
+  "description": "Static protein structure research dashboard with saved database-backed records.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f3f1",
+  "theme_color": "#242424"
+}

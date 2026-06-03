@@ -948,7 +948,7 @@ async function buildStructureIntelligence(pack, uniprot, alphaFoldModel, interpr
       structureFunctionSummary: structureFunction.summary,
       sequenceStructureFunctionPipeline: [],
       warnings: [
-        "BioAlign Pro Fold Explorer does not perform AlphaFold-level structure prediction.",
+        "BioAlign-Pro-Protein-Structure does not perform AlphaFold-level structure prediction.",
         "pLDDT and PAE describe model confidence, not direct experimental proof.",
         "RMSD and TM-score depend on correct residue/structure alignment.",
         ...structureFunction.warnings

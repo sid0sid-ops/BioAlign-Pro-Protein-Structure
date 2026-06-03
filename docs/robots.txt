@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sid0sid-ops.github.io/BioAlign-Pro-Protein-Structure/sitemap.xml

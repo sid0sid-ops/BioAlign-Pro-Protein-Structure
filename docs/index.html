@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BioAlign-Pro-Protein-Structure</title>
+    <meta name="description" content="Offline-ready protein structure research dashboard using selected UniProt, RCSB PDB, AlphaFold, InterPro, and local structure-intelligence records.">
+    <link rel="canonical" href="https://sid0sid-ops.github.io/BioAlign-Pro-Protein-Structure/">
+    <meta property="og:title" content="BioAlign-Pro-Protein-Structure">
+    <meta property="og:description" content="Static protein structure research dashboard with saved UniProt, RCSB PDB, AlphaFold, InterPro, and structure-intelligence records.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sid0sid-ops.github.io/BioAlign-Pro-Protein-Structure/">
+    <meta name="twitter:card" content="summary">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="stylesheet" href="./assets/css/site.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <button class="menu-button" type="button" aria-label="Open navigation" id="menuButton">&#9776;</button>
+      <strong class="brand">Protein Structure</strong>
+      <form id="searchForm" class="searchbar" role="search">
+        <input id="proteinSearch" name="proteinSearch" type="search" value="P04637" autocomplete="off" aria-label="Search protein">
+        <button id="clearSearch" class="icon-button" type="button" aria-label="Clear search">&times;</button>
+        <button class="search-button" type="submit" aria-label="Search protein">
+          <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+            <path d="m21 21-4.34-4.34"></path>
+            <circle cx="11" cy="11" r="8"></circle>
+          </svg>
+        </button>
+        <div id="suggestions" class="suggestions" hidden></div>
+      </form>
+      <a class="contact-link" href="https://sid0sid-ops.github.io/BioAlign-Pro-Contact/" target="_blank" rel="noopener noreferrer">Contact</a>
+    </header>
+
+    <aside id="drawer" class="drawer" aria-label="Page navigation">
+      <button class="drawer-close" type="button" id="closeDrawer">&times;</button>
+      <nav>
+        <a href="#record">Record</a>
+        <a href="#structures">Structures</a>
+        <a href="#sequence">Sequence</a>
+        <a href="#methods">Interpretation</a>
+        <a href="#sources">Sources</a>
+        <a href="./about.html">About</a>
+      </nav>
+    </aside>
+
+    <main class="page">
+      <section id="record" class="record-head">
+        <div>
+          <p class="eyebrow">Selected local protein record</p>
+          <h1 id="proteinTitle">Loading selected protein...</h1>
+          <p id="proteinSubtitle" class="subtitle">Reading bundled database records from docs/data.</p>
+        </div>
+        <div class="download-actions">
+          <button id="downloadRecord" class="secondary-button" type="button">JSON</button>
+          <button id="downloadFasta" class="secondary-button" type="button">FASTA</button>
+          <button id="downloadFeatures" class="secondary-button" type="button">Features CSV</button>
+          <button id="downloadSources" class="secondary-button" type="button">Sources</button>
+        </div>
+      </section>
+
+      <section class="summary-grid" aria-label="Protein summary">
+        <article class="summary-card"><span>Organism</span><strong id="summaryOrganism">-</strong><small>UniProtKB</small></article>
+        <article class="summary-card"><span>UniProt ID</span><strong id="summaryAccession">-</strong><small>Accession</small></article>
+        <article class="summary-card"><span>Length</span><strong id="summaryLength">-</strong><small>Canonical sequence</small></article>
+        <article class="summary-card"><span>Feature records</span><strong id="summaryFeatures">-</strong><small>UniProt / InterPro</small></article>
+      </section>
+
+      <section id="structures" class="grid-two">
+        <article class="panel">
+          <div class="panel-title">
+            <div>
+              <p class="eyebrow">3D structure records</p>
+              <h2 id="structureTitle">Structures</h2>
+            </div>
+            <a id="openRcsb" class="small-link" href="#" target="_blank" rel="noopener noreferrer">Open source</a>
+          </div>
+          <div id="structureViewer" class="molstar-shell">
+            <iframe id="molstarFrame" title="3D molecular structure viewer" loading="lazy"></iframe>
+          </div>
+          <div id="structureList" class="record-table"></div>
+        </article>
+
+        <article class="panel">
+          <p class="eyebrow">Structure interpretation route</p>
+          <h2>Evidence from selected databases</h2>
+          <div id="levelTable" class="record-table"></div>
+          <div id="methodTable" class="record-table compact"></div>
+        </article>
+      </section>
+
+      <section id="sequence" class="panel">
+        <div class="panel-title">
+          <div>
+            <p class="eyebrow">Sequence and domain annotation</p>
+            <h2 id="sequenceTitle">Sequence map</h2>
+          </div>
+          <button id="expandSequence" class="small-button" type="button">View full sequence</button>
+        </div>
+        <div class="sequence-map">
+          <div class="ruler" id="ruler"></div>
+          <div class="domain-track" id="domainTrack"></div>
+          <pre id="sequencePreview"></pre>
+        </div>
+      </section>
+
+      <section class="grid-two">
+        <article id="methods" class="panel">
+          <p class="eyebrow">Prediction method context</p>
+          <h2>Route selection</h2>
+          <div class="method-note">
+            <strong>Experimental structure first.</strong>
+            <span>When a PDB record exists, the dashboard treats it as the primary structural source. Homology, threading, and deep-learning routes are interpreted only through available evidence.</span>
+          </div>
+          <div id="validationTable" class="record-table"></div>
+        </article>
+
+        <article id="sources" class="panel">
+          <p class="eyebrow">Sources and provenance</p>
+          <h2>Where the page data comes from</h2>
+          <div id="sourcesTable" class="record-table"></div>
+        </article>
+      </section>
+
+      <section class="grid-two">
+        <article class="panel">
+          <p class="eyebrow">AlphaFold confidence</p>
+          <h2>Predicted model evidence</h2>
+          <div id="alphafoldTable" class="record-table"></div>
+        </article>
+        <article class="panel">
+          <p class="eyebrow">Feature classes</p>
+          <h2>Domains, regions, motifs, and sites</h2>
+          <div id="featureClassTable" class="record-table"></div>
+        </article>
+      </section>
+
+      <section class="grid-two">
+        <article class="panel">
+          <p class="eyebrow">Disease and interactions</p>
+          <h2>Biological context</h2>
+          <div id="biologyTable" class="record-table"></div>
+        </article>
+        <article class="panel">
+          <p class="eyebrow">Source confidence</p>
+          <h2>What is direct, computed, or missing</h2>
+          <div id="confidenceTable" class="record-table"></div>
+        </article>
+      </section>
+    </main>
+
+    <div id="sequenceModal" class="modal" hidden>
+      <div class="modal-backdrop" data-close-modal></div>
+      <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <header class="modal-head">
+          <div>
+            <p class="eyebrow">Complete sequence and annotations</p>
+            <h2 id="modalTitle">Full sequence</h2>
+          </div>
+          <button class="icon-button" type="button" data-close-modal>&times;</button>
+        </header>
+        <div id="fullAnnotationMap" class="full-map"></div>
+        <pre id="fullSequence" class="full-sequence"></pre>
+        <div id="fullFeatures" class="record-table"></div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <span>BioAlign-Pro-Protein-Structure. Static GitHub Pages build with selected offline protein records.</span>
+    </footer>
+
+    <script src="./assets/js/app.js" defer></script>
+  </body>
+</html>

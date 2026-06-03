@@ -34,7 +34,7 @@ function DynamicProteinRibbon({ sequence, viewMode }: DynamicProteinRibbonProps)
 
     for (let i = 0; i < len; i++) {
       const t = i / 10;
-      let step = new THREE.Vector3(0, 0, 0.1);
+      const step = new THREE.Vector3(0, 0, 0.1);
 
       // Helix: residues 15 to 45, 80 to 110
       const isHelix = (i >= 15 && i <= 45) || (i >= 80 && i <= 110);

@@ -1,0 +1,247 @@
+{
+  "version": "2026.05.29-static-client-v2",
+  "generatedAt": "2026-05-29T06:44:45.904Z",
+  "deployment": "github-pages-static",
+  "packs": [
+    {
+      "id": "starter-proteins",
+      "href": "/data/starter-proteins.json",
+      "compressedHref": "/data/starter-proteins.json.gz",
+      "description": "Famous protein starter dataset with static protein pack pointers."
+    },
+    {
+      "id": "motifs",
+      "href": "/data/motifs.json",
+      "compressedHref": "/data/motifs.json.gz",
+      "description": "Browser motif definitions for local sequence scanning."
+    },
+    {
+      "id": "protein-pack-P04637",
+      "href": "/data/protein-packs/P04637.json",
+      "compressedHref": "/data/protein-packs/P04637.json.gz",
+      "description": "TP53 static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P69905",
+      "href": "/data/protein-packs/P69905.json",
+      "compressedHref": "/data/protein-packs/P69905.json.gz",
+      "description": "HBA1 static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P68871",
+      "href": "/data/protein-packs/P68871.json",
+      "compressedHref": "/data/protein-packs/P68871.json.gz",
+      "description": "HBB static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P00533",
+      "href": "/data/protein-packs/P00533.json",
+      "compressedHref": "/data/protein-packs/P00533.json.gz",
+      "description": "EGFR static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P38398",
+      "href": "/data/protein-packs/P38398.json",
+      "compressedHref": "/data/protein-packs/P38398.json.gz",
+      "description": "BRCA1 static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P51587",
+      "href": "/data/protein-packs/P51587.json",
+      "compressedHref": "/data/protein-packs/P51587.json.gz",
+      "description": "BRCA2 static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P01308",
+      "href": "/data/protein-packs/P01308.json",
+      "compressedHref": "/data/protein-packs/P01308.json.gz",
+      "description": "INS static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P02768",
+      "href": "/data/protein-packs/P02768.json",
+      "compressedHref": "/data/protein-packs/P02768.json.gz",
+      "description": "ALB static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P05067",
+      "href": "/data/protein-packs/P05067.json",
+      "compressedHref": "/data/protein-packs/P05067.json.gz",
+      "description": "APP static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P10636",
+      "href": "/data/protein-packs/P10636.json",
+      "compressedHref": "/data/protein-packs/P10636.json.gz",
+      "description": "MAPT static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P01116",
+      "href": "/data/protein-packs/P01116.json",
+      "compressedHref": "/data/protein-packs/P01116.json.gz",
+      "description": "KRAS static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P01112",
+      "href": "/data/protein-packs/P01112.json",
+      "compressedHref": "/data/protein-packs/P01112.json.gz",
+      "description": "HRAS static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P01111",
+      "href": "/data/protein-packs/P01111.json",
+      "compressedHref": "/data/protein-packs/P01111.json.gz",
+      "description": "NRAS static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-Q9BYF1",
+      "href": "/data/protein-packs/Q9BYF1.json",
+      "compressedHref": "/data/protein-packs/Q9BYF1.json.gz",
+      "description": "ACE2 static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P0DTC2",
+      "href": "/data/protein-packs/P0DTC2.json",
+      "compressedHref": "/data/protein-packs/P0DTC2.json.gz",
+      "description": "S static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P60709",
+      "href": "/data/protein-packs/P60709.json",
+      "compressedHref": "/data/protein-packs/P60709.json.gz",
+      "description": "ACTB static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-Q71U36",
+      "href": "/data/protein-packs/Q71U36.json",
+      "compressedHref": "/data/protein-packs/Q71U36.json.gz",
+      "description": "TUBA1A static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P02452",
+      "href": "/data/protein-packs/P02452.json",
+      "compressedHref": "/data/protein-packs/P02452.json.gz",
+      "description": "COL1A1 static protein intelligence pack."
+    },
+    {
+      "id": "protein-pack-P42212",
+      "href": "/data/protein-packs/P42212.json",
+      "compressedHref": "/data/protein-packs/P42212.json.gz",
+      "description": "GFP static protein intelligence pack."
+    },
+    {
+      "id": "structure-intelligence-P04637",
+      "href": "/data/structure-intelligence/P04637.json",
+      "compressedHref": "/data/structure-intelligence/P04637.json.gz",
+      "description": "TP53 structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P69905",
+      "href": "/data/structure-intelligence/P69905.json",
+      "compressedHref": "/data/structure-intelligence/P69905.json.gz",
+      "description": "HBA1 structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P68871",
+      "href": "/data/structure-intelligence/P68871.json",
+      "compressedHref": "/data/structure-intelligence/P68871.json.gz",
+      "description": "HBB structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P00533",
+      "href": "/data/structure-intelligence/P00533.json",
+      "compressedHref": "/data/structure-intelligence/P00533.json.gz",
+      "description": "EGFR structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P38398",
+      "href": "/data/structure-intelligence/P38398.json",
+      "compressedHref": "/data/structure-intelligence/P38398.json.gz",
+      "description": "BRCA1 structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P51587",
+      "href": "/data/structure-intelligence/P51587.json",
+      "compressedHref": "/data/structure-intelligence/P51587.json.gz",
+      "description": "BRCA2 structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P01308",
+      "href": "/data/structure-intelligence/P01308.json",
+      "compressedHref": "/data/structure-intelligence/P01308.json.gz",
+      "description": "INS structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P02768",
+      "href": "/data/structure-intelligence/P02768.json",
+      "compressedHref": "/data/structure-intelligence/P02768.json.gz",
+      "description": "ALB structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P05067",
+      "href": "/data/structure-intelligence/P05067.json",
+      "compressedHref": "/data/structure-intelligence/P05067.json.gz",
+      "description": "APP structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P10636",
+      "href": "/data/structure-intelligence/P10636.json",
+      "compressedHref": "/data/structure-intelligence/P10636.json.gz",
+      "description": "MAPT structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P01116",
+      "href": "/data/structure-intelligence/P01116.json",
+      "compressedHref": "/data/structure-intelligence/P01116.json.gz",
+      "description": "KRAS structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P01112",
+      "href": "/data/structure-intelligence/P01112.json",
+      "compressedHref": "/data/structure-intelligence/P01112.json.gz",
+      "description": "HRAS structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P01111",
+      "href": "/data/structure-intelligence/P01111.json",
+      "compressedHref": "/data/structure-intelligence/P01111.json.gz",
+      "description": "NRAS structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-Q9BYF1",
+      "href": "/data/structure-intelligence/Q9BYF1.json",
+      "compressedHref": "/data/structure-intelligence/Q9BYF1.json.gz",
+      "description": "ACE2 structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P0DTC2",
+      "href": "/data/structure-intelligence/P0DTC2.json",
+      "compressedHref": "/data/structure-intelligence/P0DTC2.json.gz",
+      "description": "S structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P60709",
+      "href": "/data/structure-intelligence/P60709.json",
+      "compressedHref": "/data/structure-intelligence/P60709.json.gz",
+      "description": "ACTB structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-Q71U36",
+      "href": "/data/structure-intelligence/Q71U36.json",
+      "compressedHref": "/data/structure-intelligence/Q71U36.json.gz",
+      "description": "TUBA1A structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P02452",
+      "href": "/data/structure-intelligence/P02452.json",
+      "compressedHref": "/data/structure-intelligence/P02452.json.gz",
+      "description": "COL1A1 structure intelligence extension pack."
+    },
+    {
+      "id": "structure-intelligence-P42212",
+      "href": "/data/structure-intelligence/P42212.json",
+      "compressedHref": "/data/structure-intelligence/P42212.json.gz",
+      "description": "GFP structure intelligence extension pack."
+    }
+  ]
+}

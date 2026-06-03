@@ -1,9 +1,9 @@
-# PowerShell script to build and preview the static production site for BioAlign Pro Fold Explorer
+# PowerShell script to build and preview the static production site for BioAlign-Pro-Protein-Structure
 # Ensure we run from the project root directory
 Set-Location "$PSScriptRoot\.."
 
 Write-Host "=============================================" -ForegroundColor Cyan
-Write-Host "  Building and Previewing BioAlign Pro (Prod) " -ForegroundColor Cyan
+Write-Host "  Building and Previewing BioAlign-Pro-Protein-Structure (Prod) " -ForegroundColor Cyan
 Write-Host "=============================================" -ForegroundColor Cyan
 
 # 1. Check for Node.js and npm

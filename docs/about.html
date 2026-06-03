@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About - BioAlign-Pro-Protein-Structure</title>
+    <meta name="description" content="Implementation notes for the BioAlign-Pro-Protein-Structure website.">
+    <link rel="canonical" href="https://sid0sid-ops.github.io/BioAlign-Pro-Protein-Structure/about.html">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="stylesheet" href="./assets/css/site.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">BP</span><span>BioAlign-Pro-Protein-Structure</span></div>
+      <nav class="nav" aria-label="Primary">
+        <a href="./">Home</a>
+        <a href="./#search">Search</a>
+        <a href="./#methods">Methods</a>
+        <a href="./DEPLOYMENT.md">Deployment</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="wrap">
+          <h1>About This Site</h1>
+          <p class="section-lede">The front page stays focused on the bioinformatics work. Implementation and deployment details live here for anyone who wants to inspect how the static site is arranged.</p>
+
+          <div class="methods">
+            <article class="method-card">
+              <h3>Static Pack First</h3>
+              <p>Runtime lookup starts with the local search index and selected protein pack before any optional browser API refresh.</p>
+            </article>
+            <article class="method-card">
+              <h3>No Invented Metrics</h3>
+              <p>MSA, pLDDT, PAE, RMSD, and TM-score panels show values only when real source data or build-time computation exists.</p>
+            </article>
+            <article class="method-card">
+              <h3>Browser Runtime</h3>
+              <p>GitHub Pages files run in the user's browser. The development app can use workers and IndexedDB; the standalone docs site uses plain HTML, CSS, JavaScript, and JSON.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Implementation notes for BioAlign-Pro-Protein-Structure.</span>
+    </footer>
+  </body>
+</html>

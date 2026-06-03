@@ -74,7 +74,7 @@ export function AlphaFoldPanel() {
               <p>Mode: static browser demonstration</p>
               <p>Source: bundled confidence series</p>
               <p>Runtime: no backend, no API key, no server dependency</p>
-              <p>Note: BioAlign does not claim browser-side structure prediction here.</p>
+              <p>Note: BioAlign-Pro-Protein-Structure does not claim browser-side structure prediction here.</p>
             </div>
           </div>
         </div>

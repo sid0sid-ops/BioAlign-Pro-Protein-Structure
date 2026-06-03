@@ -1,5 +1,5 @@
 /**
- * BioAlign Pro — Intelligent Input Detection Engine
+ * BioAlign-Pro-Protein-Structure — Intelligent Input Detection Engine
  * Detects sequence type from any user input:
  *   FASTA, UniProt accession, PDB ID, gene name, DNA, RNA, protein
  */

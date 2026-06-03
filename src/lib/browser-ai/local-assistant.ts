@@ -21,7 +21,7 @@ export async function enableLocalAssistant(): Promise<LocalAssistantState> {
     return {
       enabled: true,
       provider: "rule-explainer",
-      warning: "No local WebLLM or Transformers.js model is bundled yet; using deterministic explanations over loaded BioAlign data."
+      warning: "No local WebLLM or Transformers.js model is bundled yet; using deterministic explanations over loaded BioAlign-Pro-Protein-Structure data."
     };
   }
 
@@ -51,6 +51,6 @@ export function explainLoadedBioAlignData(result: ClientIntelligenceResult | nul
     invalid
       ? `Review invalid symbols before downstream interpretation: ${result.metrics.invalidResidues.join(", ")}.`
       : "The inferred alphabet is internally consistent.",
-    "This assistant explains loaded BioAlign data only; it does not predict protein structures."
+    "This assistant explains loaded BioAlign-Pro-Protein-Structure data only; it does not predict protein structures."
   ].join(" ");
 }

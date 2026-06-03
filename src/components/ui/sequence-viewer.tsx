@@ -67,8 +67,8 @@ export function SequenceViewer({
         <span className="flex items-center gap-1"><span className="h-2 w-2 rounded bg-slate-500/20" /> Non-polar</span>
       </div>
 
-      <div className="hide-scrollbar max-h-80 overflow-y-auto rounded-lg border border-border bg-background/30 p-4 leading-relaxed">
-        <div className="grid grid-cols-[3rem_1fr] gap-4">
+      <div className="hide-scrollbar max-h-[560px] min-h-[320px] overflow-y-auto rounded-lg border border-border bg-background/30 p-2 leading-relaxed sm:min-h-[360px] sm:p-4 xl:max-h-[680px]">
+        <div className="grid grid-cols-[2.5rem_minmax(0,1fr)] gap-2 sm:grid-cols-[3rem_1fr] sm:gap-4">
           {Array.from({ length: Math.ceil(residues.length / 50) }).map((_, rowIndex) => {
             const startIdx = rowIndex * 50;
             const endIdx = Math.min(startIdx + 50, residues.length);
@@ -79,7 +79,7 @@ export function SequenceViewer({
                 <span className="select-none pt-0.5 text-right text-xs font-semibold text-muted-foreground/60">
                   {startIdx + 1}
                 </span>
-                <div className="flex flex-wrap gap-1">
+                <div className="grid grid-cols-[repeat(auto-fill,minmax(1.5rem,1fr))] gap-1 sm:flex sm:flex-wrap">
                   {rowResidues.map((res, colIndex) => {
                     const idx = startIdx + colIndex + 1; // 1-based index
                     const ann = getAnnotationForIndex(idx);
@@ -90,7 +90,7 @@ export function SequenceViewer({
                       <span
                         key={idx}
                         className={cn(
-                          "relative flex h-7 w-6 cursor-pointer items-center justify-center rounded border text-xs font-bold transition-all hover:scale-110 hover:z-10",
+                          "relative flex h-7 min-w-0 cursor-pointer items-center justify-center rounded border text-xs font-bold transition-all hover:z-10 hover:scale-110 sm:w-6",
                           residueColors[res] ?? "bg-muted text-muted-foreground",
                           isSelected && "ring-2 ring-primary ring-offset-2 ring-offset-background",
                           isHovered && "scale-110 border-foreground/30",

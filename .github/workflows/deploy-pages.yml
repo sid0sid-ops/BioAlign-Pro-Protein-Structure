@@ -1,4 +1,4 @@
-name: Deploy BioAlign Pro Protein Structure
+name: Deploy BioAlign-Pro-Protein-Structure
 
 on:
   push:
@@ -15,57 +15,41 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    env:
-      NEXT_PUBLIC_BASE_PATH: /BioAlign-Pro-Protein-Structure
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build static data
-        run: npm run data:build --if-present
-
-      - name: Typecheck
-        run: npm run typecheck --if-present
-
-      - name: Build static export
-        run: npm run build
-
-      - name: Ensure GitHub Pages files exist
-        run: |
-          test -f out/index.html
-          test -f out/.nojekyll || touch out/.nojekyll
-          test -d out/_next
-          test -d out/data
-          test -d out/indexes
-          ls -la out
-          find out/data/protein-packs -maxdepth 1 -type f | head -30 || true
-          find out/indexes -maxdepth 1 -type f || true
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: out
-
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Verify docs static site
+        run: |
+          test -f docs/index.html
+          test -f docs/404.html
+          test -f docs/.nojekyll
+          test -f docs/assets/css/site.css
+          test -f docs/assets/js/app.js
+          test -f docs/offline-sw.js
+          test -f docs/robots.txt
+          test -f docs/sitemap.xml
+          test -f docs/site.webmanifest
+          test -f docs/data/manifest.json
+          test -f docs/data/starter-proteins.json
+          git ls-files docs/data/structures | grep -q . && exit 1 || true
+          find docs -name '*.ts' -o -name '*.tsx' | grep -q . && exit 1 || true
+          artifact_size="$(du -sm docs | cut -f1)"
+          test "$artifact_size" -lt 100
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

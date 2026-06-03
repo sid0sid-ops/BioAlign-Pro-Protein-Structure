@@ -1,0 +1,2496 @@
+{
+  "schemaVersion": "bioalign.static-protein-pack.v1",
+  "generatedAt": "2026-06-02T18:04:39.116Z",
+  "accession": "P51587",
+  "geneName": "BRCA2",
+  "proteinName": "Breast cancer type 2 susceptibility protein",
+  "aliases": [
+    "BRCA2",
+    "breast cancer type 2 susceptibility protein"
+  ],
+  "organism": {
+    "scientificName": "Homo sapiens",
+    "commonName": "Human",
+    "taxonId": 9606
+  },
+  "sequence": {
+    "value": "MPIGSKERPTFFEIFKTRCNKADLGPISLNWFEELSSEAPPYNSEPAEESEHKNNNYEPNLFKTPQRKPSYNQLASTPIIFKEQGLTLPLYQSPVKELDKFKLDLGRNVPNSRHKSLRTVKTKMDQADDVSCPLLNSCLSESPVVLQCTHVTPQRDKSVVCGSLFHTPKFVKGRQTPKHISESLGAEVDPDMSWSSSLATPPTLSSTVLIVRNEEASETVFPHDTTANVKSYFSNHDESLKKNDRFIASVTDSENTNQREAASHGFGKTSGNSFKVNSCKDHIGKSMPNVLEDEVYETVVDTSEEDSFSLCFSKCRTKNLQKVRTSKTRKKIFHEANADECEKSKNQVKEKYSFVSEVEPNDTDPLDSNVANQKPFESGSDKISKEVVPSLACEWSQLTLSGLNGAQMEKIPLLHISSCDQNISEKDLLDTENKRKKDFLTSENSLPRISSLPKSEKPLNEETVVNKRDEEQHLESHTDCILAVKQAISGTSPVASSFQGIKKSIFRIRESPKETFNASFSGHMTDPNFKKETEASESGLEIHTVCSQKEDSLCPNLIDNGSWPATTTQNSVALKNAGLISTLKKKTNKFIYAIHDETSYKGKKIPKDQKSELINCSAQFEANAFEAPLTFANADSGLLHSSVKRSCSQNDSEEPTLSLTSSFGTILRKCSRNETCSNNTVISQDLDYKEAKCNKEKLQLFITPEADSLSCLQEGQCENDPKSKKVSDIKEEVLAAACHPVQHSKVEYSDTDFQSQKSLLYDHENASTLILTPTSKDVLSNLVMISRGKESYKMSDKLKGNNYESDVELTKNIPMEKNQDVCALNENYKNVELLPPEKYMRVASPSRKVQFNQNTNLRVIQKNQEETTSISKITVNPDSEELFSDNENNFVFQVANERNNLALGNTKELHETDLTCVNEPIFKNSTMVLYGDTGDKQATQVSIKKDLVYVLAEENKNSVKQHIKMTLGQDLKSDISLNIDKIPEKNNDYMNKWAGLLGPISNHSFGGSFRTASNKEIKLSEHNIKKSKMFFKDIEEQYPTSLACVEIVNTLALDNQKKLSKPQSINTVSAHLQSSVVVSDCKNSHITPQMLFSKQDFNSNHNLTPSQKAEITELSTILEESGSQFEFTQFRKPSYILQKSTFEVPENQMTILKTTSEECRDADLHVIMNAPSIGQVDSSKQFEGTVEIKRKFAGLLKNDCNKSASGYLTDENEVGFRGFYSAHGTKLNVSTEALQKAVKLFSDIENISEETSAEVHPISLSSSKCHDSVVSMFKIENHNDKTVSEKNNKCQLILQNNIEMTTGTFVEEITENYKRNTENEDNKYTAASRNSHNLEFDGSDSSKNDTVCIHKDETDLLFTDQHNICLKLSGQFMKEGNTQIKEDLSDLTFLEVAKAQEACHGNTSNKEQLTATKTEQNIKDFETSDTFFQTASGKNISVAKESFNKIVNFFDQKPEELHNFSLNSELHSDIRKNKMDILSYEETDIVKHKILKESVPVGTGNQLVTFQGQPERDEKIKEPTLLGFHTASGKKVKIAKESLDKVKNLFDEKEQGTSEITSFSHQWAKTLKYREACKDLELACETIEITAAPKCKEMQNSLNNDKNLVSIETVVPPKLLSDNLCRQTENLKTSKSIFLKVKVHENVEKETAKSPATCYTNQSPYSVIENSALAFYTSCSRKTSVSQTSLLEAKKWLREGIFDGQPERINTADYVGNYLYENNSNSTIAENDKNHLSEKQDTYLSNSSMSNSYSYHSDEVYNDSGYLSKNKLDSGIEPVLKNVEDQKNTSFSKVISNVKDANAYPQTVNEDICVEELVTSSSPCKNKNAAIKLSISNSNNFEVGPPAFRIASGKIVCVSHETIKKVKDIFTDSFSKVIKENNENKSKICQTKIMAGCYEALDDSEDILHNSLDNDECSTHSHKVFADIQSEEILQHNQNMSGLEKVSKISPCDVSLETSDICKCSIGKLHKSVSSANTCGIFSTASGKSVQVSDASLQNARQVFSEIEDSTKQVFSKVLFKSNEHSDQLTREENTAIRTPEHLISQKGFSYNVVNSSAFSGFSTASGKQVSILESSLHKVKGVLEEFDLIRTEHSLHYSPTSRQNVSKILPRVDKRNPEHCVNSEMEKTCSKEFKLSNNLNVEGGSSENNHSIKVSPYLSQFQQDKQQLVLGTKVSLVENIHVLGKEQASPKNVKMEIGKTETFSDVPVKTNIEVCSTYSKDSENYFETEAVEIAKAFMEDDELTDSKLPSHATHSLFTCPENEEMVLSNSRIGKRRGEPLILVGEPSIKRNLLNEFDRIIENQEKSLKASKSTPDGTIKDRRLFMHHVSLEPITCVPFRTTKERQEIQNPNFTAPGQEFLSKSHLYEHLTLEKSSSNLAVSGHPFYQVSATRNEKMRHLITTGRPTKVFVPPFKTKSHFHRVEQCVRNINLEENRQKQNIDGHGSDDSKNKINDNEIHQFNKNNSNQAVAVTFTKCEEEPLDLITSLQNARDIQDMRIKKKQRQRVFPQPGSLYLAKTSTLPRISLKAAVGGQVPSACSHKQLYTYGVSKHCIKINSKNAESFQFHTEDYFGKESLWTGKGIQLADGGWLIPSNDGKAGKEEFYRALCDTPGVDPKLISRIWVYNHYRWIIWKLAAMECAFPKEFANRCLSPERVLLQLKYRYDTEIDRSRRSAIKKIMERDDTAAKTLVLCVSDIISLSANISETSSNKTSSADTQKVAIIELTDGWYAVKAQLDPPLLAVLKNGRLTVGQKIILHGAELVGSPDACTPLEAPESLMLKISANSTRPARWYTKLGFFPDPRPFPLPLSSLFSDGGNVGCVDVIIQRAYPIQWMEKTSSGLYIFRNEREEEKEAAKYVEAQQKRLEALFTKIQEEFEEHEENTTKPYLPSRALTRQQVRALQDGAELYEAVKNAADPAYLEGYFSEEQLRALNNHRQMLNDKKQAQIQLEIRKAMESAEQKEQGLSRDVTTVWKLRIVSYSKKEKDSVILSIWRPSSDLYSLLTEGKRYRIYHLATSKSKSKSERANIQLAATKKTQYQQLPVSDEILFQIYQPREPLHFSKFLDPDFQPSCSEVDLIGFVVSVVKKTGLAPFVYLSDECYNLLAIKFWIDLNEDIIKPHMLIAASNLQWRPESKSGLLTLFAGDFSVFSASPKEGHFQETFNKMKNTVENIDILCNEAENKLMHILHANDPKWSTPTKDCTSGPYTAQIIPGTGNKLLMSSPNCEIYYQSPLSLCMAKRKSVSTPVSAQMTSKSCKGEKEIDDQKNCKKRRALDFLSRLPLPPPVSPICTFVSPAAQKAFQPPRSCGTKYETPIKKKELNSPQMTPFKKFNEISLLESNSIADEELALINTQALLSGSTGEKQFISVSESTRTAPTSSEDYLRLKRRCTTSLIKEQESSQASTEECEKNKQDTITTKKYI",
+    "length": 3418,
+    "molecularWeight": 384230,
+    "checksum": "98A48F16848D2644",
+    "source": "UniProt build-time fetch"
+  },
+  "sequenceType": "protein",
+  "domains": [
+    {
+      "name": "BRC repeats",
+      "type": "repeat",
+      "start": 1002,
+      "end": 2082
+    },
+    {
+      "name": "DNA-binding domain",
+      "type": "domain",
+      "start": 2479,
+      "end": 3190
+    }
+  ],
+  "motifs": [
+    {
+      "name": "Interaction with PALB2",
+      "type": "Region",
+      "start": 1,
+      "end": 40,
+      "source": "UniProt feature"
+    },
+    {
+      "name": "Disordered",
+      "type": "Region",
+      "start": 37,
+      "end": 68,
+      "source": "UniProt feature"
+    },
+    {
+      "name": "Disordered",
+      "type": "Region",
+      "start": 358,
+      "end": 381,
+      "source": "UniProt feature"
+    },
+    {
+      "name": "Interaction with NPM1",
+      "type": "Region",
+      "start": 639,
+      "end": 1000,
+      "source": "UniProt feature"
+    },
+    {
+      "name": "Interaction with RAD51",
+      "type": "Region",
+      "start": 1003,
+      "end": 2082,
+      "source": "UniProt feature"
+    },
+    {
+      "name": "Interaction with POLH",
+      "type": "Region",
+      "start": 1338,
+      "end": 1781,
+      "source": "UniProt feature"
+    },
+    {
+      "name": "Required for stimulation of POLH DNA polymerization activity",
+      "type": "Region",
+      "start": 1410,
+      "end": 1595,
+      "source": "UniProt feature"
+    },
+    {
+      "name": "Interaction with HSF2BP",
+      "type": "Region",
+      "start": 2270,
+      "end": 2337,
+      "source": "UniProt feature"
+    },
+    {
+      "name": "Interaction with FANCD2",
+      "type": "Region",
+      "start": 2350,
+      "end": 2545,
+      "source": "UniProt feature"
+    },
+    {
+      "name": "Disordered",
+      "type": "Region",
+      "start": 2430,
+      "end": 2450,
+      "source": "UniProt feature"
+    },
+    {
+      "name": "Interaction with SEM1",
+      "type": "Region",
+      "start": 2481,
+      "end": 2832,
+      "source": "UniProt feature"
+    },
+    {
+      "name": "Disordered",
+      "type": "Region",
+      "start": 3393,
+      "end": 3418,
+      "source": "UniProt feature"
+    },
+    {
+      "name": "Nuclear export signal; masked by interaction with SEM1",
+      "type": "Motif",
+      "start": 2682,
+      "end": 2698,
+      "source": "UniProt feature"
+    }
+  ],
+  "pdbStructures": [
+    {
+      "pdbId": "1MJE",
+      "source": "starter representative"
+    },
+    {
+      "pdbId": "1N0W",
+      "source": "starter representative"
+    },
+    {
+      "pdbId": "1MIU",
+      "source": "starter representative"
+    },
+    {
+      "pdbId": "3EU7",
+      "method": "X-ray",
+      "resolution": "2.20 A",
+      "chains": "X=21-39",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "pdbId": "6GY2",
+      "method": "X-ray",
+      "resolution": "3.11 A",
+      "chains": "C/D=194-210",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "pdbId": "6HQU",
+      "method": "X-ray",
+      "resolution": "1.97 A",
+      "chains": "I/J/K/L/M/N=1226-1253, O=2054-2064",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "pdbId": "7BDX",
+      "method": "X-ray",
+      "resolution": "2.60 A",
+      "chains": "E/F=2291-2343",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "pdbId": "7LDG",
+      "method": "X-ray",
+      "resolution": "2.56 A",
+      "chains": "B/D=2271-2335",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "pdbId": "8BR9",
+      "method": "X-ray",
+      "resolution": "1.63 A",
+      "chains": "B=1226-1263",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "pdbId": "8C3J",
+      "method": "X-ray",
+      "resolution": "3.02 A",
+      "chains": "C/J=1226-1244",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "pdbId": "8C3N",
+      "method": "X-ray",
+      "resolution": "1.21 A",
+      "chains": "B=1215-1243",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "pdbId": "8PBC",
+      "method": "EM",
+      "resolution": "2.61 A",
+      "chains": "L/M/N/O/P/Q/R/S/T/U=3260-3308",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "pdbId": "8PBD",
+      "method": "EM",
+      "resolution": "2.83 A",
+      "chains": "K/L/M/N/O/P/Q/R/S=3260-3308",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "pdbId": "8QQE",
+      "method": "X-ray",
+      "resolution": "3.46 A",
+      "chains": "C/D=2398-2417",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "pdbId": "8R2G",
+      "method": "X-ray",
+      "resolution": "3.45 A",
+      "chains": "I/J/K/L/M/N/O=2400-2413",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "pdbId": "8UVW",
+      "method": "X-ray",
+      "resolution": "2.73 A",
+      "chains": "B=1518-1547, D=3270-3305",
+      "source": "UniProt cross-reference"
+    }
+  ],
+  "alphaFold": {
+    "available": false
+  },
+  "templates": [
+    {
+      "id": "1MJE-1",
+      "pdbId": "1MJE",
+      "label": "Representative structure",
+      "score": null,
+      "rankReason": "Structure listed from UniProt/RCSB evidence; no template-ranking score was computed.",
+      "source": "starter representative"
+    },
+    {
+      "id": "1N0W-2",
+      "pdbId": "1N0W",
+      "label": "Representative structure",
+      "score": null,
+      "rankReason": "Structure listed from UniProt/RCSB evidence; no template-ranking score was computed.",
+      "source": "starter representative"
+    },
+    {
+      "id": "1MIU-3",
+      "pdbId": "1MIU",
+      "label": "Representative structure",
+      "score": null,
+      "rankReason": "Structure listed from UniProt/RCSB evidence; no template-ranking score was computed.",
+      "source": "starter representative"
+    },
+    {
+      "id": "3EU7-4",
+      "pdbId": "3EU7",
+      "label": "X-ray",
+      "score": null,
+      "rankReason": "Structure listed from UniProt/RCSB evidence; no template-ranking score was computed.",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "id": "6GY2-5",
+      "pdbId": "6GY2",
+      "label": "X-ray",
+      "score": null,
+      "rankReason": "Structure listed from UniProt/RCSB evidence; no template-ranking score was computed.",
+      "source": "UniProt cross-reference"
+    },
+    {
+      "id": "6HQU-6",
+      "pdbId": "6HQU",
+      "label": "X-ray",
+      "score": null,
+      "rankReason": "Structure listed from UniProt/RCSB evidence; no template-ranking score was computed.",
+      "source": "UniProt cross-reference"
+    }
+  ],
+  "confidenceCards": [
+    {
+      "id": "uniprot-metadata",
+      "label": "UniProt metadata",
+      "value": "available",
+      "detail": "Build-time UniProt metadata was available.",
+      "source": "UniProt"
+    },
+    {
+      "id": "structure-coverage",
+      "label": "Structure references",
+      "value": "16",
+      "detail": "16 PDB references in pack.",
+      "source": "UniProt/RCSB PDB"
+    }
+  ],
+  "pathways": [
+    {
+      "id": "homologous-recombination",
+      "name": "homologous recombination",
+      "source": "starter curation"
+    },
+    {
+      "id": "dna-double-strand-break-repair",
+      "name": "DNA double-strand break repair",
+      "source": "starter curation"
+    }
+  ],
+  "interactions": [
+    {
+      "target": "RAD51",
+      "score": null,
+      "source": "starter curation"
+    },
+    {
+      "target": "PALB2",
+      "score": null,
+      "source": "starter curation"
+    },
+    {
+      "target": "DSS1",
+      "score": null,
+      "source": "starter curation"
+    }
+  ],
+  "diseaseSummary": "Homologous recombination mediator associated with hereditary breast, ovarian, pancreatic, and prostate cancer risk.",
+  "sourceBadges": [
+    "local static pack",
+    "UniProt build-time fetch",
+    "AlphaFold checked/fallback",
+    "sequence included"
+  ],
+  "structureIntelligence": {
+    "schemaVersion": "bioalign.structure-intelligence.v1",
+    "generatedAt": "2026-06-02T18:04:42.478Z",
+    "protein": {
+      "accession": "P51587",
+      "name": "Breast cancer type 2 susceptibility protein",
+      "gene": "BRCA2",
+      "organism": "Homo sapiens",
+      "sequence": "MPIGSKERPTFFEIFKTRCNKADLGPISLNWFEELSSEAPPYNSEPAEESEHKNNNYEPNLFKTPQRKPSYNQLASTPIIFKEQGLTLPLYQSPVKELDKFKLDLGRNVPNSRHKSLRTVKTKMDQADDVSCPLLNSCLSESPVVLQCTHVTPQRDKSVVCGSLFHTPKFVKGRQTPKHISESLGAEVDPDMSWSSSLATPPTLSSTVLIVRNEEASETVFPHDTTANVKSYFSNHDESLKKNDRFIASVTDSENTNQREAASHGFGKTSGNSFKVNSCKDHIGKSMPNVLEDEVYETVVDTSEEDSFSLCFSKCRTKNLQKVRTSKTRKKIFHEANADECEKSKNQVKEKYSFVSEVEPNDTDPLDSNVANQKPFESGSDKISKEVVPSLACEWSQLTLSGLNGAQMEKIPLLHISSCDQNISEKDLLDTENKRKKDFLTSENSLPRISSLPKSEKPLNEETVVNKRDEEQHLESHTDCILAVKQAISGTSPVASSFQGIKKSIFRIRESPKETFNASFSGHMTDPNFKKETEASESGLEIHTVCSQKEDSLCPNLIDNGSWPATTTQNSVALKNAGLISTLKKKTNKFIYAIHDETSYKGKKIPKDQKSELINCSAQFEANAFEAPLTFANADSGLLHSSVKRSCSQNDSEEPTLSLTSSFGTILRKCSRNETCSNNTVISQDLDYKEAKCNKEKLQLFITPEADSLSCLQEGQCENDPKSKKVSDIKEEVLAAACHPVQHSKVEYSDTDFQSQKSLLYDHENASTLILTPTSKDVLSNLVMISRGKESYKMSDKLKGNNYESDVELTKNIPMEKNQDVCALNENYKNVELLPPEKYMRVASPSRKVQFNQNTNLRVIQKNQEETTSISKITVNPDSEELFSDNENNFVFQVANERNNLALGNTKELHETDLTCVNEPIFKNSTMVLYGDTGDKQATQVSIKKDLVYVLAEENKNSVKQHIKMTLGQDLKSDISLNIDKIPEKNNDYMNKWAGLLGPISNHSFGGSFRTASNKEIKLSEHNIKKSKMFFKDIEEQYPTSLACVEIVNTLALDNQKKLSKPQSINTVSAHLQSSVVVSDCKNSHITPQMLFSKQDFNSNHNLTPSQKAEITELSTILEESGSQFEFTQFRKPSYILQKSTFEVPENQMTILKTTSEECRDADLHVIMNAPSIGQVDSSKQFEGTVEIKRKFAGLLKNDCNKSASGYLTDENEVGFRGFYSAHGTKLNVSTEALQKAVKLFSDIENISEETSAEVHPISLSSSKCHDSVVSMFKIENHNDKTVSEKNNKCQLILQNNIEMTTGTFVEEITENYKRNTENEDNKYTAASRNSHNLEFDGSDSSKNDTVCIHKDETDLLFTDQHNICLKLSGQFMKEGNTQIKEDLSDLTFLEVAKAQEACHGNTSNKEQLTATKTEQNIKDFETSDTFFQTASGKNISVAKESFNKIVNFFDQKPEELHNFSLNSELHSDIRKNKMDILSYEETDIVKHKILKESVPVGTGNQLVTFQGQPERDEKIKEPTLLGFHTASGKKVKIAKESLDKVKNLFDEKEQGTSEITSFSHQWAKTLKYREACKDLELACETIEITAAPKCKEMQNSLNNDKNLVSIETVVPPKLLSDNLCRQTENLKTSKSIFLKVKVHENVEKETAKSPATCYTNQSPYSVIENSALAFYTSCSRKTSVSQTSLLEAKKWLREGIFDGQPERINTADYVGNYLYENNSNSTIAENDKNHLSEKQDTYLSNSSMSNSYSYHSDEVYNDSGYLSKNKLDSGIEPVLKNVEDQKNTSFSKVISNVKDANAYPQTVNEDICVEELVTSSSPCKNKNAAIKLSISNSNNFEVGPPAFRIASGKIVCVSHETIKKVKDIFTDSFSKVIKENNENKSKICQTKIMAGCYEALDDSEDILHNSLDNDECSTHSHKVFADIQSEEILQHNQNMSGLEKVSKISPCDVSLETSDICKCSIGKLHKSVSSANTCGIFSTASGKSVQVSDASLQNARQVFSEIEDSTKQVFSKVLFKSNEHSDQLTREENTAIRTPEHLISQKGFSYNVVNSSAFSGFSTASGKQVSILESSLHKVKGVLEEFDLIRTEHSLHYSPTSRQNVSKILPRVDKRNPEHCVNSEMEKTCSKEFKLSNNLNVEGGSSENNHSIKVSPYLSQFQQDKQQLVLGTKVSLVENIHVLGKEQASPKNVKMEIGKTETFSDVPVKTNIEVCSTYSKDSENYFETEAVEIAKAFMEDDELTDSKLPSHATHSLFTCPENEEMVLSNSRIGKRRGEPLILVGEPSIKRNLLNEFDRIIENQEKSLKASKSTPDGTIKDRRLFMHHVSLEPITCVPFRTTKERQEIQNPNFTAPGQEFLSKSHLYEHLTLEKSSSNLAVSGHPFYQVSATRNEKMRHLITTGRPTKVFVPPFKTKSHFHRVEQCVRNINLEENRQKQNIDGHGSDDSKNKINDNEIHQFNKNNSNQAVAVTFTKCEEEPLDLITSLQNARDIQDMRIKKKQRQRVFPQPGSLYLAKTSTLPRISLKAAVGGQVPSACSHKQLYTYGVSKHCIKINSKNAESFQFHTEDYFGKESLWTGKGIQLADGGWLIPSNDGKAGKEEFYRALCDTPGVDPKLISRIWVYNHYRWIIWKLAAMECAFPKEFANRCLSPERVLLQLKYRYDTEIDRSRRSAIKKIMERDDTAAKTLVLCVSDIISLSANISETSSNKTSSADTQKVAIIELTDGWYAVKAQLDPPLLAVLKNGRLTVGQKIILHGAELVGSPDACTPLEAPESLMLKISANSTRPARWYTKLGFFPDPRPFPLPLSSLFSDGGNVGCVDVIIQRAYPIQWMEKTSSGLYIFRNEREEEKEAAKYVEAQQKRLEALFTKIQEEFEEHEENTTKPYLPSRALTRQQVRALQDGAELYEAVKNAADPAYLEGYFSEEQLRALNNHRQMLNDKKQAQIQLEIRKAMESAEQKEQGLSRDVTTVWKLRIVSYSKKEKDSVILSIWRPSSDLYSLLTEGKRYRIYHLATSKSKSKSERANIQLAATKKTQYQQLPVSDEILFQIYQPREPLHFSKFLDPDFQPSCSEVDLIGFVVSVVKKTGLAPFVYLSDECYNLLAIKFWIDLNEDIIKPHMLIAASNLQWRPESKSGLLTLFAGDFSVFSASPKEGHFQETFNKMKNTVENIDILCNEAENKLMHILHANDPKWSTPTKDCTSGPYTAQIIPGTGNKLLMSSPNCEIYYQSPLSLCMAKRKSVSTPVSAQMTSKSCKGEKEIDDQKNCKKRRALDFLSRLPLPPPVSPICTFVSPAAQKAFQPPRSCGTKYETPIKKKELNSPQMTPFKKFNEISLLESNSIADEELALINTQALLSGSTGEKQFISVSESTRTAPTSSEDYLRLKRRCTTSLIKEQESSQASTEECEKNKQDTITTKKYI",
+      "length": 3418,
+      "functionComments": [
+        "Involved in double-strand break repair and/or homologous recombination. Binds RAD51 and potentiates recombinational DNA repair by promoting assembly of RAD51 onto single-stranded DNA (ssDNA). Acts by targeting RAD51 to ssDNA over double-stranded DNA, enabling RAD51 to displace replication protein-A (RPA) from ssDNA and stabilizing RAD51-ssDNA filaments by blocking ATP hydrolysis. Part of a PALB2-scaffolded HR complex containing RAD51C and which is thought to play a role in DNA repair by HR. May participate in S phase checkpoint activation. Binds selectively to ssDNA, and to ssDNA in tailed duplexes and replication fork structures. May play a role in the extension step after strand invasion at replication-dependent DNA double-strand breaks; together with PALB2 is involved in both POLH localization at collapsed replication forks and DNA polymerization activity. In concert with NPM1, regulates centrosome duplication. Interacts with the TREX-2 complex (transcription and export complex 2) subunits PCID2 and SEM1, and is required to prevent R-loop-associated DNA damage and thus transcription-associated genomic instability. Silencing of BRCA2 promotes R-loop accumulation at actively transcribed genes in replicating and non-replicating cells, suggesting that BRCA2 mediates the control of R-loop associated genomic instability, independently of its known role in homologous recombination (PubMed:24896180)",
+        "Monomer and dimer (PubMed:20729858). Interacts with RAD51; regulates RAD51 recruitment and function at sites of DNA repair (PubMed:12442171, PubMed:15800615, PubMed:18317453, PubMed:20729832, PubMed:20729859). Interacts with WDR16, USP11, DMC1, ROCK2 and NPM1 (PubMed:15314155, PubMed:15967112, PubMed:20729832, PubMed:21084279). Interacts with SEM1; the interaction masks a nuclear export signal in BRCA2 (PubMed:10373512, PubMed:16205630, PubMed:21719596, PubMed:24013206). Interacts with both nonubiquitinated and monoubiquitinated FANCD2; this complex also includes XRCC3 and phosphorylated FANCG (PubMed:15115758, PubMed:15199141, PubMed:18212739). Part of a BRCA complex containing BRCA1, BRCA2 and PALB2 (PubMed:19369211). Component of the homologous recombination repair (HR) complex composed of ERCC5/XPG, BRCA2, PALB2, DSS1 and RAD51 (PubMed:26833090). Within the complex, interacts with ERCC5/XPG and PALB2 (PubMed:26833090). Interacts directly with PALB2 which may serve as a scaffold for a HR complex containing PALB2, BRCA2, RAD51C, RAD51 and XRCC3 (PubMed:16793542, PubMed:19369211, PubMed:19609323, PubMed:24141787, PubMed:26833090, PubMed:28319063). Interacts with BRCA1 only in the presence of PALB2 which serves as the bridging protein (PubMed:19369211). Interacts with POLH; the interaction is direct (PubMed:24485656). Interacts with the TREX-2 complex subunits PCID2 and SEM1 (PubMed:21719596, PubMed:24896180). Interacts with HSF2BP and BRME1; the interaction with HSF2BP is direct and allows the formation of a ternary complex (PubMed:31242413). The complex BRME1:HSF2BP:BRCA2 interacts with SPATA22, MEIOB and RAD51 (By similarity)"
+      ],
+      "features": [
+        {
+          "type": "Chain",
+          "description": "Breast cancer type 2 susceptibility protein",
+          "start": 1,
+          "end": 3418,
+          "source": "UniProt"
+        },
+        {
+          "type": "Repeat",
+          "description": "BRCA2 1",
+          "start": 1002,
+          "end": 1036,
+          "source": "UniProt"
+        },
+        {
+          "type": "Repeat",
+          "description": "BRCA2 2",
+          "start": 1212,
+          "end": 1246,
+          "source": "UniProt"
+        },
+        {
+          "type": "Repeat",
+          "description": "BRCA2 3",
+          "start": 1421,
+          "end": 1455,
+          "source": "UniProt"
+        },
+        {
+          "type": "Repeat",
+          "description": "BRCA2 4",
+          "start": 1517,
+          "end": 1551,
+          "source": "UniProt"
+        },
+        {
+          "type": "Repeat",
+          "description": "BRCA2 5",
+          "start": 1664,
+          "end": 1698,
+          "source": "UniProt"
+        },
+        {
+          "type": "Repeat",
+          "description": "BRCA2 6",
+          "start": 1837,
+          "end": 1871,
+          "source": "UniProt"
+        },
+        {
+          "type": "Repeat",
+          "description": "BRCA2 7",
+          "start": 1971,
+          "end": 2005,
+          "source": "UniProt"
+        },
+        {
+          "type": "Repeat",
+          "description": "BRCA2 8",
+          "start": 2051,
+          "end": 2085,
+          "source": "UniProt"
+        },
+        {
+          "type": "Region",
+          "description": "Interaction with PALB2",
+          "start": 1,
+          "end": 40,
+          "source": "UniProt"
+        },
+        {
+          "type": "Region",
+          "description": "Disordered",
+          "start": 37,
+          "end": 68,
+          "source": "UniProt"
+        },
+        {
+          "type": "Region",
+          "description": "Disordered",
+          "start": 358,
+          "end": 381,
+          "source": "UniProt"
+        },
+        {
+          "type": "Region",
+          "description": "Interaction with NPM1",
+          "start": 639,
+          "end": 1000,
+          "source": "UniProt"
+        },
+        {
+          "type": "Region",
+          "description": "Interaction with RAD51",
+          "start": 1003,
+          "end": 2082,
+          "source": "UniProt"
+        },
+        {
+          "type": "Region",
+          "description": "Interaction with POLH",
+          "start": 1338,
+          "end": 1781,
+          "source": "UniProt"
+        },
+        {
+          "type": "Region",
+          "description": "Required for stimulation of POLH DNA polymerization activity",
+          "start": 1410,
+          "end": 1595,
+          "source": "UniProt"
+        },
+        {
+          "type": "Region",
+          "description": "Interaction with HSF2BP",
+          "start": 2270,
+          "end": 2337,
+          "source": "UniProt"
+        },
+        {
+          "type": "Region",
+          "description": "Interaction with FANCD2",
+          "start": 2350,
+          "end": 2545,
+          "source": "UniProt"
+        },
+        {
+          "type": "Region",
+          "description": "Disordered",
+          "start": 2430,
+          "end": 2450,
+          "source": "UniProt"
+        },
+        {
+          "type": "Region",
+          "description": "Interaction with SEM1",
+          "start": 2481,
+          "end": 2832,
+          "source": "UniProt"
+        },
+        {
+          "type": "Region",
+          "description": "Disordered",
+          "start": 3393,
+          "end": 3418,
+          "source": "UniProt"
+        },
+        {
+          "type": "Motif",
+          "description": "Nuclear export signal; masked by interaction with SEM1",
+          "start": 2682,
+          "end": 2698,
+          "source": "UniProt"
+        },
+        {
+          "type": "Modified residue",
+          "description": "Phosphoserine",
+          "start": 70,
+          "end": 70,
+          "source": "UniProt"
+        },
+        {
+          "type": "Modified residue",
+          "description": "Phosphoserine",
+          "start": 445,
+          "end": 445,
+          "source": "UniProt"
+        },
+        {
+          "type": "Modified residue",
+          "description": "Phosphoserine",
+          "start": 492,
+          "end": 492,
+          "source": "UniProt"
+        },
+        {
+          "type": "Modified residue",
+          "description": "Phosphoserine",
+          "start": 755,
+          "end": 755,
+          "source": "UniProt"
+        },
+        {
+          "type": "Modified residue",
+          "description": "Phosphoserine",
+          "start": 1970,
+          "end": 1970,
+          "source": "UniProt"
+        },
+        {
+          "type": "Modified residue",
+          "description": "Phosphothreonine",
+          "start": 2035,
+          "end": 2035,
+          "source": "UniProt"
+        },
+        {
+          "type": "Modified residue",
+          "description": "Phosphoserine",
+          "start": 2095,
+          "end": 2095,
+          "source": "UniProt"
+        },
+        {
+          "type": "Modified residue",
+          "description": "Phosphoserine; by CDK1 and CDK2",
+          "start": 3291,
+          "end": 3291,
+          "source": "UniProt"
+        },
+        {
+          "type": "Modified residue",
+          "description": "Phosphoserine",
+          "start": 3319,
+          "end": 3319,
+          "source": "UniProt"
+        },
+        {
+          "type": "Modified residue",
+          "description": "Phosphothreonine; by CHEK1 and CHEK2",
+          "start": 3387,
+          "end": 3387,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; abolishes interaction with PALB2; dbSNP:rs80358961",
+          "start": 25,
+          "end": 25,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; abolishes interaction with PALB2; dbSNP:rs80359214",
+          "start": 31,
+          "end": 31,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; abolishes interaction with PALB2; dbSNP:rs80359182",
+          "start": 31,
+          "end": 31,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; dbSNP:rs397508057 and dbSNP:rs1555280339",
+          "start": 32,
+          "end": 32,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC and ovarian cancer; benign; dbSNP:rs4987046",
+          "start": 42,
+          "end": 42,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; dbSNP:rs397507595",
+          "start": 53,
+          "end": 53,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; uncertain significance; dbSNP:rs80358463",
+          "start": 60,
+          "end": 60,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; dbSNP:rs397507615",
+          "start": 64,
+          "end": 64,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs28897701",
+          "start": 75,
+          "end": 75,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; dbSNP:rs80358507",
+          "start": 81,
+          "end": 81,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs80358567",
+          "start": 108,
+          "end": 108,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in one patient with esophageal carcinoma; dbSNP:rs80358603",
+          "start": 118,
+          "end": 118,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in one patient with pancreatic cancer; dbSNP:rs80358805",
+          "start": 192,
+          "end": 192,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; dbSNP:rs397507822",
+          "start": 201,
+          "end": 201,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC",
+          "start": 211,
+          "end": 211,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; dbSNP:rs397507873",
+          "start": 222,
+          "end": 222,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in one patient with BC; normal RNA expression and splicing; dbSNP:rs80358897",
+          "start": 225,
+          "end": 225,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs766173",
+          "start": 289,
+          "end": 289,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in one patient with esophageal carcinoma; dbSNP:rs79483201",
+          "start": 315,
+          "end": 315,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs11571640",
+          "start": 322,
+          "end": 322,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; benign; dbSNP:rs28897706",
+          "start": 326,
+          "end": 326,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; uncertain significance; dbSNP:rs80359242",
+          "start": 327,
+          "end": 327,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in lung cancer",
+          "start": 355,
+          "end": 355,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs144848",
+          "start": 372,
+          "end": 372,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; uncertain significance",
+          "start": 405,
+          "end": 405,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; uncertain significance; dbSNP:rs876660828",
+          "start": 431,
+          "end": 431,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; uncertain significance; dbSNP:rs80358423",
+          "start": 448,
+          "end": 448,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; benign; dbSNP:rs56403624",
+          "start": 462,
+          "end": 462,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; benign; dbSNP:rs28897708",
+          "start": 505,
+          "end": 505,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs28897709",
+          "start": 513,
+          "end": 513,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; benign; dbSNP:rs80358451",
+          "start": 554,
+          "end": 554,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs80358457",
+          "start": 582,
+          "end": 582,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs28897710",
+          "start": 598,
+          "end": 598,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs1046984",
+          "start": 599,
+          "end": 599,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs80358469",
+          "start": 606,
+          "end": 606,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; uncertain significance; dbSNP:rs587780646",
+          "start": 613,
+          "end": 613,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs80358479",
+          "start": 630,
+          "end": 630,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs80358487",
+          "start": 707,
+          "end": 707,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; dbSNP:rs757577670",
+          "start": 728,
+          "end": 728,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; dbSNP:rs397507620",
+          "start": 729,
+          "end": 729,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs11571653",
+          "start": 784,
+          "end": 784,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs80358526",
+          "start": 886,
+          "end": 886,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs2227943",
+          "start": 929,
+          "end": 929,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in BC; uncertain significance; dbSNP:rs28897716",
+          "start": 935,
+          "end": 935,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs11571656",
+          "start": 976,
+          "end": 976,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs28897717",
+          "start": 982,
+          "end": 982,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs2227944",
+          "start": 987,
+          "end": 987,
+          "source": "UniProt"
+        },
+        {
+          "type": "Natural variant",
+          "description": "in dbSNP:rs1799944",
+          "start": 991,
+          "end": 991,
+          "source": "UniProt"
+        }
+      ],
+      "crossReferences": [
+        {
+          "database": "EMBL",
+          "id": "X95152"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95153"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95154"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95155"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95156"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95157"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95158"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95159"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95160"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95161"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95162"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95163"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95164"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95165"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95166"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95167"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95168"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95169"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95170"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95171"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95172"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95173"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95174"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95175"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95176"
+        },
+        {
+          "database": "EMBL",
+          "id": "X95177"
+        },
+        {
+          "database": "EMBL",
+          "id": "U43746"
+        },
+        {
+          "database": "EMBL",
+          "id": "AY436640"
+        },
+        {
+          "database": "EMBL",
+          "id": "AL137247"
+        },
+        {
+          "database": "EMBL",
+          "id": "AL445212"
+        },
+        {
+          "database": "EMBL",
+          "id": "Z74739"
+        },
+        {
+          "database": "EMBL",
+          "id": "Z73359"
+        },
+        {
+          "database": "CCDS",
+          "id": "CCDS9344.1"
+        },
+        {
+          "database": "PIR",
+          "id": "G02334"
+        },
+        {
+          "database": "RefSeq",
+          "id": "NP_000050.3"
+        },
+        {
+          "database": "RefSeq",
+          "id": "NP_001419006.1"
+        },
+        {
+          "database": "PDB",
+          "id": "1N0W"
+        },
+        {
+          "database": "PDB",
+          "id": "3EU7"
+        },
+        {
+          "database": "PDB",
+          "id": "6GY2"
+        },
+        {
+          "database": "PDB",
+          "id": "6HQU"
+        },
+        {
+          "database": "PDB",
+          "id": "7BDX"
+        },
+        {
+          "database": "PDB",
+          "id": "7LDG"
+        },
+        {
+          "database": "PDB",
+          "id": "8BR9"
+        },
+        {
+          "database": "PDB",
+          "id": "8C3J"
+        },
+        {
+          "database": "PDB",
+          "id": "8C3N"
+        },
+        {
+          "database": "PDB",
+          "id": "8PBC"
+        },
+        {
+          "database": "PDB",
+          "id": "8PBD"
+        },
+        {
+          "database": "PDB",
+          "id": "8QQE"
+        },
+        {
+          "database": "PDB",
+          "id": "8R2G"
+        },
+        {
+          "database": "PDB",
+          "id": "8UVW"
+        },
+        {
+          "database": "PDBsum",
+          "id": "1N0W"
+        },
+        {
+          "database": "PDBsum",
+          "id": "3EU7"
+        },
+        {
+          "database": "PDBsum",
+          "id": "6GY2"
+        },
+        {
+          "database": "PDBsum",
+          "id": "6HQU"
+        },
+        {
+          "database": "PDBsum",
+          "id": "7BDX"
+        },
+        {
+          "database": "PDBsum",
+          "id": "7LDG"
+        },
+        {
+          "database": "PDBsum",
+          "id": "8BR9"
+        },
+        {
+          "database": "PDBsum",
+          "id": "8C3J"
+        },
+        {
+          "database": "PDBsum",
+          "id": "8C3N"
+        },
+        {
+          "database": "PDBsum",
+          "id": "8PBC"
+        },
+        {
+          "database": "PDBsum",
+          "id": "8PBD"
+        },
+        {
+          "database": "PDBsum",
+          "id": "8QQE"
+        },
+        {
+          "database": "PDBsum",
+          "id": "8R2G"
+        },
+        {
+          "database": "PDBsum",
+          "id": "8UVW"
+        },
+        {
+          "database": "EMDB",
+          "id": "EMD-17584"
+        },
+        {
+          "database": "EMDB",
+          "id": "EMD-17585"
+        },
+        {
+          "database": "EMDB",
+          "id": "EMD-2779"
+        },
+        {
+          "database": "EMDB",
+          "id": "EMD-2780"
+        },
+        {
+          "database": "SASBDB",
+          "id": "P51587"
+        },
+        {
+          "database": "SMR",
+          "id": "P51587"
+        },
+        {
+          "database": "BioGRID",
+          "id": "107142"
+        },
+        {
+          "database": "ComplexPortal",
+          "id": "CPX-845"
+        },
+        {
+          "database": "ComplexPortal",
+          "id": "CPX-955"
+        },
+        {
+          "database": "CORUM",
+          "id": "P51587"
+        },
+        {
+          "database": "DIP",
+          "id": "DIP-24214N"
+        },
+        {
+          "database": "ELM",
+          "id": "P51587"
+        },
+        {
+          "database": "FunCoup",
+          "id": "P51587"
+        },
+        {
+          "database": "IntAct",
+          "id": "P51587"
+        },
+        {
+          "database": "MINT",
+          "id": "P51587"
+        },
+        {
+          "database": "STRING",
+          "id": "9606.ENSP00000369497"
+        },
+        {
+          "database": "BindingDB",
+          "id": "P51587"
+        },
+        {
+          "database": "GlyGen",
+          "id": "P51587"
+        },
+        {
+          "database": "iPTMnet",
+          "id": "P51587"
+        },
+        {
+          "database": "PhosphoSitePlus",
+          "id": "P51587"
+        },
+        {
+          "database": "BioMuta",
+          "id": "BRCA2"
+        },
+        {
+          "database": "DMDM",
+          "id": "14424438"
+        },
+        {
+          "database": "CPTAC",
+          "id": "CPTAC-3279"
+        },
+        {
+          "database": "CPTAC",
+          "id": "CPTAC-3280"
+        },
+        {
+          "database": "jPOST",
+          "id": "P51587"
+        },
+        {
+          "database": "MassIVE",
+          "id": "P51587"
+        },
+        {
+          "database": "PaxDb",
+          "id": "9606-ENSP00000369497"
+        },
+        {
+          "database": "PeptideAtlas",
+          "id": "P51587"
+        },
+        {
+          "database": "ProteomicsDB",
+          "id": "56340"
+        },
+        {
+          "database": "Pumba",
+          "id": "P51587"
+        },
+        {
+          "database": "Antibodypedia",
+          "id": "7788"
+        },
+        {
+          "database": "DNASU",
+          "id": "675"
+        },
+        {
+          "database": "Ensembl",
+          "id": "ENST00000380152.8"
+        },
+        {
+          "database": "Ensembl",
+          "id": "ENST00000544455.6"
+        },
+        {
+          "database": "Ensembl",
+          "id": "ENST00000680887.1"
+        },
+        {
+          "database": "GeneID",
+          "id": "675"
+        },
+        {
+          "database": "KEGG",
+          "id": "hsa:675"
+        },
+        {
+          "database": "MANE-Select",
+          "id": "ENST00000380152.8"
+        },
+        {
+          "database": "UCSC",
+          "id": "uc001uub.2"
+        },
+        {
+          "database": "AGR",
+          "id": "HGNC:1101"
+        },
+        {
+          "database": "CIViC",
+          "id": "675"
+        },
+        {
+          "database": "ClinPGx",
+          "id": "PA25412"
+        },
+        {
+          "database": "CTD",
+          "id": "675"
+        },
+        {
+          "database": "DisGeNET",
+          "id": "675"
+        },
+        {
+          "database": "GeneCards",
+          "id": "BRCA2"
+        },
+        {
+          "database": "GeneReviews",
+          "id": "BRCA2"
+        },
+        {
+          "database": "HGNC",
+          "id": "HGNC:1101"
+        },
+        {
+          "database": "HPA",
+          "id": "ENSG00000139618"
+        },
+        {
+          "database": "MalaCards",
+          "id": "BRCA2"
+        },
+        {
+          "database": "MIM",
+          "id": "114480"
+        },
+        {
+          "database": "MIM",
+          "id": "155255"
+        },
+        {
+          "database": "MIM",
+          "id": "600185"
+        },
+        {
+          "database": "MIM",
+          "id": "605724"
+        },
+        {
+          "database": "MIM",
+          "id": "612555"
+        },
+        {
+          "database": "MIM",
+          "id": "613029"
+        },
+        {
+          "database": "MIM",
+          "id": "613347"
+        },
+        {
+          "database": "OpenTargets",
+          "id": "ENSG00000139618"
+        },
+        {
+          "database": "Orphanet",
+          "id": "667662"
+        },
+        {
+          "database": "Orphanet",
+          "id": "70567"
+        },
+        {
+          "database": "Orphanet",
+          "id": "178"
+        },
+        {
+          "database": "Orphanet",
+          "id": "440437"
+        },
+        {
+          "database": "Orphanet",
+          "id": "1333"
+        },
+        {
+          "database": "Orphanet",
+          "id": "1331"
+        },
+        {
+          "database": "Orphanet",
+          "id": "84"
+        },
+        {
+          "database": "Orphanet",
+          "id": "145"
+        },
+        {
+          "database": "Orphanet",
+          "id": "227535"
+        },
+        {
+          "database": "Orphanet",
+          "id": "694963"
+        },
+        {
+          "database": "Orphanet",
+          "id": "319462"
+        },
+        {
+          "database": "Orphanet",
+          "id": "654"
+        },
+        {
+          "database": "VEuPathDB",
+          "id": "HostDB:ENSG00000139618"
+        },
+        {
+          "database": "eggNOG",
+          "id": "KOG4751"
+        },
+        {
+          "database": "GeneTree",
+          "id": "ENSGT00390000003602"
+        },
+        {
+          "database": "HOGENOM",
+          "id": "CLU_000344_0_0_1"
+        },
+        {
+          "database": "InParanoid",
+          "id": "P51587"
+        },
+        {
+          "database": "OMA",
+          "id": "CWYTKLG"
+        },
+        {
+          "database": "OrthoDB",
+          "id": "21095at2759"
+        },
+        {
+          "database": "PAN-GO",
+          "id": "P51587"
+        },
+        {
+          "database": "PhylomeDB",
+          "id": "P51587"
+        },
+        {
+          "database": "PathwayCommons",
+          "id": "P51587"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-5685939"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-5685942"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-5693554"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-5693568"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-5693579"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-5693616"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-912446"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-9701192"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-9704331"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-9704646"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-9709275"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-9709570"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-9709603"
+        },
+        {
+          "database": "Reactome",
+          "id": "R-HSA-9763198"
+        },
+        {
+          "database": "SignaLink",
+          "id": "P51587"
+        },
+        {
+          "database": "SIGNOR",
+          "id": "P51587"
+        },
+        {
+          "database": "Agora",
+          "id": "ENSG00000139618"
+        }
+      ]
+    },
+    "structures": {
+      "experimental": [
+        {
+          "pdbId": "1MJE",
+          "title": "STRUCTURE OF A BRCA2-DSS1-SSDNA COMPLEX",
+          "experimentalMethod": "X-RAY DIFFRACTION",
+          "resolution": 3.5,
+          "chains": [],
+          "polymerEntities": [
+            {
+              "entityId": "from-uniprot-cross-reference",
+              "description": "STRUCTURE OF A BRCA2-DSS1-SSDNA COMPLEX",
+              "chains": [],
+              "relatedUniProtIds": [
+                "P51587"
+              ]
+            }
+          ],
+          "ligands": [],
+          "relatedUniProtIds": [
+            "P51587"
+          ],
+          "releaseDate": "2002-09-27T00:00:00.000+00:00",
+          "source": {
+            "name": "RCSB PDB Data API",
+            "url": "https://data.rcsb.org/rest/v1/core/entry/1MJE",
+            "accessedAt": "2026-06-02T18:04:39.419Z",
+            "sourceType": "RCSB PDB"
+          }
+        },
+        {
+          "pdbId": "1N0W",
+          "title": "Crystal structure of a RAD51-BRCA2 BRC repeat complex",
+          "experimentalMethod": "X-RAY DIFFRACTION",
+          "resolution": 1.7,
+          "chains": [],
+          "polymerEntities": [
+            {
+              "entityId": "from-uniprot-cross-reference",
+              "description": "Crystal structure of a RAD51-BRCA2 BRC repeat complex",
+              "chains": [],
+              "relatedUniProtIds": [
+                "P51587"
+              ]
+            }
+          ],
+          "ligands": [],
+          "relatedUniProtIds": [
+            "P51587"
+          ],
+          "releaseDate": "2002-11-27T00:00:00.000+00:00",
+          "source": {
+            "name": "RCSB PDB Data API",
+            "url": "https://data.rcsb.org/rest/v1/core/entry/1N0W",
+            "accessedAt": "2026-06-02T18:04:39.787Z",
+            "sourceType": "RCSB PDB"
+          }
+        },
+        {
+          "pdbId": "1MIU",
+          "title": "Structure of a BRCA2-DSS1 complex",
+          "experimentalMethod": "X-RAY DIFFRACTION",
+          "resolution": 3.1,
+          "chains": [],
+          "polymerEntities": [
+            {
+              "entityId": "from-uniprot-cross-reference",
+              "description": "Structure of a BRCA2-DSS1 complex",
+              "chains": [],
+              "relatedUniProtIds": [
+                "P51587"
+              ]
+            }
+          ],
+          "ligands": [],
+          "relatedUniProtIds": [
+            "P51587"
+          ],
+          "releaseDate": "2002-09-25T00:00:00.000+00:00",
+          "source": {
+            "name": "RCSB PDB Data API",
+            "url": "https://data.rcsb.org/rest/v1/core/entry/1MIU",
+            "accessedAt": "2026-06-02T18:04:40.098Z",
+            "sourceType": "RCSB PDB"
+          }
+        },
+        {
+          "pdbId": "3EU7",
+          "title": "Crystal Structure of a PALB2 / BRCA2 complex",
+          "experimentalMethod": "X-ray",
+          "resolution": 2.2,
+          "chains": [
+            "X",
+            "21",
+            "39"
+          ],
+          "polymerEntities": [
+            {
+              "entityId": "from-uniprot-cross-reference",
+              "description": "Crystal Structure of a PALB2 / BRCA2 complex",
+              "chains": [
+                "X",
+                "21",
+                "39"
+              ],
+              "relatedUniProtIds": [
+                "P51587"
+              ]
+            }
+          ],
+          "ligands": [],
+          "relatedUniProtIds": [
+            "P51587"
+          ],
+          "releaseDate": "2009-07-28T00:00:00.000+00:00",
+          "source": {
+            "name": "RCSB PDB Data API",
+            "url": "https://data.rcsb.org/rest/v1/core/entry/3EU7",
+            "accessedAt": "2026-06-02T18:04:40.401Z",
+            "sourceType": "RCSB PDB"
+          }
+        },
+        {
+          "pdbId": "6GY2",
+          "title": "Crystal structure of human Plk1-PBD in complex with WSSSLATPPTLSSpTVLI phosphopeptide from BRCA2",
+          "experimentalMethod": "X-ray",
+          "resolution": 3.11,
+          "chains": [
+            "C",
+            "D",
+            "194",
+            "210"
+          ],
+          "polymerEntities": [
+            {
+              "entityId": "from-uniprot-cross-reference",
+              "description": "Crystal structure of human Plk1-PBD in complex with WSSSLATPPTLSSpTVLI phosphopeptide from BRCA2",
+              "chains": [
+                "C",
+                "D",
+                "194",
+                "210"
+              ],
+              "relatedUniProtIds": [
+                "P51587"
+              ]
+            }
+          ],
+          "ligands": [],
+          "relatedUniProtIds": [
+            "P51587"
+          ],
+          "releaseDate": "2019-07-10T00:00:00.000+00:00",
+          "source": {
+            "name": "RCSB PDB Data API",
+            "url": "https://data.rcsb.org/rest/v1/core/entry/6GY2",
+            "accessedAt": "2026-06-02T18:04:40.841Z",
+            "sourceType": "RCSB PDB"
+          }
+        },
+        {
+          "pdbId": "6HQU",
+          "title": "Humanised RadA mutant HumRadA22 in complex with a recombined BRC repeat 8-2",
+          "experimentalMethod": "X-ray",
+          "resolution": 1.97,
+          "chains": [
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "1226",
+            "1253",
+            "O",
+            "2054",
+            "2064"
+          ],
+          "polymerEntities": [
+            {
+              "entityId": "from-uniprot-cross-reference",
+              "description": "Humanised RadA mutant HumRadA22 in complex with a recombined BRC repeat 8-2",
+              "chains": [
+                "I",
+                "J",
+                "K",
+                "L",
+                "M",
+                "N",
+                "1226",
+                "1253",
+                "O",
+                "2054",
+                "2064"
+              ],
+              "relatedUniProtIds": [
+                "P51587"
+              ]
+            }
+          ],
+          "ligands": [],
+          "relatedUniProtIds": [
+            "P51587"
+          ],
+          "releaseDate": "2019-10-09T00:00:00.000+00:00",
+          "source": {
+            "name": "RCSB PDB Data API",
+            "url": "https://data.rcsb.org/rest/v1/core/entry/6HQU",
+            "accessedAt": "2026-06-02T18:04:41.167Z",
+            "sourceType": "RCSB PDB"
+          }
+        },
+        {
+          "pdbId": "7BDX",
+          "title": "Armadillo domain of HSF2BP in complex with BRCA2 peptide",
+          "experimentalMethod": "X-ray",
+          "resolution": 2.6,
+          "chains": [
+            "E",
+            "F",
+            "2291",
+            "2343"
+          ],
+          "polymerEntities": [
+            {
+              "entityId": "from-uniprot-cross-reference",
+              "description": "Armadillo domain of HSF2BP in complex with BRCA2 peptide",
+              "chains": [
+                "E",
+                "F",
+                "2291",
+                "2343"
+              ],
+              "relatedUniProtIds": [
+                "P51587"
+              ]
+            }
+          ],
+          "ligands": [],
+          "relatedUniProtIds": [
+            "P51587"
+          ],
+          "releaseDate": "2021-07-07T00:00:00.000+00:00",
+          "source": {
+            "name": "RCSB PDB Data API",
+            "url": "https://data.rcsb.org/rest/v1/core/entry/7BDX",
+            "accessedAt": "2026-06-02T18:04:41.615Z",
+            "sourceType": "RCSB PDB"
+          }
+        },
+        {
+          "pdbId": "7LDG",
+          "title": "Crystal structure of the MEILB2-BRCA2 complex",
+          "experimentalMethod": "X-ray",
+          "resolution": 2.56,
+          "chains": [
+            "B",
+            "D",
+            "2271",
+            "2335"
+          ],
+          "polymerEntities": [
+            {
+              "entityId": "from-uniprot-cross-reference",
+              "description": "Crystal structure of the MEILB2-BRCA2 complex",
+              "chains": [
+                "B",
+                "D",
+                "2271",
+                "2335"
+              ],
+              "relatedUniProtIds": [
+                "P51587"
+              ]
+            }
+          ],
+          "ligands": [],
+          "relatedUniProtIds": [
+            "P51587"
+          ],
+          "releaseDate": "2021-08-11T00:00:00.000+00:00",
+          "source": {
+            "name": "RCSB PDB Data API",
+            "url": "https://data.rcsb.org/rest/v1/core/entry/7LDG",
+            "accessedAt": "2026-06-02T18:04:41.939Z",
+            "sourceType": "RCSB PDB"
+          }
+        }
+      ],
+      "predicted": []
+    },
+    "domains": [
+      {
+        "id": "IPR002093",
+        "name": "BRCA2 repeat",
+        "sourceDatabase": "profile",
+        "type": "repeat",
+        "start": 1002,
+        "end": 1036,
+        "description": "BRCA2 repeat",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR002093/"
+      },
+      {
+        "id": "IPR002093",
+        "name": "BRCA2 repeat",
+        "sourceDatabase": "profile",
+        "type": "repeat",
+        "start": 1212,
+        "end": 1246,
+        "description": "BRCA2 repeat",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR002093/"
+      },
+      {
+        "id": "IPR002093",
+        "name": "BRCA2 repeat",
+        "sourceDatabase": "profile",
+        "type": "repeat",
+        "start": 1421,
+        "end": 1455,
+        "description": "BRCA2 repeat",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR002093/"
+      },
+      {
+        "id": "IPR002093",
+        "name": "BRCA2 repeat",
+        "sourceDatabase": "profile",
+        "type": "repeat",
+        "start": 1517,
+        "end": 1551,
+        "description": "BRCA2 repeat",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR002093/"
+      },
+      {
+        "id": "IPR002093",
+        "name": "BRCA2 repeat",
+        "sourceDatabase": "profile",
+        "type": "repeat",
+        "start": 1664,
+        "end": 1698,
+        "description": "BRCA2 repeat",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR002093/"
+      },
+      {
+        "id": "IPR002093",
+        "name": "BRCA2 repeat",
+        "sourceDatabase": "profile",
+        "type": "repeat",
+        "start": 1837,
+        "end": 1871,
+        "description": "BRCA2 repeat",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR002093/"
+      },
+      {
+        "id": "IPR002093",
+        "name": "BRCA2 repeat",
+        "sourceDatabase": "profile",
+        "type": "repeat",
+        "start": 1971,
+        "end": 2005,
+        "description": "BRCA2 repeat",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR002093/"
+      },
+      {
+        "id": "IPR002093",
+        "name": "BRCA2 repeat",
+        "sourceDatabase": "profile",
+        "type": "repeat",
+        "start": 2051,
+        "end": 2085,
+        "description": "BRCA2 repeat",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR002093/"
+      },
+      {
+        "id": "IPR012340",
+        "name": "Nucleic acid-binding, OB-fold",
+        "sourceDatabase": "cathgene3d",
+        "type": "homologous_superfamily",
+        "start": 2669,
+        "end": 2801,
+        "description": "Nucleic acid-binding, OB-fold",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR012340/"
+      },
+      {
+        "id": "IPR012340",
+        "name": "Nucleic acid-binding, OB-fold",
+        "sourceDatabase": "cathgene3d",
+        "type": "homologous_superfamily",
+        "start": 2802,
+        "end": 3051,
+        "description": "Nucleic acid-binding, OB-fold",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR012340/"
+      },
+      {
+        "id": "IPR012340",
+        "name": "Nucleic acid-binding, OB-fold",
+        "sourceDatabase": "cathgene3d",
+        "type": "homologous_superfamily",
+        "start": 3052,
+        "end": 3197,
+        "description": "Nucleic acid-binding, OB-fold",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR012340/"
+      },
+      {
+        "id": "IPR015187",
+        "name": "BRCA2, OB1",
+        "sourceDatabase": "cdd",
+        "type": "domain",
+        "start": 2670,
+        "end": 2795,
+        "description": "BRCA2, OB1",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR015187/"
+      },
+      {
+        "id": "IPR015188",
+        "name": "BRCA2, OB3",
+        "sourceDatabase": "cdd",
+        "type": "domain",
+        "start": 3052,
+        "end": 3185,
+        "description": "BRCA2, OB3",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR015188/"
+      },
+      {
+        "id": "IPR015205",
+        "name": "Tower domain",
+        "sourceDatabase": "smart",
+        "type": "domain",
+        "start": 2831,
+        "end": 2872,
+        "description": "Tower domain",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR015205/"
+      },
+      {
+        "id": "IPR015252",
+        "name": "Breast cancer type 2 susceptibility protein, helical domain",
+        "sourceDatabase": "Pfam",
+        "type": "domain",
+        "start": 2482,
+        "end": 2667,
+        "description": "Breast cancer type 2 susceptibility protein, helical domain",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR015252/"
+      },
+      {
+        "id": "IPR015525",
+        "name": "Breast cancer type 2 susceptibility protein",
+        "sourceDatabase": "pirsf",
+        "type": "family",
+        "start": 1,
+        "end": 3418,
+        "description": "Breast cancer type 2 susceptibility protein",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR015525/"
+      },
+      {
+        "id": "IPR036315",
+        "name": "BRCA2 helical domain superfamily",
+        "sourceDatabase": "ssf",
+        "type": "homologous_superfamily",
+        "start": 2479,
+        "end": 2668,
+        "description": "BRCA2 helical domain superfamily",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR036315/"
+      },
+      {
+        "id": "IPR048262",
+        "name": "BRCA2, OB2 domain",
+        "sourceDatabase": "cdd",
+        "type": "domain",
+        "start": 2804,
+        "end": 3054,
+        "description": "BRCA2, OB2 domain",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR048262/"
+      },
+      {
+        "id": "IPR055077",
+        "name": "BRCA2, TR2 domain",
+        "sourceDatabase": "Pfam",
+        "type": "domain",
+        "start": 3260,
+        "end": 3334,
+        "description": "BRCA2, TR2 domain",
+        "evidence": "InterPro protein match",
+        "confidence": "source annotation",
+        "sourceUrl": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR055077/"
+      },
+      {
+        "id": "uniprot-domain-1",
+        "name": "BRC repeats",
+        "sourceDatabase": "UniProt",
+        "type": "repeat",
+        "start": 1002,
+        "end": 2082,
+        "description": "BRC repeats",
+        "evidence": "UniProt/starter annotation",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-domain-2",
+        "name": "DNA-binding domain",
+        "sourceDatabase": "UniProt",
+        "type": "domain",
+        "start": 2479,
+        "end": 3190,
+        "description": "DNA-binding domain",
+        "evidence": "UniProt/starter annotation",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-motif-1",
+        "name": "Interaction with PALB2",
+        "sourceDatabase": "UniProt",
+        "type": "motif",
+        "start": 1,
+        "end": 40,
+        "description": "Interaction with PALB2",
+        "evidence": "UniProt feature",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-motif-2",
+        "name": "Disordered",
+        "sourceDatabase": "UniProt",
+        "type": "motif",
+        "start": 37,
+        "end": 68,
+        "description": "Disordered",
+        "evidence": "UniProt feature",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-motif-3",
+        "name": "Disordered",
+        "sourceDatabase": "UniProt",
+        "type": "motif",
+        "start": 358,
+        "end": 381,
+        "description": "Disordered",
+        "evidence": "UniProt feature",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-motif-4",
+        "name": "Interaction with NPM1",
+        "sourceDatabase": "UniProt",
+        "type": "motif",
+        "start": 639,
+        "end": 1000,
+        "description": "Interaction with NPM1",
+        "evidence": "UniProt feature",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-motif-5",
+        "name": "Interaction with RAD51",
+        "sourceDatabase": "UniProt",
+        "type": "motif",
+        "start": 1003,
+        "end": 2082,
+        "description": "Interaction with RAD51",
+        "evidence": "UniProt feature",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-motif-6",
+        "name": "Interaction with POLH",
+        "sourceDatabase": "UniProt",
+        "type": "motif",
+        "start": 1338,
+        "end": 1781,
+        "description": "Interaction with POLH",
+        "evidence": "UniProt feature",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-motif-7",
+        "name": "Required for stimulation of POLH DNA polymerization activity",
+        "sourceDatabase": "UniProt",
+        "type": "motif",
+        "start": 1410,
+        "end": 1595,
+        "description": "Required for stimulation of POLH DNA polymerization activity",
+        "evidence": "UniProt feature",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-motif-8",
+        "name": "Interaction with HSF2BP",
+        "sourceDatabase": "UniProt",
+        "type": "motif",
+        "start": 2270,
+        "end": 2337,
+        "description": "Interaction with HSF2BP",
+        "evidence": "UniProt feature",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-motif-9",
+        "name": "Interaction with FANCD2",
+        "sourceDatabase": "UniProt",
+        "type": "motif",
+        "start": 2350,
+        "end": 2545,
+        "description": "Interaction with FANCD2",
+        "evidence": "UniProt feature",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-motif-10",
+        "name": "Disordered",
+        "sourceDatabase": "UniProt",
+        "type": "motif",
+        "start": 2430,
+        "end": 2450,
+        "description": "Disordered",
+        "evidence": "UniProt feature",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-motif-11",
+        "name": "Interaction with SEM1",
+        "sourceDatabase": "UniProt",
+        "type": "motif",
+        "start": 2481,
+        "end": 2832,
+        "description": "Interaction with SEM1",
+        "evidence": "UniProt feature",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-motif-12",
+        "name": "Disordered",
+        "sourceDatabase": "UniProt",
+        "type": "motif",
+        "start": 3393,
+        "end": 3418,
+        "description": "Disordered",
+        "evidence": "UniProt feature",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      },
+      {
+        "id": "uniprot-motif-13",
+        "name": "Nuclear export signal; masked by interaction with SEM1",
+        "sourceDatabase": "UniProt",
+        "type": "motif",
+        "start": 2682,
+        "end": 2698,
+        "description": "Nuclear export signal; masked by interaction with SEM1",
+        "evidence": "UniProt feature",
+        "sourceUrl": "https://www.uniprot.org/uniprotkb/P51587/entry"
+      }
+    ],
+    "msa": {
+      "available": false,
+      "method": "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
+      "alignedSequences": [],
+      "consensus": "",
+      "conservationScores": [],
+      "gapFrequencies": [],
+      "sourceSequenceCount": 4,
+      "source": "Curated/UniProt homologs",
+      "unavailableReason": "MAFFT failed during the static build: Command failed: mafft --auto /tmp/bioalign-msa-Ecso50/homologs.fasta\n/usr/bin/mafft: line 1291: /dev/stderr: No such device or address\n/usr/bin/mafft: line 1295: [: too many arguments\n/usr/bin/mafft: line 1300: [: too many arguments\n/usr/bin/mafft: line 1305: [: too many arguments\n/usr/bin/mafft: line 1310: [: -lt: unary operator expected\n/usr/bin/mafft: line 1315: [: -lt: unary operator expected\n/usr/bin/mafft: line 1322: [: -lt: unary operator expected\n/usr/bin/mafft: line 1329: [: -lt: unary operator expected\n/usr/bin/mafft: line 2655: /dev/stderr: No such device or address\n"
+    },
+    "profileEvidence": [
+      {
+        "profileId": "IPR015252",
+        "profileName": "Breast cancer type 2 susceptibility protein, helical domain",
+        "database": "Pfam",
+        "start": 2482,
+        "end": 2667,
+        "score": null,
+        "eValue": null,
+        "description": "Breast cancer type 2 susceptibility protein, helical domain",
+        "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+      },
+      {
+        "profileId": "IPR055077",
+        "profileName": "BRCA2, TR2 domain",
+        "database": "Pfam",
+        "start": 3260,
+        "end": 3334,
+        "score": null,
+        "eValue": null,
+        "description": "BRCA2, TR2 domain",
+        "interpretation": "Profile/domain evidence imported from InterPro/Pfam-style annotations at build time."
+      }
+    ],
+    "conservedResidues": [],
+    "metrics": {
+      "rmsdComparisons": [
+        {
+          "available": false,
+          "reason": "US-align or TM-align was not available on PATH during structure enrichment.",
+          "method": "US-align/TM-align build-time superposition",
+          "source": "computed-build-time"
+        }
+      ],
+      "tmScoreComparisons": [
+        {
+          "available": false,
+          "reason": "US-align or TM-align was not available on PATH during structure enrichment.",
+          "method": "US-align/TM-align build-time superposition",
+          "source": "computed-build-time"
+        }
+      ],
+      "plddt": {
+        "available": false,
+        "reason": "No AlphaFold model was available for this accession.",
+        "method": "AlphaFold confidence JSON parsing",
+        "source": "AlphaFold DB"
+      },
+      "pae": {
+        "available": false,
+        "reason": "No AlphaFold model was available for this accession.",
+        "method": "AlphaFold PAE JSON parsing",
+        "source": "AlphaFold DB"
+      },
+      "domainCoverage": {
+        "available": true,
+        "coveredResidues": 3418,
+        "sequenceLength": 3418,
+        "percent": 100,
+        "source": "InterPro/UniProt"
+      },
+      "conservationSummary": {
+        "available": false,
+        "meanConservation": 0,
+        "highlyConservedPositions": [],
+        "method": "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
+        "reason": "MAFFT failed during the static build: Command failed: mafft --auto /tmp/bioalign-msa-Ecso50/homologs.fasta\n/usr/bin/mafft: line 1291: /dev/stderr: No such device or address\n/usr/bin/mafft: line 1295: [: too many arguments\n/usr/bin/mafft: line 1300: [: too many arguments\n/usr/bin/mafft: line 1305: [: too many arguments\n/usr/bin/mafft: line 1310: [: -lt: unary operator expected\n/usr/bin/mafft: line 1315: [: -lt: unary operator expected\n/usr/bin/mafft: line 1322: [: -lt: unary operator expected\n/usr/bin/mafft: line 1329: [: -lt: unary operator expected\n/usr/bin/mafft: line 2655: /dev/stderr: No such device or address\n"
+      }
+    },
+    "structureFunction": {
+      "summary": "Involved in double-strand break repair and/or homologous recombination. Binds RAD51 and potentiates recombinational DNA repair by promoting assembly of RAD51 onto single-stranded DNA (ssDNA). Acts by targeting RAD51 to ssDNA over double-stranded DNA, enabling RAD51 to displace replication protein-A (RPA) from ssDNA and stabilizing RAD51-ssDNA filaments by blocking ATP hydrolysis. Part of a PALB2-scaffolded HR complex containing RAD51C and which is thought to play a role in DNA repair by HR. May participate in S phase checkpoint activation. Binds selectively to ssDNA, and to ssDNA in tailed duplexes and replication fork structures. May play a role in the extension step after strand invasion at replication-dependent DNA double-strand breaks; together with PALB2 is involved in both POLH localization at collapsed replication forks and DNA polymerization activity. In concert with NPM1, regulates centrosome duplication. Interacts with the TREX-2 complex (transcription and export complex 2) subunits PCID2 and SEM1, and is required to prevent R-loop-associated DNA damage and thus transcription-associated genomic instability. Silencing of BRCA2 promotes R-loop accumulation at actively transcribed genes in replicating and non-replicating cells, suggesting that BRCA2 mediates the control of R-loop associated genomic instability, independently of its known role in homologous recombination (PubMed:24896180)",
+      "evidenceCards": [
+        {
+          "title": "UniProt function annotation",
+          "claim": "Involved in double-strand break repair and/or homologous recombination. Binds RAD51 and potentiates recombinational DNA repair by promoting assembly of RAD51 onto single-stranded DNA (ssDNA). Acts by targeting RAD51 to ssDNA over double-stranded DNA, enabling RAD51 to displace replication protein-A (RPA) from ssDNA and stabilizing RAD51-ssDNA filaments by blocking ATP hydrolysis. Part of a PALB2-scaffolded HR complex containing RAD51C and which is thought to play a role in DNA repair by HR. May participate in S phase checkpoint activation. Binds selectively to ssDNA, and to ssDNA in tailed duplexes and replication fork structures. May play a role in the extension step after strand invasion at replication-dependent DNA double-strand breaks; together with PALB2 is involved in both POLH localization at collapsed replication forks and DNA polymerization activity. In concert with NPM1, regulates centrosome duplication. Interacts with the TREX-2 complex (transcription and export complex 2) subunits PCID2 and SEM1, and is required to prevent R-loop-associated DNA damage and thus transcription-associated genomic instability. Silencing of BRCA2 promotes R-loop accumulation at actively transcribed genes in replicating and non-replicating cells, suggesting that BRCA2 mediates the control of R-loop associated genomic instability, independently of its known role in homologous recombination (PubMed:24896180)",
+          "evidence": [
+            "UniProt function comment"
+          ],
+          "confidence": "high",
+          "source": "UniProt"
+        },
+        {
+          "title": "Domain-function evidence",
+          "claim": "Annotated domains provide source-backed clues for biological role and fold context.",
+          "evidence": [
+            "Nucleic acid-binding, OB-fold",
+            "Nucleic acid-binding, OB-fold",
+            "Nucleic acid-binding, OB-fold",
+            "DNA-binding domain"
+          ],
+          "confidence": "medium",
+          "source": "InterPro/Pfam/UniProt"
+        }
+      ],
+      "warnings": []
+    },
+    "intelligence": {
+      "structureFunctionSummary": "Involved in double-strand break repair and/or homologous recombination. Binds RAD51 and potentiates recombinational DNA repair by promoting assembly of RAD51 onto single-stranded DNA (ssDNA). Acts by targeting RAD51 to ssDNA over double-stranded DNA, enabling RAD51 to displace replication protein-A (RPA) from ssDNA and stabilizing RAD51-ssDNA filaments by blocking ATP hydrolysis. Part of a PALB2-scaffolded HR complex containing RAD51C and which is thought to play a role in DNA repair by HR. May participate in S phase checkpoint activation. Binds selectively to ssDNA, and to ssDNA in tailed duplexes and replication fork structures. May play a role in the extension step after strand invasion at replication-dependent DNA double-strand breaks; together with PALB2 is involved in both POLH localization at collapsed replication forks and DNA polymerization activity. In concert with NPM1, regulates centrosome duplication. Interacts with the TREX-2 complex (transcription and export complex 2) subunits PCID2 and SEM1, and is required to prevent R-loop-associated DNA damage and thus transcription-associated genomic instability. Silencing of BRCA2 promotes R-loop accumulation at actively transcribed genes in replicating and non-replicating cells, suggesting that BRCA2 mediates the control of R-loop associated genomic instability, independently of its known role in homologous recombination (PubMed:24896180)",
+      "sequenceStructureFunctionPipeline": [
+        {
+          "step": "Input Detection",
+          "status": "complete",
+          "dataUsed": [
+            "P51587",
+            "BRCA2"
+          ],
+          "output": "Resolved through static alias/search index.",
+          "source": "Static Pack"
+        },
+        {
+          "step": "Sequence Retrieval",
+          "status": "complete",
+          "dataUsed": [
+            "UniProt canonical sequence"
+          ],
+          "output": "3418 residues loaded.",
+          "source": "UniProt"
+        },
+        {
+          "step": "Annotation Retrieval",
+          "status": "complete",
+          "dataUsed": [
+            "UniProt features",
+            "InterPro/Pfam matches"
+          ],
+          "output": "34 domain or feature annotations.",
+          "source": "UniProt/InterPro"
+        },
+        {
+          "step": "Structure Discovery",
+          "status": "complete",
+          "dataUsed": [
+            "RCSB PDB",
+            "AlphaFold DB"
+          ],
+          "output": "8 experimental, 0 predicted.",
+          "source": "RCSB PDB/AlphaFold DB"
+        },
+        {
+          "step": "Template/Fold Comparison",
+          "status": "missing",
+          "dataUsed": [
+            "Coordinates"
+          ],
+          "output": "US-align or TM-align was not available on PATH during structure enrichment.",
+          "source": "Build-time Computed"
+        },
+        {
+          "step": "Confidence Analysis",
+          "status": "missing",
+          "dataUsed": [
+            "pLDDT",
+            "PAE"
+          ],
+          "output": "AlphaFold confidence parsed when available.",
+          "source": "AlphaFold DB"
+        },
+        {
+          "step": "Evolutionary Analysis",
+          "status": "complete",
+          "dataUsed": [
+            "homolog protein sequences",
+            "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
+            "conservation scoring"
+          ],
+          "output": "4 homolog sequences aligned for conservation analysis.",
+          "source": "Build-time MSA/InterPro"
+        },
+        {
+          "step": "Structure-Function Interpretation",
+          "status": "complete",
+          "dataUsed": [
+            "domains",
+            "features",
+            "confidence",
+            "conservation"
+          ],
+          "output": "Rule-based evidence summary generated from loaded sources.",
+          "source": "Build-time Computed"
+        }
+      ],
+      "warnings": [
+        "BioAlign-Pro-Protein-Structure does not perform AlphaFold-level structure prediction.",
+        "pLDDT and PAE describe model confidence, not direct experimental proof.",
+        "RMSD and TM-score depend on correct residue/structure alignment."
+      ],
+      "confidenceNotes": [
+        "Experimental structures come from PDB/RCSB.",
+        "Predicted structures come from AlphaFold DB when available.",
+        "Browser live API refresh may fail due to CORS, rate limits, or network issues."
+      ],
+      "sourceBadges": [
+        "Static Pack",
+        "UniProt",
+        "RCSB PDB",
+        "InterPro",
+        "Pfam",
+        "Build-time Computed"
+      ]
+    },
+    "sources": [
+      {
+        "name": "UniProt REST API",
+        "url": "https://rest.uniprot.org/uniprotkb/P51587.json",
+        "accessedAt": "2026-06-02T18:04:42.478Z",
+        "sourceType": "UniProt"
+      },
+      {
+        "name": "InterPro API",
+        "url": "https://www.ebi.ac.uk/interpro/api/entry/interpro/protein/uniprot/P51587/",
+        "accessedAt": "2026-06-02T18:04:42.478Z",
+        "sourceType": "InterPro"
+      },
+      {
+        "name": "RCSB PDB Data API",
+        "url": "https://data.rcsb.org/rest/v1/core/entry/1MJE",
+        "accessedAt": "2026-06-02T18:04:39.419Z",
+        "sourceType": "RCSB PDB"
+      },
+      {
+        "name": "RCSB PDB Data API",
+        "url": "https://data.rcsb.org/rest/v1/core/entry/1N0W",
+        "accessedAt": "2026-06-02T18:04:39.787Z",
+        "sourceType": "RCSB PDB"
+      },
+      {
+        "name": "RCSB PDB Data API",
+        "url": "https://data.rcsb.org/rest/v1/core/entry/1MIU",
+        "accessedAt": "2026-06-02T18:04:40.098Z",
+        "sourceType": "RCSB PDB"
+      },
+      {
+        "name": "RCSB PDB Data API",
+        "url": "https://data.rcsb.org/rest/v1/core/entry/3EU7",
+        "accessedAt": "2026-06-02T18:04:40.401Z",
+        "sourceType": "RCSB PDB"
+      }
+    ]
+  }
+}

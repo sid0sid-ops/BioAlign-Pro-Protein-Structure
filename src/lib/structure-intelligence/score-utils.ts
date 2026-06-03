@@ -9,6 +9,38 @@ export interface ScoreResult {
   sources: string[];
 }
 
+function bestTmScore(intel: StructureIntelligencePack) {
+  return intel.metrics.tmScoreComparisons
+    .filter((metric) => metric.available)
+    .sort((left, right) => right.tmScore - left.tmScore)[0];
+}
+
+function bestRmsd(intel: StructureIntelligencePack) {
+  return intel.metrics.rmsdComparisons
+    .filter((metric) => metric.available)
+    .sort((left, right) => left.rmsd - right.rmsd)[0];
+}
+
+function formatPercent(value: number | undefined) {
+  if (typeof value !== "number" || !Number.isFinite(value)) return null;
+  return `${(value * 100).toFixed(1)}%`;
+}
+
+function alignmentSummary(intel: StructureIntelligencePack) {
+  const tm = bestTmScore(intel);
+  const rmsd = bestRmsd(intel);
+  if (!tm && !rmsd) return null;
+
+  const alignedLength = tm?.alignedLength ?? rmsd?.alignedResidues;
+  const seqId = formatPercent(tm?.sequenceIdentityAligned);
+  return [
+    alignedLength ? `Aligned length ${alignedLength}` : null,
+    rmsd ? `RMSD ${rmsd.rmsd.toFixed(2)} A` : tm?.rmsd ? `RMSD ${tm.rmsd.toFixed(2)} A` : null,
+    tm ? `TM-score ${tm.tmScore.toFixed(3)}` : null,
+    seqId ? `Seq_ID ${seqId}` : null
+  ].filter(Boolean).join(", ");
+}
+
 /** QC — Quality Check: data completeness and reliability */
 export function computeQC(intel: StructureIntelligencePack): ScoreResult {
   let points = 0;
@@ -81,15 +113,17 @@ export function computeMC(intel: StructureIntelligencePack): ScoreResult {
   const score = Math.round(plddt.mean);
   return {
     available: true, value: score, label: score >= 90 ? "Very high confidence" : score >= 70 ? "Good confidence" : score >= 50 ? "Low confidence" : "Very low confidence",
-    reason: `pLDDT (mean): ${plddt.mean.toFixed(1)}. ${score >= 70 ? "Low values (blue) are better." : "Low values may indicate disorder."}`,
+    reason: `pLDDT mean: ${plddt.mean.toFixed(1)}. Higher values indicate stronger model confidence.`,
     sources: ["AlphaFold DB"]
   };
 }
 
 /** SC — Structural Conservation: from RMSD/TM-score */
 export function computeSC(intel: StructureIntelligencePack): ScoreResult {
-  const hasRmsd = intel.metrics.rmsdComparisons.some((m) => m.available);
-  const hasTm = intel.metrics.tmScoreComparisons.some((m) => m.available);
+  const rmsd = bestRmsd(intel);
+  const tm = bestTmScore(intel);
+  const hasRmsd = Boolean(rmsd);
+  const hasTm = Boolean(tm);
 
   if (!hasRmsd && !hasTm) {
     // Check if we at least have template/homolog evidence
@@ -99,25 +133,39 @@ export function computeSC(intel: StructureIntelligencePack): ScoreResult {
     if (hasTemplates || hasHomologs) {
       return {
         available: true, value: null, label: "Partial Evidence",
-        reason: "Limited homologs with known structures at low identity. RMSD/TM-score require build-time coordinate superposition tools.",
+        reason: "Experimental/domain records are present, but no valid coordinate superposition metric is packaged yet. Run the WSL data build with US-align/TM-align to compute aligned length, RMSD, TM-score, and Seq_ID.",
         sources: hasTemplates ? ["RCSB PDB"] : ["InterPro/Pfam"]
       };
     }
 
     return {
       available: false, value: null, label: "Unavailable",
-      reason: "No RMSD or TM-score comparison has been computed. Configure TM-align or Foldseek in the build environment.",
+      reason: "No RMSD or TM-score comparison has been computed. Run the WSL data build with US-align/TM-align so aligned length, RMSD, TM-score, and Seq_ID are written into the saved record.",
       sources: []
     };
   }
 
-  const tmAvail = intel.metrics.tmScoreComparisons.find((m) => m.available);
-  if (tmAvail && tmAvail.available) {
-    const score = Math.round(tmAvail.tmScore * 100);
-    return { available: true, value: score, label: score >= 50 ? "Similar fold" : "Weak similarity", reason: `TM-score: ${tmAvail.tmScore.toFixed(3)}`, sources: ["TM-align"] };
+  if (tm) {
+    const seqIdBoost = typeof tm.sequenceIdentityAligned === "number" ? Math.min(tm.sequenceIdentityAligned * 20, 10) : 0;
+    const rmsdPenalty = typeof tm.rmsd === "number" ? Math.min(Math.max(tm.rmsd - 2, 0) * 4, 18) : 0;
+    const score = Math.max(0, Math.min(100, Math.round(tm.tmScore * 100 + seqIdBoost - rmsdPenalty)));
+    const label = tm.tmScore >= 0.7 ? "Strong structural match" : tm.tmScore >= 0.5 ? "Similar fold" : tm.tmScore >= 0.3 ? "Possible fold similarity" : "Weak similarity";
+    return {
+      available: true,
+      value: score,
+      label,
+      reason: alignmentSummary(intel) || `TM-score ${tm.tmScore.toFixed(3)}`,
+      sources: [tm.method || "US-align/TM-align"]
+    };
   }
 
-  return { available: true, value: null, label: "Partial", reason: "RMSD available but TM-score not computed.", sources: ["Build-time Computed"] };
+  return {
+    available: true,
+    value: rmsd ? Math.max(0, Math.min(100, Math.round(100 - rmsd.rmsd * 12))) : null,
+    label: rmsd?.rmsd && rmsd.rmsd <= 2 ? "Low structural deviation" : "RMSD-only evidence",
+    reason: alignmentSummary(intel) || "RMSD available but TM-score not computed.",
+    sources: [rmsd?.method || "Build-time Computed"]
+  };
 }
 
 /** OF — Overall Fold: evidence summary */
@@ -125,6 +173,7 @@ export function computeOF(qc: ScoreResult, rc: ScoreResult, mc: ScoreResult, sc:
   const components = [qc, rc, mc, sc];
   const availableScores = components.filter((c) => c.available && c.value !== null).map((c) => c.value as number);
   const sources = Array.from(new Set(components.flatMap((c) => c.sources)));
+  const structuralAlignment = alignmentSummary(intel);
 
   if (availableScores.length === 0) {
     return {
@@ -147,12 +196,30 @@ export function computeOF(qc: ScoreResult, rc: ScoreResult, mc: ScoreResult, sc:
 
   const score = weightSum > 0 ? Math.round(weightedSum / weightSum) : 0;
   const partial = availableScores.length < 4;
+  const missingComponents = [
+    qc.value === null ? "QC" : null,
+    rc.value === null ? "RC" : null,
+    mc.value === null ? "MC" : null,
+    sc.value === null ? "SC" : null
+  ].filter(Boolean).join(", ");
+
+  if (structuralAlignment) {
+    return {
+      available: true,
+      value: score,
+      label: score >= 80 ? "Strong fold evidence" : score >= 50 ? "Moderate structural evidence" : "Limited structural evidence",
+      reason: partial
+        ? `${structuralAlignment}. Overall score still has missing component(s): ${missingComponents}.`
+        : `${structuralAlignment}. Based on all scored evidence components.`,
+      sources
+    };
+  }
 
   return {
     available: true, value: score,
     label: partial ? "Partial evidence" : (score >= 80 ? "Strong fold evidence" : score >= 50 ? "Moderate evidence" : "Limited evidence"),
     reason: partial
-      ? `Fold plausible but not strongly supported by templates. ${4 - availableScores.length} component(s) missing.`
+      ? `Coordinate superposition metrics are not packaged yet, so aligned length, RMSD, TM-score, and Seq_ID cannot be shown. Missing component(s): ${missingComponents}.`
       : `Based on ${availableScores.length} scored components.`,
     sources
   };

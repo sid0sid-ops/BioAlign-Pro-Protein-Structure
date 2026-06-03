@@ -1,55 +1,65 @@
-# PowerShell script to install a comprehensive bioinformatics toolkit on Windows
+# Installs the BioAlign Pro build-time bioinformatics toolkit in the requested order.
+# The conda environment is project-local: bio_tools\bioenv
 
-# Define directories
-$userHome = $Env:USERPROFILE
-$condaDir = "$userHome\Miniconda3"
-$envName = "bioenv"
+$ErrorActionPreference = "Stop"
 
-# Function to check if a command exists
-function Command-Exists($cmd) {
-    $null -ne (Get-Command $cmd -ErrorAction SilentlyContinue)
+$workspaceRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+$toolsRoot = Join-Path $workspaceRoot "bio_tools"
+$envPrefix = Join-Path $toolsRoot "bioenv"
+$condaExe = Join-Path $Env:USERPROFILE "Miniconda3\Scripts\conda.exe"
+
+function Assert-Command($Name, $Command, $Arguments) {
+  Write-Host "Checking $Name..." -ForegroundColor Cyan
+  try {
+    & $Command @Arguments | Select-Object -First 2
+  } catch {
+    Write-Warning "$Name installed, but version check failed: $($_.Exception.Message)"
+  }
 }
 
-# 1. Install Miniconda if conda is not available
-if (-not (Command-Exists conda)) {
-    Write-Host "Conda not found. Downloading Miniconda installer..." -ForegroundColor Yellow
-    $installerUrl = "https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe"
-    $installerPath = "$userHome\Downloads\Miniconda3.exe"
-    Invoke-WebRequest -Uri $installerUrl -OutFile $installerPath -UseBasicParsing
-    Write-Host "Running silent Miniconda installer..." -ForegroundColor Yellow
-    Start-Process -FilePath $installerPath -ArgumentList "/InstallationType=JustMe", "/AddToPath=0", "/RegisterPython=0", "/S", "/D=$condaDir" -Wait -NoNewWindow
-    Remove-Item $installerPath
-    # Initialise conda for the current PowerShell session
-    & "$condaDir\Scripts\conda.exe" init powershell
-    Write-Host "Miniconda installed. Please close this PowerShell window, open a new one, and re‑run the script." -ForegroundColor Cyan
-    exit
+if (!(Test-Path -LiteralPath $condaExe)) {
+  throw "Miniconda was not found at $condaExe. Install Miniconda first, then re-run this script."
 }
 
-# Refresh environment for conda in the current session (in case conda is already on PATH)
-$env:Path = "$condaDir;${env:Path}"
+New-Item -ItemType Directory -Force -Path $toolsRoot | Out-Null
 
-# 2. Create conda environment with required packages
-Write-Host "Creating conda environment '$envName' with bioinformatics packages..." -ForegroundColor Green
-conda create -y -n $envName -c bioconda -c conda-forge \
-    mafft clustalo muscle foldseek usalign hmmer blast mmseqs2 dssp
+Write-Host "Creating/updating project-local bioinformatics environment..." -ForegroundColor Green
+& $condaExe create -y -p $envPrefix -c conda-forge -c bioconda `
+  mafft `
+  clustalo `
+  muscle `
+  foldseek `
+  usalign `
+  hmmer `
+  blast `
+  mmseqs2 `
+  dssp `
+  biopython `
+  gemmi `
+  mdanalysis
 
-# 3. Activate the environment and install tmtools (provides TM‑align wrapper) and other pure‑Python packages
-Write-Host "Activating environment and installing Python‑only tools..." -ForegroundColor Green
-conda activate $envName
-python -m pip install --upgrade pip
-python -m pip install biopython gemmi MDAnalysis tmtools
+if ($LASTEXITCODE -ne 0) {
+  throw "Conda environment creation failed. Check network access, conda channel permissions, and the conda cache path, then re-run this script from a normal PowerShell terminal."
+}
 
-Write-Host "All tools installed successfully in conda environment '$envName'." -ForegroundColor Green
+$bin = Join-Path $envPrefix "Library\bin"
+$scripts = Join-Path $envPrefix "Scripts"
+$env:Path = "$envPrefix;$scripts;$bin;$env:Path"
 
-# 4. Show versions to verify installation
-Write-Host "--- Versions ---" -ForegroundColor Cyan
-mafft --version
-clustalo --version
-muscle -version
-foldseek version
-usalign -h | Select-Object -First 1   # US‑align binary
-hmmer -h | Select-Object -First 1
-blastp -version
-mmseqs version
-if (Get-Command mkdssp -ErrorAction SilentlyContinue) { mkdssp -h }
-python -c "import Bio, gemmi, MDAnalysis, tmtools, sys; print('Biopython', Bio.__version__); print('Gemmi', gemmi.__version__); print('MDAnalysis', MDAnalysis.__version__); print('tmtools OK')"
+Write-Host "--- Installed tool checks ---" -ForegroundColor Green
+Assert-Command "MAFFT" "mafft" @("--version")
+Assert-Command "Clustal Omega" "clustalo" @("--version")
+Assert-Command "MUSCLE" "muscle" @("-version")
+Assert-Command "Foldseek" "foldseek" @("version")
+Assert-Command "US-align" "USalign" @("-h")
+Assert-Command "HMMER" "hmmsearch" @("-h")
+Assert-Command "BLAST+" "blastp" @("-version")
+Assert-Command "MMseqs2" "mmseqs" @("version")
+Assert-Command "DSSP" "mkdssp" @("--version")
+
+python -c "import Bio, gemmi, MDAnalysis; print('BioPython', Bio.__version__); print('Gemmi', gemmi.__version__); print('MDAnalysis', MDAnalysis.__version__)"
+
+Write-Host "Done. To use this environment in a new terminal:" -ForegroundColor Green
+Write-Host "  conda activate `"$envPrefix`""
+Write-Host "Then run:"
+Write-Host "  npm run data:build"

@@ -1,6 +1,6 @@
-# BioAlign Pro — Production Deployment & Configuration Guide
+# BioAlign-Pro-Protein-Structure — Production Deployment & Configuration Guide
 
-This document explains configuration, local execution scripts, caching configurations, Docker parameters, and hosting targets for **BioAlign Pro**.
+This document explains configuration, local execution scripts, caching configurations, Docker parameters, and hosting targets for **BioAlign-Pro-Protein-Structure**.
 
 ---
 
@@ -38,7 +38,7 @@ PDBE_BASE_URL=https://www.ebi.ac.uk/pdbe/api
 
 ## 3. High-Throughput Caching Layer
 
-BioAlign Pro integrates a tiered caching strategy to bypass third-party scientific server rate-limiting:
+BioAlign-Pro-Protein-Structure integrates a tiered caching strategy to bypass third-party scientific server rate-limiting:
 1. **Deduplication (`src/services/integrations/http.ts`)**: In-flight requests are tracked by URL and query. If two components make identical requests simultaneously, they are coalesced into a single fetch.
 2. **Local Memory Caching**: Fast fallback for in-memory cache hits.
 3. **Redis Caching (`src/services/integrations/cache.ts`)**: In production, the caching client utilizes the connection URL provided in the `REDIS_URL` variable to persist JSON payloads, enabling rapid response speeds for shared queries.
@@ -114,46 +114,38 @@ route `/api/protein/analysis/orchestrate/:accession` returns the same contract.
 
 ## 8. Static GitHub Pages Deployment
 
-Production deployment is static-first. GitHub Pages serves the generated `out/`
-folder; no Node server, Express gateway, Redis, database, or build PC is
-required after deployment.
+Production deployment is static-first. GitHub Pages serves the standalone
+`docs/` website directly; no Node server, Express gateway, Redis, database, or
+build PC is required after deployment.
 
-Run:
+The active deployment workflow is `.github/workflows/deploy-pages.yml`. It
+uploads `docs/`, checks that required static files exist, blocks TypeScript
+source files inside the Pages artifact, blocks tracked coordinate blobs under
+`docs/data/structures/`, and fails if the artifact grows above 100 MB.
 
-```bash
-npm run build
-```
-
-Deploy the generated `out/` directory.
-
-If deploying under a repository subpath, set:
-
-```bash
-NEXT_PUBLIC_BASE_PATH=/your-repo-name
-```
-
-Confirm these files exist in `out/`:
+Confirm these files exist in `docs/` before committing:
 
 ```txt
-out/index.html
-out/data/manifest.json
-out/data/starter-proteins.json
-out/data/protein-packs/P04637.json
-out/data/protein-packs/P04637.json.gz
-out/data/structure-intelligence/P04637.json
-out/data/structure-intelligence/P04637.json.gz
-out/data/*.json
-out/data/*.json.br
-out/indexes/search-index.json
-out/indexes/alias-index.json
-out/indexes/protein-search-index.json
-out/models/manifest.json
-out/models/ort/*
+docs/index.html
+docs/404.html
+docs/.nojekyll
+docs/offline-sw.js
+docs/assets/css/site.css
+docs/assets/js/app.js
+docs/data/manifest.json
+docs/data/starter-proteins.json
+docs/data/protein-packs/P04637.json
+docs/data/structure-intelligence/P04637.json
+docs/indexes/search-index.json
+docs/indexes/alias-index.json
+docs/indexes/protein-search-index.json
+docs/models/manifest.json
 ```
 
-After deployment, the user's browser performs rule-based analysis, Web Worker
-execution, IndexedDB caching, static-pack reads, lazy ONNX model loading, and
-optional local explanations.
+After deployment, the user's browser reads saved protein records from the
+static JSON packs first, caches selected records with the service worker and
+browser Cache API, and opens live database viewers or source records only when
+the user needs database-side detail.
 
 ### Static Data Build
 
@@ -166,17 +158,23 @@ assets.
 
 Runtime lookup order after deployment:
 
-1. Worker detects the query type in the browser.
-2. `/indexes/search-index.json` is searched first.
-3. Matching records load `/data/protein-packs/<accession>.json.gz` or plain
-   JSON fallback.
-4. Missing records can attempt no-key, CORS-safe browser public APIs.
-5. Browser API results and static data reads are cached in IndexedDB.
+1. `docs/data/starter-proteins.json` and the local search indexes are loaded.
+2. Matching saved records load `docs/data/protein-packs/<accession>.json` and
+   `docs/data/structure-intelligence/<accession>.json`.
+3. The static app keeps those JSON records in memory and in browser Cache API.
+4. The service worker pre-caches the selected saved records in the background.
+5. External database links and embedded structure viewers are used for source
+   inspection, not as the first path for saved records.
 
 No private API keys should be placed in `public/`, committed static packs, or
 frontend environment variables.
 
+Large coordinate files such as RCSB mmCIF/PDB and AlphaFold mmCIF/PDB files are
+build inputs for local WSL analysis, not normal GitHub Pages assets. Keep
+`docs/data/structures/` and `public/data/structures/` ignored unless a separate
+download archive is intentionally published.
+
 RMSD and TM-score are stored only when computed from real build-time coordinate
-alignment tools. If TM-align/Foldseek or coordinate superposition inputs are
-not available, the static pack stores an unavailable reason and the UI displays
-that reason.
+alignment tools. If TM-align/Foldseek or coordinate superposition inputs are not
+available, the static pack stores an unavailable reason and the UI displays that
+reason.

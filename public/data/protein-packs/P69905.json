@@ -1,6 +1,6 @@
 {
   "schemaVersion": "bioalign.static-protein-pack.v1",
-  "generatedAt": "2026-05-29T07:42:45.506Z",
+  "generatedAt": "2026-06-02T18:04:18.654Z",
   "accession": "P69905",
   "geneName": "HBA1",
   "proteinName": "Hemoglobin subunit alpha",
@@ -561,7 +561,7 @@
   ],
   "structureIntelligence": {
     "schemaVersion": "bioalign.structure-intelligence.v1",
-    "generatedAt": "2026-05-29T07:42:48.102Z",
+    "generatedAt": "2026-06-02T18:04:23.218Z",
     "protein": {
       "accession": "P69905",
       "name": "Hemoglobin subunit alpha",
@@ -1806,7 +1806,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1A3N",
-            "accessedAt": "2026-05-29T07:42:45.795Z",
+            "accessedAt": "2026-06-02T18:04:18.957Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1834,7 +1834,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/2DN2",
-            "accessedAt": "2026-05-29T07:42:46.083Z",
+            "accessedAt": "2026-06-02T18:04:19.885Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1862,7 +1862,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/4HHB",
-            "accessedAt": "2026-05-29T07:42:46.378Z",
+            "accessedAt": "2026-06-02T18:04:20.192Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1900,7 +1900,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1A00",
-            "accessedAt": "2026-05-29T07:42:46.752Z",
+            "accessedAt": "2026-06-02T18:04:20.502Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1938,7 +1938,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1A01",
-            "accessedAt": "2026-05-29T07:42:47.052Z",
+            "accessedAt": "2026-06-02T18:04:20.809Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -1976,7 +1976,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1A0U",
-            "accessedAt": "2026-05-29T07:42:47.341Z",
+            "accessedAt": "2026-06-02T18:04:21.143Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -2014,7 +2014,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1A0Z",
-            "accessedAt": "2026-05-29T07:42:47.711Z",
+            "accessedAt": "2026-06-02T18:04:21.438Z",
             "sourceType": "RCSB PDB"
           }
         },
@@ -2052,7 +2052,7 @@
           "source": {
             "name": "RCSB PDB Data API",
             "url": "https://data.rcsb.org/rest/v1/core/entry/1A3O",
-            "accessedAt": "2026-05-29T07:42:48.028Z",
+            "accessedAt": "2026-06-02T18:04:21.738Z",
             "sourceType": "RCSB PDB"
           }
         }
@@ -2071,7 +2071,7 @@
           "source": {
             "name": "AlphaFold DB API",
             "url": "https://alphafold.ebi.ac.uk/api/prediction/P69905",
-            "accessedAt": "2026-05-29T07:42:48.102Z",
+            "accessedAt": "2026-06-02T18:04:23.218Z",
             "sourceType": "AlphaFold DB",
             "version": "v6"
           }
@@ -2420,33 +2420,614 @@
       }
     ],
     "msa": {
-      "available": false,
-      "method": "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
-      "alignedSequences": [],
-      "consensus": "",
-      "conservationScores": [],
-      "gapFrequencies": [],
-      "sourceSequenceCount": 0,
-      "source": "Curated/UniProt homologs",
-      "unavailableReason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+      "available": true,
+      "method": "Hemoglobin globin-family MSA (center-star global alignment fallback)",
+      "alignedSequences": [
+        {
+          "id": "P69905",
+          "label": "P69905 HBA1 Hemoglobin subunit alpha",
+          "sequence": "MV-LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR",
+          "source": "Starter protein homolog group"
+        },
+        {
+          "id": "P68871",
+          "label": "P68871 HBB Hemoglobin subunit beta",
+          "sequence": "MVHLTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH",
+          "source": "Starter protein homolog group"
+        }
+      ],
+      "consensus": "MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR",
+      "conservationScores": [
+        1,
+        1,
+        1,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        1,
+        0.5,
+        1,
+        0.5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        0.5,
+        1,
+        0.5,
+        1,
+        1,
+        1,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        1,
+        1,
+        1,
+        1,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        1,
+        0.5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.5,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        1,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        1,
+        0.5,
+        1,
+        1,
+        0.5,
+        0.5,
+        1,
+        1,
+        0.5,
+        1,
+        1,
+        1,
+        0.5,
+        1,
+        1,
+        0.5,
+        1,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        1,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        1,
+        1,
+        1,
+        0.5,
+        1,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        1,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        0.5,
+        0.5,
+        1,
+        1,
+        0.5
+      ],
+      "gapFrequencies": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceSequenceCount": 2,
+      "source": "Starter protein homolog sequences"
     },
     "profileEvidence": [],
-    "conservedResidues": [],
+    "conservedResidues": [
+      {
+        "position": 1,
+        "residue": "M",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin-like superfamily",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 2,
+        "residue": "V",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 3,
+        "residue": "L",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 5,
+        "residue": "P",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 8,
+        "residue": "K",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 11,
+        "residue": "V",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 13,
+        "residue": "A",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 15,
+        "residue": "W",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "active site",
+        "notes": "Conserved position overlaps (Microbial infection) Cleavage; by N.americanus apr-2."
+      },
+      {
+        "position": 16,
+        "residue": "G",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 17,
+        "residue": "K",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 18,
+        "residue": "V",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 19,
+        "residue": "G",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 20,
+        "residue": "A",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 24,
+        "residue": "E",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 26,
+        "residue": "G",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "active site",
+        "notes": "Conserved position overlaps (Microbial infection) Cleavage; by N.americanus apr-2."
+      },
+      {
+        "position": 28,
+        "residue": "E",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 29,
+        "residue": "A",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 30,
+        "residue": "L",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "active site",
+        "notes": "Conserved position overlaps (Microbial infection) Cleavage; by N.americanus apr-2."
+      },
+      {
+        "position": 32,
+        "residue": "R",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 38,
+        "residue": "P",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 40,
+        "residue": "T",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 44,
+        "residue": "F",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "unknown",
+        "notes": "Highly conserved in the homolog alignment; inspect domains and structures for role."
+      },
+      {
+        "position": 47,
+        "residue": "F",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "active site",
+        "notes": "Conserved position overlaps (Microbial infection) Cleavage; by N.americanus apr-2."
+      },
+      {
+        "position": 48,
+        "residue": "D",
+        "conservationScore": 1,
+        "evidence": [
+          "MSA",
+          "UniProt feature"
+        ],
+        "insideDomain": "Globin",
+        "possibleRole": "active site",
+        "notes": "Conserved position overlaps (Microbial infection) Cleavage; by N.americanus apr-2."
+      }
+    ],
     "metrics": {
       "rmsdComparisons": [
         {
-          "available": false,
-          "reason": "No build-time coordinate superposition job has been configured for this protein pair.",
-          "method": "Kabsch superposition",
-          "source": "computed-build-time"
+          "available": true,
+          "method": "US-align",
+          "source": "computed-build-time",
+          "queryStructure": "AF-P69905-F1",
+          "templateStructure": "1A3N",
+          "chainA": "model",
+          "chainB": "PDB",
+          "atomType": "CA",
+          "alignedResidues": 141,
+          "rmsd": 0.27,
+          "interpretation": "Low deviation"
         }
       ],
       "tmScoreComparisons": [
         {
-          "available": false,
-          "reason": "TM-align or Foldseek was not available during the static build.",
-          "method": "TM-align/Foldseek/build-time",
-          "source": "computed-build-time"
+          "available": true,
+          "method": "US-align",
+          "source": "computed-build-time",
+          "queryStructure": "AF-P69905-F1",
+          "templateStructure": "1A3N",
+          "tmScore": 0.9963,
+          "alignedLength": 141,
+          "rmsd": 0.27,
+          "sequenceIdentityAligned": 1,
+          "interpretation": "same fold"
         }
       ],
       "plddt": {
@@ -7816,11 +8397,35 @@
         "source": "InterPro/UniProt"
       },
       "conservationSummary": {
-        "available": false,
-        "meanConservation": 0,
-        "highlyConservedPositions": [],
-        "method": "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
-        "reason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+        "available": true,
+        "meanConservation": 0.736,
+        "highlyConservedPositions": [
+          1,
+          2,
+          3,
+          5,
+          8,
+          11,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          24,
+          26,
+          28,
+          29,
+          30,
+          32,
+          38,
+          40,
+          44,
+          47,
+          48
+        ],
+        "method": "Hemoglobin globin-family MSA (center-star global alignment fallback)"
       }
     },
     "structureFunction": {
@@ -7894,11 +8499,11 @@
         },
         {
           "step": "Template/Fold Comparison",
-          "status": "missing",
+          "status": "complete",
           "dataUsed": [
             "Coordinates"
           ],
-          "output": "RMSD/TM-score unavailable until build-time coordinate superposition tools are configured.",
+          "output": "TM-score 0.9963 and RMSD 0.27 computed by US-align.",
           "source": "Build-time Computed"
         },
         {
@@ -7913,13 +8518,13 @@
         },
         {
           "step": "Evolutionary Analysis",
-          "status": "partial",
+          "status": "complete",
           "dataUsed": [
-            "curated/UniProt homologs",
-            "MAFFT/Clustal Omega/MUSCLE",
-            "profile/domain evidence"
+            "homolog protein sequences",
+            "Hemoglobin globin-family MSA (center-star global alignment fallback)",
+            "conservation scoring"
           ],
-          "output": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable.",
+          "output": "2 homolog sequences aligned for conservation analysis.",
           "source": "Build-time MSA/InterPro"
         },
         {
@@ -7936,7 +8541,7 @@
         }
       ],
       "warnings": [
-        "BioAlign Pro Fold Explorer does not perform AlphaFold-level structure prediction.",
+        "BioAlign-Pro-Protein-Structure does not perform AlphaFold-level structure prediction.",
         "pLDDT and PAE describe model confidence, not direct experimental proof.",
         "RMSD and TM-score depend on correct residue/structure alignment."
       ],
@@ -7959,45 +8564,63 @@
       {
         "name": "UniProt REST API",
         "url": "https://rest.uniprot.org/uniprotkb/P69905.json",
-        "accessedAt": "2026-05-29T07:42:48.102Z",
+        "accessedAt": "2026-06-02T18:04:23.218Z",
         "sourceType": "UniProt"
       },
       {
         "name": "InterPro API",
         "url": "https://www.ebi.ac.uk/interpro/api/entry/interpro/protein/uniprot/P69905/",
-        "accessedAt": "2026-05-29T07:42:48.102Z",
+        "accessedAt": "2026-06-02T18:04:23.218Z",
         "sourceType": "InterPro"
       },
       {
         "name": "AlphaFold DB API",
         "url": "https://alphafold.ebi.ac.uk/api/prediction/P69905",
-        "accessedAt": "2026-05-29T07:42:48.102Z",
+        "accessedAt": "2026-06-02T18:04:23.218Z",
         "sourceType": "AlphaFold DB",
         "version": "v6"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/1A3N",
-        "accessedAt": "2026-05-29T07:42:45.795Z",
+        "accessedAt": "2026-06-02T18:04:18.957Z",
         "sourceType": "RCSB PDB"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/2DN2",
-        "accessedAt": "2026-05-29T07:42:46.083Z",
+        "accessedAt": "2026-06-02T18:04:19.885Z",
         "sourceType": "RCSB PDB"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/4HHB",
-        "accessedAt": "2026-05-29T07:42:46.378Z",
+        "accessedAt": "2026-06-02T18:04:20.192Z",
         "sourceType": "RCSB PDB"
       },
       {
         "name": "RCSB PDB Data API",
         "url": "https://data.rcsb.org/rest/v1/core/entry/1A00",
-        "accessedAt": "2026-05-29T07:42:46.752Z",
+        "accessedAt": "2026-06-02T18:04:20.502Z",
         "sourceType": "RCSB PDB"
+      },
+      {
+        "name": "Hemoglobin globin-family MSA (center-star global alignment fallback)",
+        "accessedAt": "2026-06-02T18:07:08.659Z",
+        "sourceType": "Build-time Computed",
+        "version": "hemoglobin-globin-family"
+      },
+      {
+        "name": "Hemoglobin globin-family MSA (center-star global alignment fallback)",
+        "accessedAt": "2026-06-03T10:31:57.470Z",
+        "sourceType": "Build-time Computed",
+        "version": "hemoglobin-globin-family"
+      },
+      {
+        "name": "Hemoglobin globin-family MSA (center-star global alignment fallback)",
+        "accessedAt": "2026-06-03T10:39:24.727Z",
+        "sourceType": "Build-time Computed",
+        "version": "hemoglobin-globin-family"
       }
     ]
   }

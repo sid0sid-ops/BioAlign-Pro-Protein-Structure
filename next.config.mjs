@@ -7,6 +7,7 @@ const nextConfig = {
   reactStrictMode: true,
   output: "export",
   trailingSlash: true,
+  turbopack: {},
   basePath: isProd && process.env.NEXT_PUBLIC_BASE_PATH ? productionBasePath : "",
   assetPrefix: isProd && process.env.NEXT_PUBLIC_BASE_PATH ? `${productionBasePath}/` : "",
   experimental: {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T06:44:45.903Z",
+  "generatedAt": "2026-06-02T18:05:53.237Z",
   "mode": "offline-static-seed",
   "note": "Network fetching is intentionally a build-time-only concern. Add public datasets here before deployment.",
   "sources": [

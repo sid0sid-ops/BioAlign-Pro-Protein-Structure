@@ -1,6 +1,6 @@
-# BioAlign Pro — System Architecture Document
+# BioAlign-Pro-Protein-Structure — System Architecture Document
 
-This document is a comprehensive structural, files-scanned, and flow reference for **BioAlign Pro**. It details the application architecture, design paradigms, directory mappings, state flows, and service integrations.
+This document is a comprehensive structural, files-scanned, and flow reference for **BioAlign-Pro-Protein-Structure**. It details the application architecture, design paradigms, directory mappings, state flows, and service integrations.
 
 ---
 
@@ -107,10 +107,10 @@ through the protein intelligence orchestrator.
 
 ## 8. Client-Side Intelligence Runtime
 
-Production target: BioAlign Pro is now a static, client-side intelligence app.
-The build PC is used only to generate `out/`, data packs, search indexes, and
-browser model assets. After deployment, GitHub Pages serves files only and all
-scientific intelligence executes inside the user's browser.
+Production target: BioAlign-Pro-Protein-Structure is a static, client-side
+research app. The build PC is used to generate data packs, search indexes,
+structure-intelligence JSON, and browser model assets. GitHub Pages serves the
+standalone `docs/` website directly.
 
 ### Layer 1 - Rule-Based Scientific Engine
 
@@ -151,7 +151,7 @@ Runtime files:
 - `src/modules/client-intelligence/client-intelligence-panel.tsx`
 
 The local assistant is disabled by default, especially on mobile or low-memory
-devices. It explains already-loaded BioAlign data only and must not claim
+devices. It explains already-loaded BioAlign-Pro-Protein-Structure data only and must not claim
 protein structure prediction.
 
 ### Static Runtime Folders
@@ -234,7 +234,7 @@ Each static protein pack can include a `structureIntelligence` extension with:
 - Rule-based sequence to structure to function evidence cards generated only
   from loaded source data.
 
-The Fold Explorer UI renders seven tabs: Overview, Structure, Metrics, Domains,
+The structure intelligence UI renders seven tabs: Overview, Structure, Metrics, Domains,
 Evolution, Function, and Sources. PAE heatmaps and the 3D viewer are lazy-loaded.
 Small browser RMSD jobs use a Web Worker and Kabsch superposition; expensive
 template comparisons remain a build-time concern.
@@ -250,9 +250,10 @@ scripts/convert-models
 scripts/compress-assets
 ```
 
-`npm run build` runs the static data pipeline and then `next build` with
-`output: "export"`, producing the GitHub Pages-ready `out/` directory.
-BioAlign Pro Root
+`npm run data:build` refreshes public/static data packs. `npm run build` checks
+and exports the Next.js development app. The live GitHub Pages deployment uses
+the standalone `docs/` directory, guarded by `.github/workflows/deploy-pages.yml`.
+BioAlign-Pro-Protein-Structure Root
 ├── dist/                      # Compiled production server assets
 ├── docs/                      # Technical documentation
 │   ├── architecture.md        # [THIS FILE] System Architecture

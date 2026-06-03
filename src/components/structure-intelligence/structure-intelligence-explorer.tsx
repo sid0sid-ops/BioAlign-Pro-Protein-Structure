@@ -43,7 +43,15 @@ export function fallbackIntelligence(pack: ProteinPack): StructureIntelligencePa
       id: `dom-${i}`,
       name: d.name,
       sourceDatabase: d.source || "InterPro",
-      type: "domain",
+      type: d.type?.toLowerCase().includes("bond")
+        ? "site"
+        : d.type?.toLowerCase().includes("site")
+          ? "site"
+          : d.type?.toLowerCase().includes("motif")
+            ? "motif"
+            : d.type?.toLowerCase().includes("region")
+              ? "region"
+              : "domain",
       start: d.start || 1,
       end: d.end || pack.sequence.length,
       description: d.type || "Protein structural domain",

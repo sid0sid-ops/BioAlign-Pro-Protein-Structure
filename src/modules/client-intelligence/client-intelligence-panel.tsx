@@ -1,6 +1,6 @@
 "use client";
 
-import { BrainCircuit, Cpu, Database, Gauge, ShieldCheck, Sparkles, Zap } from "lucide-react";
+import { BrainCircuit, Dna, Gauge, Microscope, ShieldCheck, Sparkles, Zap } from "lucide-react";
 import { useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -8,23 +8,17 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Skeleton } from "@/components/ui/skeleton";
 import { useClientIntelligence } from "@/hooks/use-client-intelligence";
 import { enableLocalAssistant, explainLoadedBioAlignData, type LocalAssistantState } from "@/lib/browser-ai/local-assistant";
-import { getBrowserAiCapabilities, type BrowserAiCapabilities } from "@/lib/browser-ai/onnx-runtime";
 import { useWorkbenchStore } from "@/store/workbench-store";
 
 export function ClientIntelligencePanel() {
   const sequence = useWorkbenchStore((state) => state.sequence);
   const intelligence = useClientIntelligence(sequence);
   const [assistant, setAssistant] = useState<LocalAssistantState | null>(null);
-  const [capabilities, setCapabilities] = useState<BrowserAiCapabilities | null>(null);
   const [assistantText, setAssistantText] = useState("");
 
   const enableAssistant = async () => {
-    const [assistantState, browserCapabilities] = await Promise.all([
-      enableLocalAssistant(),
-      getBrowserAiCapabilities()
-    ]);
+    const assistantState = await enableLocalAssistant();
     setAssistant(assistantState);
-    setCapabilities(browserCapabilities);
     setAssistantText(explainLoadedBioAlignData(intelligence.data ?? null));
   };
 
@@ -37,13 +31,13 @@ export function ClientIntelligencePanel() {
             Client Intelligence Engine
           </CardTitle>
           <CardDescription>
-            Browser-only rule analysis, lazy browser ML readiness, IndexedDB cache, and optional local explanation mode.
+            Sequence classification, residue-level descriptors, confidence context, and explainable bioinformatics notes.
           </CardDescription>
         </div>
         <div className="flex flex-wrap gap-2">
-          <Badge variant="success">Static-ready</Badge>
-          <Badge variant="outline">Workerized</Badge>
-          <Badge variant="outline">IndexedDB</Badge>
+          <Badge variant="success">Sequence signals</Badge>
+          <Badge variant="outline">Structure context</Badge>
+          <Badge variant="outline">Function clues</Badge>
         </div>
       </CardHeader>
       <CardContent className="grid gap-5 xl:grid-cols-[1.1fr_0.9fr]">
@@ -68,32 +62,26 @@ export function ClientIntelligencePanel() {
           <div className="rounded-lg border border-border bg-background/55 p-4">
             <p className="mb-3 flex items-center gap-2 text-sm font-semibold">
               <Gauge className="h-4 w-4 text-teal-500" />
-              Runtime Profile
+              Analysis Profile
             </p>
             <div className="grid gap-2 text-xs text-muted-foreground">
               <p>Input type: {intelligence.data?.input.type.replace(/_/g, " ") ?? "Analyzing"}</p>
               <p>Class: {intelligence.data?.input.sequenceClass ?? "unknown"}</p>
               <p>Complexity: {intelligence.data?.complexity.label ?? "pending"}</p>
-              <p>Worker time: {intelligence.data?.runtime.durationMs ?? 0} ms</p>
-              <p>Low-memory mode: {intelligence.data?.runtime.lowMemoryMode ? "active" : "off"}</p>
+              <p>Analysis time: {intelligence.data?.runtime.durationMs ?? 0} ms</p>
+              <p>Compact mode: {intelligence.data?.runtime.lowMemoryMode ? "active" : "off"}</p>
             </div>
           </div>
           <div className="rounded-lg border border-border bg-background/55 p-4">
             <p className="mb-3 flex items-center gap-2 text-sm font-semibold">
-              <Cpu className="h-4 w-4 text-violet-500" />
-              Browser ML Layer
+              <Microscope className="h-4 w-4 text-violet-500" />
+              Prediction Context
             </p>
             <div className="grid gap-2 text-sm text-muted-foreground">
-              <p>ONNX Runtime Web is loaded only when a model session is requested.</p>
-              <p>Execution preference: WebGPU when available, WASM/CPU fallback otherwise.</p>
-              <p>Models belong in `/public/models`; indexes belong in `/public/indexes`.</p>
+              <p>Prediction views focus on confidence, domain boundaries, and alignment evidence.</p>
+              <p>AlphaFold-style confidence is interpreted alongside sequence biology and source provenance.</p>
+              <p>Model summaries are treated as decision support, not as experimental proof.</p>
             </div>
-            {capabilities && (
-              <div className="mt-3 flex flex-wrap gap-2">
-                <Badge variant={capabilities.webgpu ? "success" : "outline"}>WebGPU {capabilities.webgpu ? "ready" : "off"}</Badge>
-                <Badge variant="outline">Provider {capabilities.selectedExecutionProvider}</Badge>
-              </div>
-            )}
           </div>
           <div className="rounded-lg border border-border bg-background/55 p-4">
             <p className="mb-3 flex items-center gap-2 text-sm font-semibold">
@@ -101,7 +89,7 @@ export function ClientIntelligencePanel() {
               Optional Local AI
             </p>
             <p className="text-sm text-muted-foreground">
-              Disabled by default. It explains already-loaded BioAlign data and does not claim structure prediction.
+              Disabled by default. It explains already-loaded BioAlign-Pro-Protein-Structure data and does not claim structure prediction.
             </p>
             <Button className="mt-3" size="sm" onClick={enableAssistant}>
               <Zap className="h-4 w-4" />
@@ -120,11 +108,11 @@ export function ClientIntelligencePanel() {
           </div>
           <div className="rounded-lg border border-border bg-background/55 p-4">
             <p className="mb-2 flex items-center gap-2 text-sm font-semibold">
-              <Database className="h-4 w-4 text-blue-500" />
-              Static Packs
+              <Dna className="h-4 w-4 text-blue-500" />
+              Evidence Sources
             </p>
             <p className="text-sm text-muted-foreground">
-              Public JSON packs are cached locally in IndexedDB, so deployed GitHub Pages builds keep working after the build PC is shut down.
+              Protein records combine accession names, aliases, sequence descriptors, structural references, and source badges where available.
             </p>
           </div>
         </div>

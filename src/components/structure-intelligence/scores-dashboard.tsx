@@ -35,7 +35,6 @@ function ScoreTile({ code, title, score, color }: { code: string; title: string;
             <p className="mt-1 text-[10px] leading-snug text-muted-foreground">{score.reason}</p>
           </div>
         )}
-        <button className="mt-3 text-[10px] font-medium text-primary hover:underline">Learn more about {code}</button>
       </div>
     </div>
   );
@@ -53,7 +52,7 @@ export function ScoresDashboard({ intelligence }: { intelligence: StructureIntel
       <div className="mb-3 flex items-center justify-between">
         <div>
           <h2 className="text-sm font-semibold">Scores Dashboard</h2>
-          <p className="text-[11px] text-muted-foreground">Model quality and reliability summary</p>
+          <p className="text-[11px] text-muted-foreground">Computed from the current protein pack and available database evidence.</p>
         </div>
       </div>
       <div className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-6">
@@ -78,7 +77,6 @@ export function ScoresDashboard({ intelligence }: { intelligence: StructureIntel
                 <p className="mt-1 text-[10px] text-muted-foreground">{intelligence.metrics.pae.reason}</p>
               </div>
             )}
-            <button className="mt-3 text-[10px] font-medium text-primary hover:underline">Learn more about PAE</button>
           </div>
         </div>
         <ScoreTile code="SC" title="Structural Conservation" score={sc} color="bg-amber-500" />

@@ -40,22 +40,23 @@ const config: Config = {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))"
         },
-        success: "#14b8a6",
-        warning: "#f59e0b",
-        danger: "#f43f5e"
+        success: "#242424",
+        warning: "#e2c161",
+        danger: "#ffa773"
       },
       borderRadius: {
-        lg: "8px",
-        md: "6px",
-        sm: "4px"
+        lg: "18px",
+        md: "12px",
+        sm: "8px"
       },
       boxShadow: {
-        glass: "0 18px 60px rgba(15, 23, 42, 0.12)",
-        glow: "0 0 42px rgba(59, 130, 246, 0.24)"
+        glass: "rgba(0, 0, 0, 0.1) 0px 0px 10px 0px",
+        glow: "rgba(0, 0, 0, 0.1) 0px 0px 10px 0px"
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "Inter", "ui-sans-serif", "system-ui"],
-        mono: ["var(--font-geist-mono)", "ui-monospace", "SFMono-Regular"]
+        sans: ["var(--font-abc-diatype-mono)", "ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "monospace"],
+        mono: ["var(--font-abc-diatype-mono)", "ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "monospace"],
+        serif: ["var(--font-untitled-serif)", "ui-serif", "Georgia", "Cambria", "Times New Roman", "Times", "serif"]
       },
       keyframes: {
         "panel-in": {
@@ -63,8 +64,8 @@ const config: Config = {
           "100%": { opacity: "1", transform: "translateY(0) scale(1)" }
         },
         "pulse-glow": {
-          "0%, 100%": { boxShadow: "0 0 0 rgba(59, 130, 246, 0)" },
-          "50%": { boxShadow: "0 0 34px rgba(59, 130, 246, 0.28)" }
+          "0%, 100%": { boxShadow: "rgba(0, 0, 0, 0.1) 0px 0px 10px 0px" },
+          "50%": { boxShadow: "rgba(0, 0, 0, 0.1) 0px 0px 10px 0px" }
         },
         "scanline": {
           "0%": { transform: "translateX(-100%)" },

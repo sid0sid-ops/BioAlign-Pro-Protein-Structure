@@ -1,6 +1,6 @@
 # API Documentation
 
-> Production note: BioAlign Pro's GitHub Pages deployment does not require any
+> Production note: BioAlign-Pro-Protein-Structure's GitHub Pages deployment does not require any
 > runtime API. The sections below document legacy/development gateway contracts.
 > The production app uses Web Workers, IndexedDB, and static JSON/model assets in
 > the browser.

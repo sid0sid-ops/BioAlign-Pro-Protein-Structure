@@ -1,6 +1,6 @@
 {
   "schemaVersion": "bioalign.structure-intelligence.v1",
-  "generatedAt": "2026-05-29T06:44:39.795Z",
+  "generatedAt": "2026-06-02T18:05:44.499Z",
   "protein": {
     "accession": "Q71U36",
     "name": "Tubulin alpha-1A chain",
@@ -1201,7 +1201,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/1JFF",
-          "accessedAt": "2026-05-29T06:44:37.334Z",
+          "accessedAt": "2026-06-02T18:05:40.648Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1229,7 +1229,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/5SYF",
-          "accessedAt": "2026-05-29T06:44:37.654Z",
+          "accessedAt": "2026-06-02T18:05:40.973Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1257,7 +1257,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/6DPU",
-          "accessedAt": "2026-05-29T06:44:37.948Z",
+          "accessedAt": "2026-06-02T18:05:41.288Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1303,7 +1303,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/5JCO",
-          "accessedAt": "2026-05-29T06:44:38.294Z",
+          "accessedAt": "2026-06-02T18:05:41.608Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1339,7 +1339,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/6J8F",
-          "accessedAt": "2026-05-29T06:44:38.580Z",
+          "accessedAt": "2026-06-02T18:05:41.944Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1377,7 +1377,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/6WSL",
-          "accessedAt": "2026-05-29T06:44:39.104Z",
+          "accessedAt": "2026-06-02T18:05:42.273Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1413,7 +1413,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/7C1M",
-          "accessedAt": "2026-05-29T06:44:39.414Z",
+          "accessedAt": "2026-06-02T18:05:42.597Z",
           "sourceType": "RCSB PDB"
         }
       },
@@ -1467,7 +1467,7 @@
         "source": {
           "name": "RCSB PDB Data API",
           "url": "https://data.rcsb.org/rest/v1/core/entry/7UN1",
-          "accessedAt": "2026-05-29T06:44:39.715Z",
+          "accessedAt": "2026-06-02T18:05:43.049Z",
           "sourceType": "RCSB PDB"
         }
       }
@@ -1486,7 +1486,7 @@
         "source": {
           "name": "AlphaFold DB API",
           "url": "https://alphafold.ebi.ac.uk/api/prediction/Q71U36",
-          "accessedAt": "2026-05-29T06:44:39.795Z",
+          "accessedAt": "2026-06-02T18:05:44.499Z",
           "sourceType": "AlphaFold DB",
           "version": "v6"
         }
@@ -1897,27 +1897,40 @@
     "consensus": "",
     "conservationScores": [],
     "gapFrequencies": [],
-    "sourceSequenceCount": 0,
+    "sourceSequenceCount": 2,
     "source": "Curated/UniProt homologs",
-    "unavailableReason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+    "unavailableReason": "MAFFT failed during the static build: Command failed: mafft --auto /tmp/bioalign-msa-PjjGFN/homologs.fasta\n/usr/bin/mafft: line 1291: /dev/stderr: No such device or address\n/usr/bin/mafft: line 1295: [: too many arguments\n/usr/bin/mafft: line 1300: [: too many arguments\n/usr/bin/mafft: line 1305: [: too many arguments\n/usr/bin/mafft: line 1310: [: -lt: unary operator expected\n/usr/bin/mafft: line 1315: [: -lt: unary operator expected\n/usr/bin/mafft: line 1322: [: -lt: unary operator expected\n/usr/bin/mafft: line 1329: [: -lt: unary operator expected\n/usr/bin/mafft: line 2655: /dev/stderr: No such device or address\n"
   },
   "profileEvidence": [],
   "conservedResidues": [],
   "metrics": {
     "rmsdComparisons": [
       {
-        "available": false,
-        "reason": "No build-time coordinate superposition job has been configured for this protein pair.",
-        "method": "Kabsch superposition",
-        "source": "computed-build-time"
+        "available": true,
+        "method": "US-align",
+        "source": "computed-build-time",
+        "queryStructure": "AF-Q71U36-F1",
+        "templateStructure": "1JFF",
+        "chainA": "model",
+        "chainB": "PDB",
+        "atomType": "CA",
+        "alignedResidues": 412,
+        "rmsd": 1.41,
+        "interpretation": "Low deviation"
       }
     ],
     "tmScoreComparisons": [
       {
-        "available": false,
-        "reason": "TM-align or Foldseek was not available during the static build.",
-        "method": "TM-align/Foldseek/build-time",
-        "source": "computed-build-time"
+        "available": true,
+        "method": "US-align",
+        "source": "computed-build-time",
+        "queryStructure": "AF-Q71U36-F1",
+        "templateStructure": "1JFF",
+        "tmScore": 0.9692,
+        "alignedLength": 412,
+        "rmsd": 1.41,
+        "sequenceIdentityAligned": 0.993,
+        "interpretation": "same fold"
       }
     ],
     "plddt": {
@@ -8412,7 +8425,7 @@
       "meanConservation": 0,
       "highlyConservedPositions": [],
       "method": "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
-      "reason": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable."
+      "reason": "MAFFT failed during the static build: Command failed: mafft --auto /tmp/bioalign-msa-PjjGFN/homologs.fasta\n/usr/bin/mafft: line 1291: /dev/stderr: No such device or address\n/usr/bin/mafft: line 1295: [: too many arguments\n/usr/bin/mafft: line 1300: [: too many arguments\n/usr/bin/mafft: line 1305: [: too many arguments\n/usr/bin/mafft: line 1310: [: -lt: unary operator expected\n/usr/bin/mafft: line 1315: [: -lt: unary operator expected\n/usr/bin/mafft: line 1322: [: -lt: unary operator expected\n/usr/bin/mafft: line 1329: [: -lt: unary operator expected\n/usr/bin/mafft: line 2655: /dev/stderr: No such device or address\n"
     }
   },
   "structureFunction": {
@@ -8498,11 +8511,11 @@
       },
       {
         "step": "Template/Fold Comparison",
-        "status": "missing",
+        "status": "complete",
         "dataUsed": [
           "Coordinates"
         ],
-        "output": "RMSD/TM-score unavailable until build-time coordinate superposition tools are configured.",
+        "output": "TM-score 0.9692 and RMSD 1.41 computed by US-align.",
         "source": "Build-time Computed"
       },
       {
@@ -8517,13 +8530,13 @@
       },
       {
         "step": "Evolutionary Analysis",
-        "status": "partial",
+        "status": "complete",
         "dataUsed": [
-          "curated/UniProt homologs",
-          "MAFFT/Clustal Omega/MUSCLE",
-          "profile/domain evidence"
+          "homolog protein sequences",
+          "Build-time homolog MSA (MAFFT/Clustal Omega/MUSCLE)",
+          "conservation scoring"
         ],
-        "output": "MAFFT, Clustal Omega, or MUSCLE was not available during static build; MSA and conservation are marked unavailable.",
+        "output": "2 homolog sequences aligned for conservation analysis.",
         "source": "Build-time MSA/InterPro"
       },
       {
@@ -8540,7 +8553,7 @@
       }
     ],
     "warnings": [
-      "BioAlign Pro Fold Explorer does not perform AlphaFold-level structure prediction.",
+      "BioAlign-Pro-Protein-Structure does not perform AlphaFold-level structure prediction.",
       "pLDDT and PAE describe model confidence, not direct experimental proof.",
       "RMSD and TM-score depend on correct residue/structure alignment.",
       "pLDDT and PAE describe model confidence, not direct experimental proof."
@@ -8564,44 +8577,44 @@
     {
       "name": "UniProt REST API",
       "url": "https://rest.uniprot.org/uniprotkb/Q71U36.json",
-      "accessedAt": "2026-05-29T06:44:39.795Z",
+      "accessedAt": "2026-06-02T18:05:44.499Z",
       "sourceType": "UniProt"
     },
     {
       "name": "InterPro API",
       "url": "https://www.ebi.ac.uk/interpro/api/entry/interpro/protein/uniprot/Q71U36/",
-      "accessedAt": "2026-05-29T06:44:39.795Z",
+      "accessedAt": "2026-06-02T18:05:44.499Z",
       "sourceType": "InterPro"
     },
     {
       "name": "AlphaFold DB API",
       "url": "https://alphafold.ebi.ac.uk/api/prediction/Q71U36",
-      "accessedAt": "2026-05-29T06:44:39.795Z",
+      "accessedAt": "2026-06-02T18:05:44.499Z",
       "sourceType": "AlphaFold DB",
       "version": "v6"
     },
     {
       "name": "RCSB PDB Data API",
       "url": "https://data.rcsb.org/rest/v1/core/entry/1JFF",
-      "accessedAt": "2026-05-29T06:44:37.334Z",
+      "accessedAt": "2026-06-02T18:05:40.648Z",
       "sourceType": "RCSB PDB"
     },
     {
       "name": "RCSB PDB Data API",
       "url": "https://data.rcsb.org/rest/v1/core/entry/5SYF",
-      "accessedAt": "2026-05-29T06:44:37.654Z",
+      "accessedAt": "2026-06-02T18:05:40.973Z",
       "sourceType": "RCSB PDB"
     },
     {
       "name": "RCSB PDB Data API",
       "url": "https://data.rcsb.org/rest/v1/core/entry/6DPU",
-      "accessedAt": "2026-05-29T06:44:37.948Z",
+      "accessedAt": "2026-06-02T18:05:41.288Z",
       "sourceType": "RCSB PDB"
     },
     {
       "name": "RCSB PDB Data API",
       "url": "https://data.rcsb.org/rest/v1/core/entry/5JCO",
-      "accessedAt": "2026-05-29T06:44:38.294Z",
+      "accessedAt": "2026-06-02T18:05:41.608Z",
       "sourceType": "RCSB PDB"
     }
   ]
